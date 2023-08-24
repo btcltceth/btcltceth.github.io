@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-  <title>黑叶投资增长</title>
+  <title>黑叶投资</title>
   
   <subtitle>投资生存法则</subtitle>
-  <link href="https://heiye.github.io/atom.xml" rel="self"/>
+  <link href="https://btcltceth.github.io/atom.xml" rel="self"/>
   
-  <link href="https://heiye.github.io/"/>
+  <link href="https://btcltceth.github.io/"/>
   <updated>2023-08-24T03:11:20.604Z</updated>
-  <id>https://heiye.github.io/</id>
+  <id>https://btcltceth.github.io/</id>
   
   <author>
     <name>黑叶</name>
@@ -18,8 +18,8 @@
   
   <entry>
     <title>手把手教你支付宝购买比特币以太坊获取投资收益</title>
-    <link href="https://heiye.github.io/zhifubao-btc/"/>
-    <id>https://heiye.github.io/zhifubao-btc/</id>
+    <link href="https://btcltceth.github.io/zhifubao-btc/"/>
+    <id>https://btcltceth.github.io/zhifubao-btc/</id>
     <published>2023-03-03T13:46:04.000Z</published>
     <updated>2023-08-24T03:11:20.604Z</updated>
     
@@ -34,16 +34,16 @@
     
     
     
-    <category term="虚拟货币" scheme="https://heiye.github.io/categories/%E8%99%9A%E6%8B%9F%E8%B4%A7%E5%B8%81/"/>
+    <category term="虚拟货币" scheme="https://btcltceth.github.io/categories/%E8%99%9A%E6%8B%9F%E8%B4%A7%E5%B8%81/"/>
     
     
-    <category term="比特币" scheme="https://heiye.github.io/tags/%E6%AF%94%E7%89%B9%E5%B8%81/"/>
+    <category term="比特币" scheme="https://btcltceth.github.io/tags/%E6%AF%94%E7%89%B9%E5%B8%81/"/>
     
-    <category term="以太坊" scheme="https://heiye.github.io/tags/%E4%BB%A5%E5%A4%AA%E5%9D%8A/"/>
+    <category term="以太坊" scheme="https://btcltceth.github.io/tags/%E4%BB%A5%E5%A4%AA%E5%9D%8A/"/>
     
-    <category term="比特币购买" scheme="https://heiye.github.io/tags/%E6%AF%94%E7%89%B9%E5%B8%81%E8%B4%AD%E4%B9%B0/"/>
+    <category term="比特币购买" scheme="https://btcltceth.github.io/tags/%E6%AF%94%E7%89%B9%E5%B8%81%E8%B4%AD%E4%B9%B0/"/>
     
-    <category term="欧易币安" scheme="https://heiye.github.io/tags/%E6%AC%A7%E6%98%93%E5%B8%81%E5%AE%89/"/>
+    <category term="欧易币安" scheme="https://btcltceth.github.io/tags/%E6%AC%A7%E6%98%93%E5%B8%81%E5%AE%89/"/>
     
   </entry>
   
