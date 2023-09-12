@@ -6,7 +6,7 @@
   <link href="https://heiyetouzi.xyz/atom.xml" rel="self"/>
   
   <link href="https://heiyetouzi.xyz/"/>
-  <updated>2023-09-02T13:15:19.000Z</updated>
+  <updated>2023-09-12T13:24:19.000Z</updated>
   <id>https://heiyetouzi.xyz/</id>
   
   <author>
@@ -15,6 +15,33 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Manta Pacific主网Alpha发布了</title>
+    <link href="https://heiyetouzi.xyz/MantaPacificAlpha/"/>
+    <id>https://heiyetouzi.xyz/MantaPacificAlpha/</id>
+    <published>2023-09-12T09:32:45.000Z</published>
+    <updated>2023-09-12T13:24:19.000Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html"></summary>
+        
+      
+    
+    
+    
+    <category term="智能合约" scheme="https://heiyetouzi.xyz/categories/%E6%99%BA%E8%83%BD%E5%90%88%E7%BA%A6/"/>
+    
+    
+    <category term="EVM" scheme="https://heiyetouzi.xyz/tags/EVM/"/>
+    
+    <category term="区块链" scheme="https://heiyetouzi.xyz/tags/%E5%8C%BA%E5%9D%97%E9%93%BE/"/>
+    
+  </entry>
   
   <entry>
     <title>一文教你如何玩转推特最🔥区块链项目——Tipcoin</title>
