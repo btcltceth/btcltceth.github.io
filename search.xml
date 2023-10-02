@@ -4,6 +4,35 @@
   
     
     <entry>
+      <title>教你快速搭建反向代理挖最近很火的Xenium/Xenblocks</title>
+      <link href="//minexeniumxenblocks/"/>
+      <url>//minexeniumxenblocks/</url>
+      
+        <content type="html"><![CDATA[<h2 id="自己搭建反向代理"><a href="#自己搭建反向代理" class="headerlink" title="自己搭建反向代理"></a>自己搭建反向代理</h2><p>这几天，大家都在抢国外区块链大雕JackLevin搞的新项目——Xenium(XNM)的头矿，据说结合了BTC和ETH的优点，堪称跨时代的产品。你看海外显卡租赁平台<a href="https://cloud.vast.ai/?ref_id=88254">vast.ai</a>上RTX 4090已经被国人租光了就知道了，现在价格已经很不划算了。</p><p><img src="https://gcore.jsdelivr.net/gh/btcltceth/blogassets@latest/b/img/xenium-4090-001.png"></p><p>于是乎，群友看准了国内少数几个还能便宜租到4090显卡的网站，不过国内租GPU挖的话，就会有网络问题，反向代理可以解决。但是用别人的反向代理总是不放心啊，挖矿收益抽走多少你不知道，安全不安全也不知道，千万不要自己稀里糊涂执行别人给的一句<code>sed</code>命令就开始挖矿。其实自己搭建反向代理一点也不难。这篇教程就来教你如何自己搭建反向代理。</p><p>(PS: 国内租GPU的网站有阿里云，腾讯云，AutoDL等，总体来说还是比国外的<a href="https://cloud.vast.ai/?ref_id=88254">vast.ai</a>便宜不少的，就是需要用到反向代理而已)</p><h3 id="第一步：注册海外主机"><a href="#第一步：注册海外主机" class="headerlink" title="第一步：注册海外主机"></a>第一步：注册海外主机</h3><p>这里我直接用著名的<a href="https://www.vultr.com/?ref=9542602-8H">vultr</a>了，毕竟它近期有绑卡充值$35以上就送$100的超级活动，如果你是新人的话，最好参加一下，好几年了都没有过这个活动。</p><p>直接邮箱注册，绑卡充值即可。路径是左侧栏Account–&gt;Billing，当然那，如果你着急着挖Xenium矿，也可以先用支付宝充点钱，等空了再绑卡。不用充太多，充个20块就够了。</p><h3 id="第二步：创建服务器"><a href="#第二步：创建服务器" class="headerlink" title="第二步：创建服务器"></a>第二步：创建服务器</h3><p>记住，我们只是用来做反向代理，所以选最便宜的就好。<br>点击右上角蓝色的“Deploy +” –&gt; “Deploy New Server”——</p><ul><li>Server选最便宜的$2.5&#x2F;mo的Cloud Compute</li><li>CPU选最便宜的intel Regular Performance</li><li>Server地区随便选，不过最好选欧洲的，因为离Jack的xenminer.mooo.com网站近一些访问快。</li><li>服务器镜像Server Image选Ubuntu 22.04 LTS x64</li><li>服务器规格Server Size选最便宜的$6的</li><li>关闭自动备份，还能省$1.2<br> <img src="https://gcore.jsdelivr.net/gh/btcltceth/blogassets@latest/b/img/xenium-4090-002.png"></li></ul><p>这样一顿骚操作下来，这台服务器一个月就只需$5就够了，相当于你在<a href="https://cloud.vast.ai/?ref_id=88254">vast.ai</a>上4090单卡挖1个小时的价格。</p><h3 id="第三步-安装反向代理"><a href="#第三步-安装反向代理" class="headerlink" title="第三步: 安装反向代理"></a>第三步: 安装反向代理</h3><p>等待3分钟让机器初始化完毕，可以使用SSH或者”View Console”连接到机器上，机器的ip、用户名、密码都可以点开你上一步创建好的服务器详情看到。<br> <img src="https://gcore.jsdelivr.net/gh/btcltceth/blogassets@latest/b/img/xenium-4090-003.png"></p><p>建议使用SSH连接上去安装操作方便，它那个”View Console”粘贴功能非常难用，如何使用SSH连接到远程主机，这里不说了，太基础，不会的话自己百度下。</p><p>连接上去后，默认是<code>ubuntu</code>账户，先执行<code>sudo passwd root</code>给root设置密码，然后<code>su root</code>切到<code>root</code>账户。<br>接着执行下面命令，安装nginx</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">apt-get update &amp;&amp; apt-get -y install nginx</span><br><span class="line">cd /etc/nginx/sites-available &amp;&amp; touch reverse-proxy-4445.conf reverse-proxy-80.conf</span><br></pre></td></tr></table></figure><p>看清楚当前是在<code>/etc/nginx/sites-available</code>目录下，没问题的话执行<code>vim reverse-proxy-4445.conf</code>打开，粘贴如下内容，记得将xxx.xxx.xxx.xxx改成你上面自己申请的服务器ip地址，输入<code>:wq</code>保存。</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line">server &#123;</span><br><span class="line">    listen 4445;</span><br><span class="line">    server_name xxx.xxx.xxx.xxx;</span><br><span class="line"></span><br><span class="line">    location / &#123;</span><br><span class="line">        proxy_pass http://xenminer.mooo.com:4445;</span><br><span class="line">        proxy_set_header Host $host;</span><br><span class="line">        proxy_set_header X-Real-IP $remote_addr;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure><p>执行<code>vim reverse-proxy-80.conf</code>打开，粘贴如下内容，记得将xxx.xxx.xxx.xxx改成你上面自己申请的服务器ip地址，输入<code>:wq</code>保存。</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line">server &#123;</span><br><span class="line">    listen 80;</span><br><span class="line">    server_name xxx.xxx.xxx.xxx;</span><br><span class="line"></span><br><span class="line">    location /difficulty &#123;</span><br><span class="line">        proxy_pass http://xenminer.mooo.com/difficulty;</span><br><span class="line">        proxy_set_header Host $host;</span><br><span class="line">        proxy_set_header X-Real-IP $remote_addr;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure><p>执行<code>nginx -t</code> 检查nginx配置是否正确，返回success或者ok就说明没问题，<br>执行<code>systemctl reload nginx</code>命令重新加载 Nginx 配置。<br> <img src="https://gcore.jsdelivr.net/gh/btcltceth/blogassets@latest/b/img/xenium-4090-005.png"></p><h3 id="第四步：关闭防火墙"><a href="#第四步：关闭防火墙" class="headerlink" title="第四步：关闭防火墙"></a>第四步：关闭防火墙</h3><p>玛德这里查了好久，重要的事情说3遍，这里一定要执行<code>ufw disable</code>命令关闭防火墙。<br> <img src="https://gcore.jsdelivr.net/gh/btcltceth/blogassets@latest/b/img/xenium-4090-006.png"></p><p>ok，来测试一下，打开你的浏览器，依次测试反向代理是否有效<br>访问<code>http://xxx.xxx.xxx.xxx/difficulty</code>和<code>http://xxx.xxx.xxx.xxx:4445/getblocks/lastblock</code>看看是否都能正常访问。这里xxx.xxx.xxx.xxx仍然是你自己的服务器IP。<br> <img src="https://gcore.jsdelivr.net/gh/btcltceth/blogassets@latest/b/img/xenium-4090-007.png"></p><h2 id="使用反向代理"><a href="#使用反向代理" class="headerlink" title="使用反向代理"></a>使用反向代理</h2><p>登录你自己的挖矿机器，进入到XENGPUMiner目录，执行如下命令：</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">sed -i.bak &#x27;s@xenminer.mooo.com@xxx.xxx.xxx.xxx@g&#x27; syncnode.py merkleroot.py miner.py config.conf</span><br><span class="line">#这里xxx.xxx.xxx.xxx仍然是你自己的服务器IP</span><br><span class="line"></span><br></pre></td></tr></table></figure><p> <img src="https://gcore.jsdelivr.net/gh/btcltceth/blogassets@latest/b/img/xenium-4090-008.png"></p><p>重新启动xengpuminer和python3 miner.py –gpu&#x3D;true程序，difficulty难度可以正常获取，再也不会一直卡在1727难度了，就说明没问题，反向代理它起作用了。<br><img src="https://gcore.jsdelivr.net/gh/btcltceth/blogassets@latest/b/img/xenium-4090-009.png"></p><p>不得不说，国人热情真高，现在挖Xenium难度直线上升已经到82500了，不过未来只会更高，大家都理性一些哈。</p><h2 id="小礼物"><a href="#小礼物" class="headerlink" title="小礼物"></a>小礼物</h2><p>感谢看到这里，希望文章对你有帮助，最后，有个小礼送给大家，<a href="http://openbayes.com/console/signup?r=xiaominghuang_7z1L">openbayes</a>最近在做活动，新人(必须填写邀请码)注册立马送60分钟RTX 3090，可以用来挖Xenium哈，拿走不谢。</p><p>需要魔法(翻墙)工具的童鞋，可以点开右上角<a href="https://heiyetouzi.xyz/friends">友情链接</a>里有。</p><p>如果您觉得我的文章写得不错，对您有帮助，不妨点击文末给黑叶哥打赏一杯咖啡☕️，感谢！</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 挖矿 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 区块链 </tag>
+            
+            <tag> Xenium </tag>
+            
+            <tag> XenBlocks </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>最近爆火出圈的去中心化社交应用friend.tech要怎么玩？</title>
       <link href="//howtoplayfeaturetech/"/>
       <url>//howtoplayfeaturetech/</url>
@@ -20,9 +49,9 @@
       
         <tags>
             
-            <tag> SocialFi </tag>
-            
             <tag> Defi挖矿 </tag>
+            
+            <tag> SocialFi </tag>
             
             <tag> friend.tech </tag>
             
@@ -451,11 +480,11 @@
       
         <tags>
             
-            <tag> Defi挖矿 </tag>
-            
             <tag> 币圈赚钱 </tag>
             
             <tag> GameFi打金 </tag>
+            
+            <tag> Defi挖矿 </tag>
             
         </tags>
       
