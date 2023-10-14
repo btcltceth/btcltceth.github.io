@@ -6,7 +6,7 @@
   <link href="https://heiyetouzi.xyz/atom.xml" rel="self"/>
   
   <link href="https://heiyetouzi.xyz/"/>
-  <updated>2023-10-02T09:24:26.000Z</updated>
+  <updated>2023-10-13T14:25:18.000Z</updated>
   <id>https://heiyetouzi.xyz/</id>
   
   <author>
@@ -15,6 +15,37 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>明星项目QuaiNetwork全节点+GPU节点搭建手把手教程[最新]</title>
+    <link href="https://heiyetouzi.xyz/minequainetwork/"/>
+    <id>https://heiyetouzi.xyz/minequainetwork/</id>
+    <published>2023-10-13T09:23:28.000Z</published>
+    <updated>2023-10-13T14:25:18.000Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html"></summary>
+        
+      
+    
+    
+    
+    <category term="挖矿" scheme="https://heiyetouzi.xyz/categories/%E6%8C%96%E7%9F%BF/"/>
+    
+    
+    <category term="Quai节点" scheme="https://heiyetouzi.xyz/tags/Quai%E8%8A%82%E7%82%B9/"/>
+    
+    <category term="QuaiNetwork" scheme="https://heiyetouzi.xyz/tags/QuaiNetwork/"/>
+    
+    <category term="vast4090显卡" scheme="https://heiyetouzi.xyz/tags/vast4090%E6%98%BE%E5%8D%A1/"/>
+    
+    <category term="stratum" scheme="https://heiyetouzi.xyz/tags/stratum/"/>
+    
+  </entry>
   
   <entry>
     <title>教你快速搭建反向代理挖最近很火的Xenium/Xenblocks</title>
