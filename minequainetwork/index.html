@@ -436,7 +436,7 @@
                 
                 <div class="info-break-policy">
                     <i class="far fa-file-word fa-fw"></i>文章字数:&nbsp;&nbsp;
-                    2.7k
+                    2.6k
                 </div>
                 
 
@@ -529,7 +529,7 @@
 <p>机器初始化后，按钮会变成open或connecting，点击open jupyter页面，右上角选new-&gt;terminals，浏览器弹出终端页面。<br><img src="https://gcore.jsdelivr.net/gh/btcltceth/blogassets@latest/b/img/quai-gpu-vast-005.png"></p>
 <p>看到直接以root打开命令终端<br><img src="https://gcore.jsdelivr.net/gh/btcltceth/blogassets@latest/b/img/quai-gpu-vast-006.png"></p>
 <h3 id="2、安装运行gpu-miner程序"><a href="#2、安装运行gpu-miner程序" class="headerlink" title="2、安装运行gpu-miner程序"></a>2、安装运行gpu-miner程序</h3><p>在上面👆🏻打开的命令行窗口，依次执行下列命令：</p>
-<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">apt update &amp;&amp; sudo apt upgrade -y </span><br><span class="line">apt install -y git cmake build-essential mesa-common-dev screen vim </span><br><span class="line">apt-get install nvidia-cuda-toolkit -y </span><br><span class="line">cd ~</span><br><span class="line">git clone https://github.com/dominant-strategies/quai-gpu-miner &amp;&amp; cd quai-gpu-miner </span><br><span class="line">git submodule update --init --recursive</span><br><span class="line">cd libethash-cuda</span><br></pre></td></tr></table></figure>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">apt update &amp;&amp;  apt upgrade -y </span><br><span class="line">apt install -y git cmake build-essential mesa-common-dev screen vim </span><br><span class="line">apt-get install nvidia-cuda-toolkit -y </span><br><span class="line">cd ~</span><br><span class="line">git clone https://github.com/dominant-strategies/quai-gpu-miner &amp;&amp; cd quai-gpu-miner </span><br><span class="line">git submodule update --init --recursive</span><br><span class="line">cd libethash-cuda</span><br></pre></td></tr></table></figure>
 <p>执行<code>vim ~/quai-gpu-miner/libethash-cuda/CMakeLists.txt</code>，找到指定行，按图修改，保存:<br><img src="https://gcore.jsdelivr.net/gh/btcltceth/blogassets@latest/b/img/quai-gpu-vast-007.png"></p>
 <p>执行<code>vim ~/quai-gpu-miner/ethcoreminer/main.cpp</code>，找到指定行，按图修改，保存:<br><img src="https://gcore.jsdelivr.net/gh/btcltceth/blogassets@latest/b/img/quai-gpu-vast-008.png"></p>
 <p>接着依次执行下面命令，编译quai-gpu-miner，</p>
