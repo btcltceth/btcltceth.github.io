@@ -432,7 +432,7 @@
                 
                 <div class="info-break-policy">
                     <i class="far fa-file-word fa-fw"></i>文章字数:&nbsp;&nbsp;
-                    449
+                    453
                 </div>
                 
 
@@ -472,9 +472,7 @@
 <li><p>依次执行下面命令安装挖矿程序：</p>
 <figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line">apt update &amp;&amp; apt install nodejs npm vim -y</span><br><span class="line">npm install n -g</span><br><span class="line">n stable</span><br><span class="line">hash -r</span><br><span class="line">node -v </span><br><span class="line">git clone https://github.com/IErcOrg/ierc-miner-js</span><br><span class="line">cd ierc-miner-js</span><br><span class="line">npm i -g yarn</span><br><span class="line">yarn install</span><br></pre></td></tr></table></figure>
 </li>
-<li><p>修改token.json</p>
-<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">vim token.json 打开文件</span><br></pre></td></tr></table></figure>
-<p>清空原有内容，将如下内容粘贴进去，保存，推出</p>
+<li><p>修改token.json<br>执行命令 <code>vim token.json </code>打开文件，清空原有内容，将如下内容粘贴进去，保存，退出</p>
 <figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br></pre></td><td class="code"><pre><span class="line">&#123;</span><br><span class="line">  &quot;ierc-m4&quot;: &#123;</span><br><span class="line">    &quot;workc&quot;: &quot;0x0000&quot;,</span><br><span class="line">    &quot;amt&quot;: &quot;1000&quot;</span><br><span class="line">  &#125;,</span><br><span class="line">  &quot;ierc-m5&quot;: &#123;</span><br><span class="line">    &quot;workc&quot;: &quot;0x00000&quot;,</span><br><span class="line">    &quot;amt&quot;: &quot;1000&quot;</span><br><span class="line">  &#125;,</span><br><span class="line">  &quot;ierc-m6&quot;: &#123;</span><br><span class="line">    &quot;workc&quot;: &quot;0x000000&quot;,</span><br><span class="line">    &quot;amt&quot;: &quot;1000&quot;</span><br><span class="line">  &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
 </li>
 <li><p>安装完毕之后就可以执行挖矿命令了。</p>
