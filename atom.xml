@@ -6,7 +6,7 @@
   <link href="https://heiyetouzi.xyz/atom.xml" rel="self"/>
   
   <link href="https://heiyetouzi.xyz/"/>
-  <updated>2023-11-23T06:36:57.357Z</updated>
+  <updated>2023-11-23T06:43:31.899Z</updated>
   <id>https://heiyetouzi.xyz/</id>
   
   <author>
@@ -21,7 +21,7 @@
     <link href="https://heiyetouzi.xyz/ierc20m6mining/"/>
     <id>https://heiyetouzi.xyz/ierc20m6mining/</id>
     <published>2023-11-23T04:12:52.000Z</published>
-    <updated>2023-11-23T06:36:57.357Z</updated>
+    <updated>2023-11-23T06:43:31.899Z</updated>
     
     
       
@@ -176,9 +176,9 @@
     <category term="虚拟货币" scheme="https://heiyetouzi.xyz/categories/%E8%99%9A%E6%8B%9F%E8%B4%A7%E5%B8%81/"/>
     
     
-    <category term="SocialFi" scheme="https://heiyetouzi.xyz/tags/SocialFi/"/>
-    
     <category term="Defi挖矿" scheme="https://heiyetouzi.xyz/tags/Defi%E6%8C%96%E7%9F%BF/"/>
+    
+    <category term="SocialFi" scheme="https://heiyetouzi.xyz/tags/SocialFi/"/>
     
     <category term="friend.tech" scheme="https://heiyetouzi.xyz/tags/friend-tech/"/>
     
