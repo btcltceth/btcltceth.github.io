@@ -4,7 +4,7 @@
 
 <head>
     <meta charset="utf-8">
-    <meta name="keywords" content="Python脚本批量篆刻Polygan动物铭文$ANTS, 比特币，莱特币，以太坊，Defi, NFT，币圈新手，炒币赚钱，合约杠杆，Defi挖矿，币圈撸毛，空投，节点质押，爆仓，财富自由">
+    <meta name="keywords" content="Python脚本批量篆刻Polygon动物铭文$ANTS, 比特币，莱特币，以太坊，Defi, NFT，币圈新手，炒币赚钱，合约杠杆，Defi挖矿，币圈撸毛，空投，节点质押，爆仓，财富自由">
     <meta name="description" content="比特币，莱特币，以太坊，Defi, NFT，币圈新手，炒币赚钱，合约杠杆，Defi挖矿，币圈撸毛，空投，节点质押，爆仓">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
@@ -27,7 +27,7 @@
 </script>
 
 
-    <title>Python脚本批量篆刻Polygan动物铭文$ANTS | 黑叶投资</title>
+    <title>Python脚本批量篆刻Polygon动物铭文$ANTS | 黑叶投资</title>
     <link rel="icon" type="image/x-icon, image/vnd.microsoft.icon" href="https://gcore.jsdelivr.net/gh/btcltceth/blogassets@latest/b/favicon.ico">
 
     <link rel="stylesheet" type="text/css" href="https://gcore.jsdelivr.net/gh/btcltceth/blogassets@latest/b/libs/awesome/css/all.css">
@@ -264,12 +264,12 @@
 
 
 
-<div class="bg-cover pd-header post-cover" style="background-image: url('https://gcore.jsdelivr.net/gh/btcltceth/blogassets@latest/b/medias/featureimages/18.jpg')">
+<div class="bg-cover pd-header post-cover" style="background-image: url('https://gcore.jsdelivr.net/gh/btcltceth/blogassets@latest/b/medias/featureimages/20.jpg')">
     <div class="container" style="right: 0px;left: 0px;">
         <div class="row">
             <div class="col s12 m12 l12">
                 <div class="brand">
-                    <h1 class="description center-align post-title">Python脚本批量篆刻Polygan动物铭文$ANTS</h1>
+                    <h1 class="description center-align post-title">Python脚本批量篆刻Polygon动物铭文$ANTS</h1>
                 </div>
             </div>
         </div>
@@ -436,7 +436,7 @@
                 
                 <div class="info-break-policy">
                     <i class="far fa-file-word fa-fw"></i>文章字数:&nbsp;&nbsp;
-                    717
+                    719
                 </div>
                 
 
@@ -475,7 +475,7 @@
 <figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br></pre></td><td class="code"><pre><span class="line">from web3 import Web3</span><br><span class="line">from dotenv import load_dotenv</span><br><span class="line">import os,time</span><br><span class="line">load_dotenv()</span><br><span class="line"></span><br><span class="line">private_key = &#x27;填你wallet的private key&#x27;</span><br><span class="line">address = &#x27;填你wallet的address&#x27;</span><br><span class="line">rpc_url = &quot;https://polygon-rpc.com&quot; # 去https://chainlist.org/chain/137找响应快的rpc server</span><br><span class="line">web3 = Web3(Web3.HTTPProvider(rpc_url))</span><br><span class="line">print(web3.isConnected()) </span><br><span class="line">print(Web3.fromWei(web3.eth.getBalance(address),&#x27;ether&#x27;)) </span><br><span class="line">c=0</span><br><span class="line">while True:</span><br><span class="line">    nonce = web3.eth.get_transaction_count(address)</span><br><span class="line">    tx = &#123;</span><br><span class="line">        &#x27;nonce&#x27;: nonce,</span><br><span class="line">        &#x27;chainId&#x27;: 137,</span><br><span class="line">        &#x27;to&#x27;: address, </span><br><span class="line">        &#x27;from&#x27;:address,</span><br><span class="line">        &#x27;data&#x27;:&#x27;0x646174613a2c7b2270223a227072632d3230222c226f70223a226d696e74222c227469636b223a22616e7473222c22616d74223a22313030303030303030227d&#x27;,   # mint16进制</span><br><span class="line">        &#x27;gasPrice&#x27;: int(web3.eth.gas_price * 1.1),</span><br><span class="line">        &#x27;value&#x27;: Web3.toWei(0, &#x27;ether&#x27;) </span><br><span class="line">    &#125;</span><br><span class="line">    try:</span><br><span class="line">        gas = web3.eth.estimate_gas(tx) </span><br><span class="line">        tx[&#x27;gas&#x27;] = gas </span><br><span class="line">        print(tx)</span><br><span class="line">        signed_tx = web3.eth.account.sign_transaction(tx,private_key)</span><br><span class="line">        tx_hash = web3.eth.send_raw_transaction(signed_tx.rawTransaction)</span><br><span class="line">        print(web3.toHex(tx_hash))</span><br><span class="line">        receipt = web3.eth.wait_for_transaction_receipt(tx_hash)</span><br><span class="line">        if receipt.status == 1:</span><br><span class="line">            c = c+1</span><br><span class="line">            print(&quot;%s Mint Success!&quot; %c)</span><br><span class="line">            continue</span><br><span class="line">        else:</span><br><span class="line">            continue</span><br><span class="line">    except Exception as e:</span><br><span class="line">        print(e)</span><br></pre></td></tr></table></figure>
 
 <p>记得先替换程序开头的private_key和address两个为你自己的钱包。钱包申请方法使用文章末尾OKX Web3钱包。然后，打开终端，执行 <code>python3 antsMint.py</code>命令开始打铭文：<br><img src="https://gcore.jsdelivr.net/gh/btcltceth/blogassets@latest/b/img/prc20-ants-002.png"></p>
-<h3 id="链上交易查询"><a href="#链上交易查询" class="headerlink" title="链上交易查询"></a>链上交易查询</h3><p><a target="_blank" rel="noopener" href="https://polygonscan.com/txs%EF%BC%8C%E8%BE%93%E5%85%A5%E4%BA%A4%E6%98%93%E5%93%88%E5%B8%8C%E6%88%96%E8%80%85%E4%BD%A0%E7%9A%84wallet">https://polygonscan.com/txs，输入交易哈希或者你的wallet</a> address，就可以查询到有没有成功上链。<br><img src="https://gcore.jsdelivr.net/gh/btcltceth/blogassets@latest/b/img/prc20-ants-003.png"></p>
+<h3 id="链上交易查询"><a href="#链上交易查询" class="headerlink" title="链上交易查询"></a>链上交易查询</h3><p>查询可以在<a target="_blank" rel="noopener" href="https://polygonscan.com/txs">polygonscan</a>，输入交易哈希或者你的wallet address，就可以查询到有没有成功上链。<br><img src="https://gcore.jsdelivr.net/gh/btcltceth/blogassets@latest/b/img/prc20-ants-003.png"></p>
 <h3 id="dune进度查询"><a href="#dune进度查询" class="headerlink" title="dune进度查询"></a>dune进度查询</h3><p>通过社区<a target="_blank" rel="noopener" href="https://dune.com/qihai613/ants">dune面板</a>可以查看当前铭文打的总体进度，可以输入你的wallet address，查看自己打了多少张。<br><img src="https://gcore.jsdelivr.net/gh/btcltceth/blogassets@latest/b/img/prc20-ants-004.png"></p>
 <h3 id="钱包wallet地址管理"><a href="#钱包wallet地址管理" class="headerlink" title="钱包wallet地址管理"></a>钱包wallet地址管理</h3><p>可以使用TP钱包，不过我建议直接使用<a target="_blank" rel="noopener" href="https://www.cnouyi.limo/join/79853740">OKX</a>的Web3钱包进行跨链获取Gas，铭文铭刻比别人快一些。<a target="_blank" rel="noopener" href="https://www.cnouyi.limo/join/79853740">OKX</a>的Web3钱包支持60+主流的公链，也提供多链交易，主要是主要提币不用等，完全T+0。<br>注册后登录APP，点击顶部Web3钱包——接收——搜索”Matic”，选”多链” polygon那个，找到它的地址，从交易所充值matic到这个地址，就可以开始篆刻铭文，篆刻铭文是需要消耗Matic的。<br><img src="https://gcore.jsdelivr.net/gh/btcltceth/blogassets@latest/b/img/prc20-ants-005.png"></p>
 
@@ -734,9 +734,9 @@
                     <div class="card-image">
                         
                         
-                        <img src="https://gcore.jsdelivr.net/gh/btcltceth/blogassets@latest/b/medias/featureimages/18.jpg" class="responsive-img" alt="Python脚本批量篆刻Polygan动物铭文$ANTS">
+                        <img src="https://gcore.jsdelivr.net/gh/btcltceth/blogassets@latest/b/medias/featureimages/20.jpg" class="responsive-img" alt="Python脚本批量篆刻Polygon动物铭文$ANTS">
                         
-                        <span class="card-title">Python脚本批量篆刻Polygan动物铭文$ANTS</span>
+                        <span class="card-title">Python脚本批量篆刻Polygon动物铭文$ANTS</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
@@ -792,13 +792,13 @@
                 下一篇&nbsp;<i class="fas fa-chevron-right"></i>
             </div>
             <div class="card">
-                <a href="/trximint/">
+                <a href="/arc20-aval-mint/">
                     <div class="card-image">
                         
                         
-                        <img src="https://gcore.jsdelivr.net/gh/btcltceth/blogassets@latest/b/medias/featureimages/0.jpg" class="responsive-img" alt="孙割一笑，生死难料——波场trx链第一个铭文$TRXI">
+                        <img src="https://gcore.jsdelivr.net/gh/btcltceth/blogassets@latest/b/medias/featureimages/6.jpg" class="responsive-img" alt="Python脚本批量篆刻雪崩链Avalanche龙头铭文$AVAL">
                         
-                        <span class="card-title">孙割一笑，生死难料——波场trx链第一个铭文$TRXI</span>
+                        <span class="card-title">Python脚本批量篆刻雪崩链Avalanche龙头铭文$AVAL</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
@@ -809,14 +809,14 @@
                     </div>
                     <div class="publish-info">
                             <span class="publish-date">
-                                <i class="far fa-clock fa-fw icon-date"></i>2023-11-24
+                                <i class="far fa-clock fa-fw icon-date"></i>2023-11-26
                             </span>
                         <span class="publish-author">
                             
                             <i class="fas fa-bookmark fa-fw icon-category"></i>
                             
-                            <a href="/categories/%E6%8C%96%E7%9F%BF/" class="post-category">
-                                    挖矿
+                            <a href="/categories/%E9%93%AD%E6%96%87/" class="post-category">
+                                    铭文
                                 </a>
                             
                             
@@ -830,16 +830,16 @@
                         <span class="chip bg-color">铭文mint</span>
                     </a>
                     
-                    <a href="/tags/TRXI/">
-                        <span class="chip bg-color">$TRXI</span>
+                    <a href="/tags/AVAL/">
+                        <span class="chip bg-color">$AVAL</span>
                     </a>
                     
-                    <a href="/tags/%E5%AD%99%E5%89%B2/">
-                        <span class="chip bg-color">孙割</span>
+                    <a href="/tags/%E9%9B%AA%E5%B4%A9%E9%93%BEAVAX/">
+                        <span class="chip bg-color">$雪崩链AVAX</span>
                     </a>
                     
-                    <a href="/tags/%E6%B3%A2%E5%9C%BA/">
-                        <span class="chip bg-color">波场</span>
+                    <a href="/tags/Avalanche/">
+                        <span class="chip bg-color">$Avalanche</span>
                     </a>
                     
                 </div>
@@ -1025,7 +1025,7 @@
             <br>
             
             &nbsp;<i class="fas fa-chart-area"></i>&nbsp;站点总字数:&nbsp;<span
-                class="white-color">30.6k</span>&nbsp;字
+                class="white-color">31.7k</span>&nbsp;字
             
             
             

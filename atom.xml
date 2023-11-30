@@ -17,7 +17,7 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>Python脚本批量篆刻Polygan动物铭文$ANTS</title>
+    <title>Python脚本批量篆刻Polygon动物铭文$ANTS</title>
     <link href="https://heiyetouzi.xyz/prc20ants/"/>
     <id>https://heiyetouzi.xyz/prc20ants/</id>
     <published>2023-11-29T03:38:02.000Z</published>
@@ -44,6 +44,37 @@
     <category term="$POLS" scheme="https://heiyetouzi.xyz/tags/POLS/"/>
     
     <category term="$Polygon" scheme="https://heiyetouzi.xyz/tags/Polygon/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Python脚本批量篆刻雪崩链Avalanche龙头铭文$AVAL</title>
+    <link href="https://heiyetouzi.xyz/arc20-aval-mint/"/>
+    <id>https://heiyetouzi.xyz/arc20-aval-mint/</id>
+    <published>2023-11-25T23:28:12.000Z</published>
+    <updated>2023-11-29T14:54:21.000Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html"></summary>
+        
+      
+    
+    
+    
+    <category term="铭文" scheme="https://heiyetouzi.xyz/categories/%E9%93%AD%E6%96%87/"/>
+    
+    
+    <category term="铭文mint" scheme="https://heiyetouzi.xyz/tags/%E9%93%AD%E6%96%87mint/"/>
+    
+    <category term="$AVAL" scheme="https://heiyetouzi.xyz/tags/AVAL/"/>
+    
+    <category term="$雪崩链AVAX" scheme="https://heiyetouzi.xyz/tags/%E9%9B%AA%E5%B4%A9%E9%93%BEAVAX/"/>
+    
+    <category term="$Avalanche" scheme="https://heiyetouzi.xyz/tags/Avalanche/"/>
     
   </entry>
   
@@ -558,37 +589,6 @@
     <category term="持牌交易所" scheme="https://heiyetouzi.xyz/tags/%E6%8C%81%E7%89%8C%E4%BA%A4%E6%98%93%E6%89%80/"/>
     
     <category term="HashKey" scheme="https://heiyetouzi.xyz/tags/HashKey/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>币圈财富自由事迹之——SHIB投资经验分享：52天3万U到260万U的心路历程</title>
-    <link href="https://heiyetouzi.xyz/shibfacai/"/>
-    <id>https://heiyetouzi.xyz/shibfacai/</id>
-    <published>2023-08-24T13:46:04.000Z</published>
-    <updated>2023-08-26T15:21:21.000Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html"></summary>
-        
-      
-    
-    
-    
-    <category term="炒币" scheme="https://heiyetouzi.xyz/categories/%E7%82%92%E5%B8%81/"/>
-    
-    
-    <category term="币圈赚钱" scheme="https://heiyetouzi.xyz/tags/%E5%B8%81%E5%9C%88%E8%B5%9A%E9%92%B1/"/>
-    
-    <category term="SHIB" scheme="https://heiyetouzi.xyz/tags/SHIB/"/>
-    
-    <category term="财富自由" scheme="https://heiyetouzi.xyz/tags/%E8%B4%A2%E5%AF%8C%E8%87%AA%E7%94%B1/"/>
-    
-    <category term="DOGE" scheme="https://heiyetouzi.xyz/tags/DOGE/"/>
     
   </entry>
   
