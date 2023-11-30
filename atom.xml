@@ -6,7 +6,7 @@
   <link href="https://heiyetouzi.xyz/atom.xml" rel="self"/>
   
   <link href="https://heiyetouzi.xyz/"/>
-  <updated>2023-11-25T00:50:26.798Z</updated>
+  <updated>2023-11-29T14:54:21.000Z</updated>
   <id>https://heiyetouzi.xyz/</id>
   
   <author>
@@ -17,11 +17,11 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>孙割一笑，生死难料——波场trx链第一个铭文$TRXI</title>
-    <link href="https://heiyetouzi.xyz/trximint/"/>
-    <id>https://heiyetouzi.xyz/trximint/</id>
-    <published>2023-11-24T15:36:22.000Z</published>
-    <updated>2023-11-25T00:50:26.798Z</updated>
+    <title>Python脚本批量篆刻Polygan动物铭文$ANTS</title>
+    <link href="https://heiyetouzi.xyz/prc20ants/"/>
+    <id>https://heiyetouzi.xyz/prc20ants/</id>
+    <published>2023-11-29T03:38:02.000Z</published>
+    <updated>2023-11-29T14:54:21.000Z</updated>
     
     
       
@@ -34,6 +34,47 @@
     
     
     
+    <category term="铭文" scheme="https://heiyetouzi.xyz/categories/%E9%93%AD%E6%96%87/"/>
+    
+    
+    <category term="铭文mint" scheme="https://heiyetouzi.xyz/tags/%E9%93%AD%E6%96%87mint/"/>
+    
+    <category term="$ANTS" scheme="https://heiyetouzi.xyz/tags/ANTS/"/>
+    
+    <category term="$POLS" scheme="https://heiyetouzi.xyz/tags/POLS/"/>
+    
+    <category term="$Polygon" scheme="https://heiyetouzi.xyz/tags/Polygon/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>孙割一笑，生死难料——波场trx链第一个铭文$TRXI</title>
+    <link href="https://heiyetouzi.xyz/trximint/"/>
+    <id>https://heiyetouzi.xyz/trximint/</id>
+    <published>2023-11-24T15:36:22.000Z</published>
+    <updated>2023-11-24T15:54:26.000Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html"></summary>
+        
+      
+    
+    
+    
+    <category term="挖矿" scheme="https://heiyetouzi.xyz/categories/%E6%8C%96%E7%9F%BF/"/>
+    
+    
+    <category term="铭文mint" scheme="https://heiyetouzi.xyz/tags/%E9%93%AD%E6%96%87mint/"/>
+    
+    <category term="$TRXI" scheme="https://heiyetouzi.xyz/tags/TRXI/"/>
+    
+    <category term="孙割" scheme="https://heiyetouzi.xyz/tags/%E5%AD%99%E5%89%B2/"/>
+    
+    <category term="波场" scheme="https://heiyetouzi.xyz/tags/%E6%B3%A2%E5%9C%BA/"/>
     
   </entry>
   
@@ -548,35 +589,6 @@
     <category term="财富自由" scheme="https://heiyetouzi.xyz/tags/%E8%B4%A2%E5%AF%8C%E8%87%AA%E7%94%B1/"/>
     
     <category term="DOGE" scheme="https://heiyetouzi.xyz/tags/DOGE/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>2023最新海外苹果账号Apple ID注册教程——独享不过期</title>
-    <link href="https://heiyetouzi.xyz/appleid/"/>
-    <id>https://heiyetouzi.xyz/appleid/</id>
-    <published>2023-03-21T13:56:17.000Z</published>
-    <updated>2023-03-22T14:10:29.000Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html"></summary>
-        
-      
-    
-    
-    
-    <category term="必会技能" scheme="https://heiyetouzi.xyz/categories/%E5%BF%85%E4%BC%9A%E6%8A%80%E8%83%BD/"/>
-    
-    
-    <category term="海外苹果账号" scheme="https://heiyetouzi.xyz/tags/%E6%B5%B7%E5%A4%96%E8%8B%B9%E6%9E%9C%E8%B4%A6%E5%8F%B7/"/>
-    
-    <category term="海外apple id" scheme="https://heiyetouzi.xyz/tags/%E6%B5%B7%E5%A4%96apple-id/"/>
-    
-    <category term="美国apple id" scheme="https://heiyetouzi.xyz/tags/%E7%BE%8E%E5%9B%BDapple-id/"/>
     
   </entry>
   
