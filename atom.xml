@@ -6,7 +6,7 @@
   <link href="https://heiyetouzi.xyz/atom.xml" rel="self"/>
   
   <link href="https://heiyetouzi.xyz/"/>
-  <updated>2023-11-29T14:54:21.000Z</updated>
+  <updated>2023-12-05T03:54:21.000Z</updated>
   <id>https://heiyetouzi.xyz/</id>
   
   <author>
@@ -15,6 +15,37 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>篆刻TAP新协议$MINER铭文教程</title>
+    <link href="https://heiyetouzi.xyz/$TAP-miner/"/>
+    <id>https://heiyetouzi.xyz/$TAP-miner/</id>
+    <published>2023-12-05T00:05:49.000Z</published>
+    <updated>2023-12-05T03:54:21.000Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html"></summary>
+        
+      
+    
+    
+    
+    <category term="铭文" scheme="https://heiyetouzi.xyz/categories/%E9%93%AD%E6%96%87/"/>
+    
+    
+    <category term="铭文mint" scheme="https://heiyetouzi.xyz/tags/%E9%93%AD%E6%96%87mint/"/>
+    
+    <category term="TAP协议" scheme="https://heiyetouzi.xyz/tags/TAP%E5%8D%8F%E8%AE%AE/"/>
+    
+    <category term="$MINER" scheme="https://heiyetouzi.xyz/tags/MINER/"/>
+    
+    <category term="$brc20" scheme="https://heiyetouzi.xyz/tags/brc20/"/>
+    
+  </entry>
   
   <entry>
     <title>Python脚本批量篆刻Polygon动物铭文$ANTS</title>
@@ -562,33 +593,6 @@
     <category term="空投" scheme="https://heiyetouzi.xyz/tags/%E7%A9%BA%E6%8A%95/"/>
     
     <category term="零撸" scheme="https://heiyetouzi.xyz/tags/%E9%9B%B6%E6%92%B8/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>香港首家持牌合规虚拟货币交易所Hashkey开放注册【亲测，大陆地区仍然可以注册】</title>
-    <link href="https://heiyetouzi.xyz/hashkey/"/>
-    <id>https://heiyetouzi.xyz/hashkey/</id>
-    <published>2023-08-28T03:46:04.000Z</published>
-    <updated>2023-08-28T05:24:19.000Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html"></summary>
-        
-      
-    
-    
-    
-    <category term="交易所" scheme="https://heiyetouzi.xyz/categories/%E4%BA%A4%E6%98%93%E6%89%80/"/>
-    
-    
-    <category term="持牌交易所" scheme="https://heiyetouzi.xyz/tags/%E6%8C%81%E7%89%8C%E4%BA%A4%E6%98%93%E6%89%80/"/>
-    
-    <category term="HashKey" scheme="https://heiyetouzi.xyz/tags/HashKey/"/>
     
   </entry>
   
