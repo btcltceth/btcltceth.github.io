@@ -6,7 +6,7 @@
   <link href="https://heiyetouzi.xyz/atom.xml" rel="self"/>
   
   <link href="https://heiyetouzi.xyz/"/>
-  <updated>2023-12-05T03:54:21.000Z</updated>
+  <updated>2023-12-07T03:34:21.000Z</updated>
   <id>https://heiyetouzi.xyz/</id>
   
   <author>
@@ -15,6 +15,35 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Python脚本批量篆刻BSC链meme铭文$BSCI</title>
+    <link href="https://heiyetouzi.xyz/bsc20-bsci/"/>
+    <id>https://heiyetouzi.xyz/bsc20-bsci/</id>
+    <published>2023-12-07T01:38:02.000Z</published>
+    <updated>2023-12-07T03:34:21.000Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html"></summary>
+        
+      
+    
+    
+    
+    <category term="铭文" scheme="https://heiyetouzi.xyz/categories/%E9%93%AD%E6%96%87/"/>
+    
+    
+    <category term="铭文mint" scheme="https://heiyetouzi.xyz/tags/%E9%93%AD%E6%96%87mint/"/>
+    
+    <category term="$BSCI" scheme="https://heiyetouzi.xyz/tags/BSCI/"/>
+    
+    <category term="$BNB" scheme="https://heiyetouzi.xyz/tags/BNB/"/>
+    
+  </entry>
   
   <entry>
     <title>篆刻TAP新协议$MINER铭文教程</title>
@@ -564,35 +593,6 @@
     <category term="EVM" scheme="https://heiyetouzi.xyz/tags/EVM/"/>
     
     <category term="区块链" scheme="https://heiyetouzi.xyz/tags/%E5%8C%BA%E5%9D%97%E9%93%BE/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>一文教你如何玩转推特最🔥区块链项目——Tipcoin</title>
-    <link href="https://heiyetouzi.xyz/tipcoin/"/>
-    <id>https://heiyetouzi.xyz/tipcoin/</id>
-    <published>2023-09-02T06:57:39.000Z</published>
-    <updated>2023-09-02T13:15:19.000Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html"></summary>
-        
-      
-    
-    
-    
-    <category term="热门区块链项目" scheme="https://heiyetouzi.xyz/categories/%E7%83%AD%E9%97%A8%E5%8C%BA%E5%9D%97%E9%93%BE%E9%A1%B9%E7%9B%AE/"/>
-    
-    
-    <category term="TipCoin" scheme="https://heiyetouzi.xyz/tags/TipCoin/"/>
-    
-    <category term="空投" scheme="https://heiyetouzi.xyz/tags/%E7%A9%BA%E6%8A%95/"/>
-    
-    <category term="零撸" scheme="https://heiyetouzi.xyz/tags/%E9%9B%B6%E6%92%B8/"/>
     
   </entry>
   
