@@ -6,7 +6,7 @@
   <link href="https://heiyetouzi.xyz/atom.xml" rel="self"/>
   
   <link href="https://heiyetouzi.xyz/"/>
-  <updated>2023-12-20T12:24:26.000Z</updated>
+  <updated>2023-12-22T14:04:21.000Z</updated>
   <id>https://heiyetouzi.xyz/</id>
   
   <author>
@@ -15,6 +15,37 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Python脚本批量篆刻Core酷儿链上的coco铭文</title>
+    <link href="https://heiyetouzi.xyz/mint-coco/"/>
+    <id>https://heiyetouzi.xyz/mint-coco/</id>
+    <published>2023-12-22T13:48:00.000Z</published>
+    <updated>2023-12-22T14:04:21.000Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html"></summary>
+        
+      
+    
+    
+    
+    <category term="铭文" scheme="https://heiyetouzi.xyz/categories/%E9%93%AD%E6%96%87/"/>
+    
+    
+    <category term="铭文mint" scheme="https://heiyetouzi.xyz/tags/%E9%93%AD%E6%96%87mint/"/>
+    
+    <category term="$COCO" scheme="https://heiyetouzi.xyz/tags/COCO/"/>
+    
+    <category term="$Core酷儿" scheme="https://heiyetouzi.xyz/tags/Core%E9%85%B7%E5%84%BF/"/>
+    
+    <category term="$Python铭文" scheme="https://heiyetouzi.xyz/tags/Python%E9%93%AD%E6%96%87/"/>
+    
+  </entry>
   
   <entry>
     <title>全民打铭文——教你快速挖矿赚gas</title>
@@ -548,35 +579,6 @@
     <id>https://heiyetouzi.xyz/biquanstory001-2/</id>
     <published>2023-09-14T13:36:20.000Z</published>
     <updated>2023-09-15T05:23:56.000Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html"></summary>
-        
-      
-    
-    
-    
-    <category term="币圈暴富故事" scheme="https://heiyetouzi.xyz/categories/%E5%B8%81%E5%9C%88%E6%9A%B4%E5%AF%8C%E6%95%85%E4%BA%8B/"/>
-    
-    
-    <category term="区块链" scheme="https://heiyetouzi.xyz/tags/%E5%8C%BA%E5%9D%97%E9%93%BE/"/>
-    
-    <category term="币圈暴富" scheme="https://heiyetouzi.xyz/tags/%E5%B8%81%E5%9C%88%E6%9A%B4%E5%AF%8C/"/>
-    
-    <category term="命运齿轮" scheme="https://heiyetouzi.xyz/tags/%E5%91%BD%E8%BF%90%E9%BD%BF%E8%BD%AE/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>【币圈真实暴富故事】很多人问如何我从0到1100万再到负债10万 (一)</title>
-    <link href="https://heiyetouzi.xyz/biquanstory001/"/>
-    <id>https://heiyetouzi.xyz/biquanstory001/</id>
-    <published>2023-09-14T13:26:28.000Z</published>
-    <updated>2023-09-15T03:24:19.000Z</updated>
     
     
       
