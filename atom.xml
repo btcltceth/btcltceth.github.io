@@ -6,7 +6,7 @@
   <link href="https://heiyetouzi.xyz/atom.xml" rel="self"/>
   
   <link href="https://heiyetouzi.xyz/"/>
-  <updated>2023-12-23T14:19:21.000Z</updated>
+  <updated>2023-12-28T06:24:21.000Z</updated>
   <id>https://heiyetouzi.xyz/</id>
   
   <author>
@@ -15,6 +15,35 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>贡献python科学家脚本--煞笔opbn项目方</title>
+    <link href="https://heiyetouzi.xyz/opbn-python/"/>
+    <id>https://heiyetouzi.xyz/opbn-python/</id>
+    <published>2023-12-28T06:18:02.000Z</published>
+    <updated>2023-12-28T06:24:21.000Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html"></summary>
+        
+      
+    
+    
+    
+    <category term="铭文" scheme="https://heiyetouzi.xyz/categories/%E9%93%AD%E6%96%87/"/>
+    
+    
+    <category term="铭文mint" scheme="https://heiyetouzi.xyz/tags/%E9%93%AD%E6%96%87mint/"/>
+    
+    <category term="$OPBN" scheme="https://heiyetouzi.xyz/tags/OPBN/"/>
+    
+    <category term="$OPBNB" scheme="https://heiyetouzi.xyz/tags/OPBNB/"/>
+    
+  </entry>
   
   <entry>
     <title>Python脚本批量篆刻XT交易所XT Smart chain链上的首个铭文$xsci</title>
@@ -283,11 +312,11 @@
     <category term="挖矿" scheme="https://heiyetouzi.xyz/categories/%E6%8C%96%E7%9F%BF/"/>
     
     
-    <category term="vast4090显卡" scheme="https://heiyetouzi.xyz/tags/vast4090%E6%98%BE%E5%8D%A1/"/>
-    
     <category term="ierc20-m5" scheme="https://heiyetouzi.xyz/tags/ierc20-m5/"/>
     
     <category term="ierc20-m6" scheme="https://heiyetouzi.xyz/tags/ierc20-m6/"/>
+    
+    <category term="vast4090显卡" scheme="https://heiyetouzi.xyz/tags/vast4090%E6%98%BE%E5%8D%A1/"/>
     
   </entry>
   
@@ -362,11 +391,11 @@
     <category term="挖矿" scheme="https://heiyetouzi.xyz/categories/%E6%8C%96%E7%9F%BF/"/>
     
     
+    <category term="vast4090显卡" scheme="https://heiyetouzi.xyz/tags/vast4090%E6%98%BE%E5%8D%A1/"/>
+    
     <category term="Quai节点" scheme="https://heiyetouzi.xyz/tags/Quai%E8%8A%82%E7%82%B9/"/>
     
     <category term="QuaiNetwork" scheme="https://heiyetouzi.xyz/tags/QuaiNetwork/"/>
-    
-    <category term="vast4090显卡" scheme="https://heiyetouzi.xyz/tags/vast4090%E6%98%BE%E5%8D%A1/"/>
     
     <category term="stratum" scheme="https://heiyetouzi.xyz/tags/stratum/"/>
     
@@ -552,35 +581,6 @@
     <id>https://heiyetouzi.xyz/biquanstory001-4/</id>
     <published>2023-09-16T14:14:14.000Z</published>
     <updated>2023-09-17T00:22:54.000Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html"></summary>
-        
-      
-    
-    
-    
-    <category term="币圈暴富故事" scheme="https://heiyetouzi.xyz/categories/%E5%B8%81%E5%9C%88%E6%9A%B4%E5%AF%8C%E6%95%85%E4%BA%8B/"/>
-    
-    
-    <category term="区块链" scheme="https://heiyetouzi.xyz/tags/%E5%8C%BA%E5%9D%97%E9%93%BE/"/>
-    
-    <category term="币圈暴富" scheme="https://heiyetouzi.xyz/tags/%E5%B8%81%E5%9C%88%E6%9A%B4%E5%AF%8C/"/>
-    
-    <category term="命运齿轮" scheme="https://heiyetouzi.xyz/tags/%E5%91%BD%E8%BF%90%E9%BD%BF%E8%BD%AE/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>【币圈真实暴富故事】很多人问如何我从0到1100万再到负债10万 (三)</title>
-    <link href="https://heiyetouzi.xyz/biquanstory001-3/"/>
-    <id>https://heiyetouzi.xyz/biquanstory001-3/</id>
-    <published>2023-09-15T13:16:18.000Z</published>
-    <updated>2023-09-16T03:13:52.000Z</updated>
     
     
       
