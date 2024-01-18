@@ -4,6 +4,39 @@
   
     
     <entry>
+      <title>教你使用脚本全自动Mint最近很🔥的BNB生态铭文$rBNB</title>
+      <link href="//rbnb-mint/"/>
+      <url>//rbnb-mint/</url>
+      
+        <content type="html"><![CDATA[<p>$rBNB是<a href="https://bnb.reth.cc/">rETH</a>生态系统的一部分，致力于开发与EVM 1664 兼容的多链扩展网络，该生态系统目前已经发行了三种铸造的代币：rETH、rARB 和 rBNB。根据 rETH 官网数据，BNB生态铭文$rBNB的铸造地址数量超过了20万个，总铸造量也已经超过了6000万个。$rBNB是基于 POW 机制铸造的（0 Gas 费），总供应量为 2.1 亿。</p><h2 id="官网手动Mint"><a href="#官网手动Mint" class="headerlink" title="官网手动Mint"></a>官网手动Mint</h2><p>官网右上角连接wallet，然后点击”Mint”免费开始Mint，当前的进度大概20.3%，当前的难度是6个9，普通家用电脑大概1分钟能挖出1个$rBNB。<br><img src="https://gcore.jsdelivr.net/gh/btcltceth/blogassets@latest/b/img/rbnb-001.png"></p><h2 id="脚本自动化Mint"><a href="#脚本自动化Mint" class="headerlink" title="脚本自动化Mint"></a>脚本自动化Mint</h2><h4 id="vast-ai快速租服务器Mint"><a href="#vast-ai快速租服务器Mint" class="headerlink" title="vast.ai快速租服务器Mint"></a>vast.ai快速租服务器Mint</h4><p>如果你自己没有Linux机器或者你想租用更强劲的服务器来挖，建议去<a href="https://cloud.vast.ai/?ref_id=88254">vast.io</a>直接租，国内的服务器无法从github下载代码，所以选国外的vast，vast支持虚拟货币或者小狐狸充值，比某里某讯便宜很多，按小时收费，很方便。租用vast.io的方法我这里不重复了，直接参考<a href="https://heiyetouzi.xyz/minequainetwork/#toc-heading-15">三、GPU显卡挖矿机器配置</a>，就看第三部分就可以，其他的不用看。注意模板选<code>ubuntu</code>,并且勾选<code>jupyter</code>。<br><img src="https://gcore.jsdelivr.net/gh/btcltceth/blogassets@latest/b/img/rbnb-002.png"><br>可以看到，按照价格升序排序，最低的服务器32核cpu(共享)不到$0.1&#x2F;小时，服务器租用后预计5分钟就可以启动命令行终端，服务器价格是按照分钟算钱的，不用了记得销毁，不然扣你钱。<br>首先执行以下命令服务器初始设置，主要是安装node, vim等必须的软件</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">apt update &amp;&amp; apt install nodejs npm vim -y</span><br><span class="line">npm install -g n &amp;&amp; n 21.0.0</span><br><span class="line">hash -r &amp;&amp; node -v</span><br></pre></td></tr></table></figure><p><img src="https://gcore.jsdelivr.net/gh/btcltceth/blogassets@latest/b/img/rbnb-003.png"></p><p>下载脚本到服务器，并生成钱包、私钥和助记词到wallets.csv文件。</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">git clone https://github.com/godzillaas/RBNBAutoJS.git</span><br><span class="line">cd RBNBAutoJS</span><br><span class="line">npm install --registry=https://registry.npm.taobao.org</span><br><span class="line">node walletGenerater.js  # 生成20个钱包到wallets.csv文件,可以自行修改</span><br></pre></td></tr></table></figure><p><img src="https://gcore.jsdelivr.net/gh/btcltceth/blogassets@latest/b/img/rbnb-004.png"></p><p>执行以下node命令，开始自动Mint</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">node index.js</span><br></pre></td></tr></table></figure><p><img src="https://gcore.jsdelivr.net/gh/btcltceth/blogassets@latest/b/img/rbnb-005.png"></p><h4 id="注意事项"><a href="#注意事项" class="headerlink" title="注意事项"></a>注意事项</h4><p>1、如果官方修改了difficulty难度，记得同步修改下<code>config.js</code>里的difficulty，不然mint无效。</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line">const config = &#123;</span><br><span class="line">  difficulty: &#x27;0x999999&#x27;,</span><br><span class="line">  tick: &#x27;rBNB&#x27;,</span><br><span class="line">  walletTablePath: &#x27;wallets.csv&#x27;,</span><br><span class="line">  rpcUrl: &#x27;https://bsc-dataseed1.bnbchain.org&#x27;,</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">module.exports = config</span><br></pre></td></tr></table></figure><p>2、单单起1个窗口，CPU是跑不满的，这样租的服务器有点浪费，如果你想跑满CPU，可以点击<code>File--&gt; New --&gt; Terminal</code>多开几个窗口跑<code>node index.js</code>，尽量把CPU跑满，CPU跑了多少可以用<code>Top</code>命令查看<br><img src="https://gcore.jsdelivr.net/gh/btcltceth/blogassets@latest/b/img/rbnb-006.png"></p><p>3、官方的服务器经常出问题不稳定，会导致你的服务器好不容易Mint到一个$rBNB，却无法提交到服务器存档，建议你等待官方服务器稳定的时候再跑上述Mint脚本。或者如果你有些代码基础，可以在<a href="https://chatgpt-plus.github.io/">Chatgpt</a>帮助下，自行修改上述git仓库的nodejs程序，比如，可以将Mint好的solution结果提前保存到文件中，等待官方服务器稳定之后再统一提交存档。这类的小需求是很容易通过Chatgpt来修改实现的，<a href="https://chatgpt-plus.github.io/">Chatgpt</a>是一个很好的老师。<br><img src="https://gcore.jsdelivr.net/gh/btcltceth/blogassets@latest/b/img/rbnb-007.png"></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 挖矿 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> $rBNB </tag>
+            
+            <tag> $rETH </tag>
+            
+            <tag> 铭文 </tag>
+            
+            <tag> 挖矿 </tag>
+            
+            <tag> 零撸 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>贡献python科学家脚本--煞笔opbn项目方</title>
       <link href="//opbn-python/"/>
       <url>//opbn-python/</url>
@@ -257,7 +290,7 @@
       
       <categories>
           
-          <category> 挖矿 </category>
+          <category> 铭文 </category>
           
       </categories>
       
@@ -714,11 +747,11 @@
       
         <tags>
             
+            <tag> 零撸 </tag>
+            
             <tag> TipCoin </tag>
             
             <tag> 空投 </tag>
-            
-            <tag> 零撸 </tag>
             
         </tags>
       
