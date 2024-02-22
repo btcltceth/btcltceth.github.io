@@ -4,6 +4,31 @@
   
     
     <entry>
+      <title>开源程序员有福了——教你如何免费领取价值$200的Starknet空投</title>
+      <link href="//strk-github/"/>
+      <url>//strk-github/</url>
+      
+        <content type="html"><![CDATA[<h3 id="意外的收入"><a href="#意外的收入" class="headerlink" title="意外的收入"></a>意外的收入</h3><p>昨天，很意外收获了￥1500人民币，就因为曾经给几个awesome项目提过几次PR，难为情啊。不过这钱拿到手真的香，很多身边的程序员朋友都领到了这笔意外之财。这篇文章我来复盘一下，有Github账号的程序员们，该如何领取这个空投。<br><img src="https://gcore.jsdelivr.net/gh/btcltceth/blogassets@latest/b/img/strk-github-001.png"></p><h3 id="Web3开源精神"><a href="#Web3开源精神" class="headerlink" title="Web3开源精神"></a>Web3开源精神</h3><p>事情起因是：L2公链项目StarkNet为了激励开发者参与其平台建设，向所有开源爱好者启动了空投活动。虽然大多数开源爱好者坚持贡献自己的时间和技能来帮助软件项目发展和成长，不求任何预期的回报，不过有钱拿还是不错的。如果你曾向 GitHub 上获得较多Star的项目提交过PR ，就有资格领取最低111.1个$STRK代币(当前总价值约$200)的空投奖励。</p><h4 id="背后逻辑"><a href="#背后逻辑" class="headerlink" title="背后逻辑"></a>背后逻辑</h4><p>很多人不理解为何StarkNet要对广大素未谋面的开源爱好者发空投，实际上也很好理解，简单地说——</p><ol><li>可以增加开源项目的延续性和长期发展</li><li>可以激励更多的外来者加入到开源队伍中</li><li>促进Web3技术的普及和行业影响</li><li>鼓励创新、建立更紧密的社区联系</li></ol><h3 id="领取规则"><a href="#领取规则" class="headerlink" title="领取规则"></a>领取规则</h3><ol><li>截止到 2023-11-15日期，曾经对全球排名前 5000 的Github仓库提交过不少于三次代码PR贡献(修复typo也算)。<br>这里可以查看现在的github repo排名的地址： <a href="https://gitstar-ranking.com/repositories?page=51">https://gitstar-ranking.com/repositories?page=51</a> ，做个参考，以2023-11-15快照为准。<br><img src="https://gcore.jsdelivr.net/gh/btcltceth/blogassets@latest/b/img/strk-github-002.png"></li><li>其中，至少有一次PR贡献是在 2018 年或之后完成的。<br><img src="https://gcore.jsdelivr.net/gh/btcltceth/blogassets@latest/b/img/strk-github-003.png"></li></ol><h3 id="领取步骤"><a href="#领取步骤" class="headerlink" title="领取步骤"></a>领取步骤</h3><p>那到底如何领取呢？步骤如下</p><ol><li>打开<a href="https://provisions.starknet.io/">https://provisions.starknet.io/</a> 页面，点击通过 GitHub 登录，查看你的Github账号是否满足空投资格。</li><li>按照网站提示，下载安装好Argent Wallet，关联GitHub 账户领取$STRK代币。</li><li>领取空投后。后续的治理投票和问卷调查可忽略不管。<br><img src="https://gcore.jsdelivr.net/gh/btcltceth/blogassets@latest/b/img/strk-github-004.png"><br><img src="https://gcore.jsdelivr.net/gh/btcltceth/blogassets@latest/b/img/strk-github-005.png"></li></ol><h3 id="STRK如何变现"><a href="#STRK如何变现" class="headerlink" title="STRK如何变现"></a>STRK如何变现</h3><p>你钱包里有了$STRK之后，可以将$STRK从Argent钱包提到<a href="https://www.cnouyi.limo/join/79853740">okx</a>(或者<a href="https://share.glassgs.com/u/GHRSJ68M">bitget</a>)卖掉，并兑换成 USDT出售。<br>以okx为例，</p><ol><li>点击<a href="https://www.cnouyi.limo/join/79853740">okx</a>，下载安装、身份认证。苹果手机需要一个海外id，</li><li>打开okx app，点击资金账户–&gt;搜索strk–&gt;点击‘充币’–&gt;选择充币网络–&gt;复制充币地址</li><li>打开Argent钱包，点击“发送”，选择Strknet，粘贴上一步复制的充币地址，发送。<br>等待几分钟，$STRK就从Argent钱包发送到okx了(bitget同理)。</li><li>点击okx APP中的“交易”，找到STRK&#x2F;USDT交易对，卖出，获得$USDT。</li><li>点击okx APP，首页–&gt;买币–&gt;快捷买币–&gt;切换到“出售”–&gt;选择USDT，卖出$USDT，兑换成人民币。<br><img src="https://gcore.jsdelivr.net/gh/btcltceth/blogassets@latest/b/img/strk-github-006.png"></li></ol><h3 id="常见问题"><a href="#常见问题" class="headerlink" title="常见问题"></a>常见问题</h3><ol><li>为什么我满足条件，但是显示我没有给我空投STRK?<br><code>答：应该是统计规则疏漏，建议通过网页底部的联系方式，联系项目方，提供证明截图。</code></li><li>我有给知名开源项目提交过PR代码，但是是在2018年之前的，这种情况会给我空投STRK吗?<br><code>答：不行，必须是要在2018年之后的。</code></li><li>如何快速判断我的github账号是否有资格领取？<br><code>答：网页上面有个&quot;Eligibility check only&quot;，直接输 Github 用户名就能快速判断是否有资格领取</code></li></ol>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> $STRK </tag>
+            
+            <tag> $Starknet </tag>
+            
+            <tag> 空投 </tag>
+            
+            <tag> Github </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>教你使用脚本全自动Mint最近很🔥的BNB生态铭文$rBNB</title>
       <link href="//rbnb-mint/"/>
       <url>//rbnb-mint/</url>
@@ -749,9 +774,9 @@
             
             <tag> 零撸 </tag>
             
-            <tag> TipCoin </tag>
-            
             <tag> 空投 </tag>
+            
+            <tag> TipCoin </tag>
             
         </tags>
       
