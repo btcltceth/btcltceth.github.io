@@ -1,0 +1,1318 @@
+<!DOCTYPE HTML>
+<html lang="zh-CN">
+
+
+<head>
+    <meta charset="utf-8">
+    <meta name="keywords" content="一文看懂Solana pow明星项目——ORE显卡GPU保姆级教程, 比特币，莱特币，以太坊，Defi, NFT，web3, 撸毛, 零撸，铭文，币圈入门、如何炒币、炒币挣钱、币圈新手，炒币赚钱，合约杠杆，Defi挖矿，币圈撸毛，空投，节点质押，爆仓，财富自由">
+    <meta name="description" content="比特币，莱特币，以太坊，web3, 撸毛, 零撸，铭文，质押，Defi, NFT，币圈新手，炒币赚钱，合约杠杆，Defi挖矿，币圈撸毛，空投，爆仓">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <meta name="renderer" content="webkit|ie-stand|ie-comp">
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="format-detection" content="telephone=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-G9D788F9WH"></script>
+<script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() {
+        dataLayer.push(arguments);
+    }
+
+    gtag('js', new Date());
+    gtag('config', 'G-G9D788F9WH');
+</script>
+
+
+    <title>一文看懂Solana pow明星项目——ORE显卡GPU保姆级教程 | 黑叶Web3投资</title>
+    <link rel="icon" type="image/x-icon, image/vnd.microsoft.icon" href="https://gcore.jsdelivr.net/gh/btcltceth/blogassets@latest/b/favicon.ico">
+
+    <link rel="stylesheet" type="text/css" href="https://gcore.jsdelivr.net/gh/btcltceth/blogassets@latest/b/libs/awesome/css/all.css">
+    <link rel="stylesheet" type="text/css" href="https://gcore.jsdelivr.net/gh/btcltceth/blogassets@latest/b/libs/materialize/materialize.min.css">
+    <link rel="stylesheet" type="text/css" href="https://gcore.jsdelivr.net/gh/btcltceth/blogassets@latest/b/libs/aos/aos.css">
+    <link rel="stylesheet" type="text/css" href="https://gcore.jsdelivr.net/gh/btcltceth/blogassets@latest/b/libs/animate/animate.min.css">
+    <link rel="stylesheet" type="text/css" href="https://gcore.jsdelivr.net/gh/btcltceth/blogassets@latest/b/libs/lightGallery/css/lightgallery.min.css">
+    <link rel="stylesheet" type="text/css" href="https://gcore.jsdelivr.net/gh/btcltceth/blogassets@latest/b/css/matery.css">
+    <link rel="stylesheet" type="text/css" href="https://gcore.jsdelivr.net/gh/btcltceth/blogassets@latest/b/css/my.css">
+
+    <script src="https://gcore.jsdelivr.net/gh/btcltceth/blogassets@latest/b/libs/jquery/jquery.min.js"></script>
+
+<meta name="generator" content="Hexo 6.3.0"><link rel="alternate" href="/atom.xml" title="黑叶Web3投资" type="application/atom+xml">
+</head>
+
+
+
+   <style>
+    body{
+       background-image: url(https://gcore.jsdelivr.net/gh/Tokisaki-Galaxy/res/site/medias/background.jpg);
+       background-repeat:no-repeat;
+       background-size:cover;
+       background-attachment:fixed;
+    }
+</style>
+
+
+
+<body>
+    <header class="navbar-fixed">
+    <nav id="headNav" class="bg-color nav-transparent">
+        <div id="navContainer" class="nav-wrapper container">
+            <div class="brand-logo">
+                <a href="/" class="waves-effect waves-light">
+                    
+                    <img src="https://gcore.jsdelivr.net/gh/btcltceth/blogassets@latest/b/medias/logo.png" class="logo-img" alt="LOGO">
+                    
+                    <span class="logo-span">黑叶Web3投资</span>
+                </a>
+            </div>
+            
+
+<a href="#" data-target="mobile-nav" class="sidenav-trigger button-collapse"><i class="fas fa-bars"></i></a>
+<ul class="right nav-menu">
+  
+  <li class="hide-on-med-and-down nav-item">
+    
+    <a href="/" class="waves-effect waves-light">
+      
+      <i class="fas fa-home" style="zoom: 0.6;"></i>
+      
+      <span>首页</span>
+    </a>
+    
+  </li>
+  
+  <li class="hide-on-med-and-down nav-item">
+    
+    <a href="/archives" class="waves-effect waves-light">
+
+      
+      <i class="fas fa-file" style="zoom: 0.6;"></i>
+      
+      <span>文章</span>
+      <i class="fas fa-chevron-down" aria-hidden="true" style="zoom: 0.6;"></i>
+    </a>
+    <ul class="sub-nav menus_item_child ">
+      
+      <li>
+        <a href="/archives">
+          
+          <i class="fas fa-book" style="margin-top: -20px; zoom: 0.6;"></i>
+          
+          <span>全部</span>
+        </a>
+      </li>
+      
+      <li>
+        <a href="/categories">
+          
+          <i class="fas fa-bookmark" style="margin-top: -20px; zoom: 0.6;"></i>
+          
+          <span>分类</span>
+        </a>
+      </li>
+      
+      <li>
+        <a href="/tags">
+          
+          <i class="fas fa-tags" style="margin-top: -20px; zoom: 0.6;"></i>
+          
+          <span>标签</span>
+        </a>
+      </li>
+      
+    </ul>
+    
+  </li>
+  
+  <li class="hide-on-med-and-down nav-item">
+    
+    <a href="/airdrops" class="waves-effect waves-light">
+      
+      <i class="fa fa-sharp fa-solid fa-fire" style="zoom: 0.6;"></i>
+      
+      <span>空投撸毛</span>
+    </a>
+    
+  </li>
+  
+  <li class="hide-on-med-and-down nav-item">
+    
+    <a href="/downloads" class="waves-effect waves-light">
+      
+      <i class="fa fa-sharp fa-solid fa-download" style="zoom: 0.6;"></i>
+      
+      <span>资源下载</span>
+    </a>
+    
+  </li>
+  
+  <li class="hide-on-med-and-down nav-item">
+    
+    <a href="/friends" class="waves-effect waves-light">
+      
+      <i class="fas fa-address-book" style="zoom: 0.6;"></i>
+      
+      <span>友情链接</span>
+    </a>
+    
+  </li>
+  
+  <li class="hide-on-med-and-down nav-item">
+    
+    <a href="/about" class="waves-effect waves-light">
+      
+      <i class="fas fa-user-circle" style="zoom: 0.6;"></i>
+      
+      <span>关于</span>
+    </a>
+    
+  </li>
+  
+</ul>
+
+
+<div id="mobile-nav" class="side-nav sidenav">
+
+    <div class="mobile-head bg-color">
+        
+        <img src="https://gcore.jsdelivr.net/gh/btcltceth/blogassets@latest/b/medias/logo.png" class="logo-img circle responsive-img">
+        
+        <div class="logo-name">黑叶Web3投资</div>
+        <div class="logo-desc">
+            
+            比特币，莱特币，以太坊，web3, 撸毛, 零撸，铭文，质押，Defi, NFT，币圈新手，炒币赚钱，合约杠杆，Defi挖矿，币圈撸毛，空投，爆仓
+            
+        </div>
+    </div>
+
+    
+
+    <ul class="menu-list mobile-menu-list">
+        
+        <li class="m-nav-item">
+	  
+		<a href="/" class="waves-effect waves-light">
+			
+			    <i class="fa-fw fas fa-home"></i>
+			
+			首页
+		</a>
+          
+        </li>
+        
+        <li class="m-nav-item">
+	  
+		<a href="javascript:;">
+			
+				<i class="fa-fw fas fa-file"></i>
+			
+			文章
+			<span class="m-icon"><i class="fas fa-chevron-right"></i></span>
+		</a>
+            <ul  style="background:  ;" >
+              
+                <li>
+
+                  <a href="/archives " style="margin-left:75px">
+				  
+				   <i class="fa fas fa-book" style="position: absolute;left:50px" ></i>
+			      
+		          <span>全部</span>
+                  </a>
+                </li>
+              
+                <li>
+
+                  <a href="/categories " style="margin-left:75px">
+				  
+				   <i class="fa fas fa-bookmark" style="position: absolute;left:50px" ></i>
+			      
+		          <span>分类</span>
+                  </a>
+                </li>
+              
+                <li>
+
+                  <a href="/tags " style="margin-left:75px">
+				  
+				   <i class="fa fas fa-tags" style="position: absolute;left:50px" ></i>
+			      
+		          <span>标签</span>
+                  </a>
+                </li>
+              
+            </ul>
+          
+        </li>
+        
+        <li class="m-nav-item">
+	  
+		<a href="/airdrops" class="waves-effect waves-light">
+			
+			    <i class="fa-fw fa fa-sharp fa-solid fa-fire"></i>
+			
+			空投撸毛
+		</a>
+          
+        </li>
+        
+        <li class="m-nav-item">
+	  
+		<a href="/downloads" class="waves-effect waves-light">
+			
+			    <i class="fa-fw fa fa-sharp fa-solid fa-download"></i>
+			
+			资源下载
+		</a>
+          
+        </li>
+        
+        <li class="m-nav-item">
+	  
+		<a href="/friends" class="waves-effect waves-light">
+			
+			    <i class="fa-fw fas fa-address-book"></i>
+			
+			友情链接
+		</a>
+          
+        </li>
+        
+        <li class="m-nav-item">
+	  
+		<a href="/about" class="waves-effect waves-light">
+			
+			    <i class="fa-fw fas fa-user-circle"></i>
+			
+			关于
+		</a>
+          
+        </li>
+        
+        
+    </ul>
+</div>
+
+
+        </div>
+
+        
+    </nav>
+
+</header>
+
+    
+
+
+
+<div class="bg-cover pd-header post-cover" style="background-image: url('https://gcore.jsdelivr.net/gh/btcltceth/blogassets@latest/b/medias/featureimages/9.jpg')">
+    <div class="container" style="right: 0px;left: 0px;">
+        <div class="row">
+            <div class="col s12 m12 l12">
+                <div class="brand">
+                    <h1 class="description center-align post-title">一文看懂Solana pow明星项目——ORE显卡GPU保姆级教程</h1>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+<main class="post-container content">
+
+    
+    <link rel="stylesheet" href="https://gcore.jsdelivr.net/gh/btcltceth/blogassets@latest/b/libs/tocbot/tocbot.css">
+<style>
+    #articleContent h1::before,
+    #articleContent h2::before,
+    #articleContent h3::before,
+    #articleContent h4::before,
+    #articleContent h5::before,
+    #articleContent h6::before {
+        display: block;
+        content: " ";
+        height: 100px;
+        margin-top: -100px;
+        visibility: hidden;
+    }
+
+    #articleContent :focus {
+        outline: none;
+    }
+
+    .toc-fixed {
+        position: fixed;
+        top: 64px;
+    }
+
+    .toc-widget {
+        width: 345px;
+        padding-left: 20px;
+    }
+
+    .toc-widget .toc-title {
+        padding: 35px 0 15px 17px;
+        font-size: 1.5rem;
+        font-weight: bold;
+        line-height: 1.5rem;
+    }
+
+    .toc-widget ol {
+        padding: 0;
+        list-style: none;
+    }
+
+    #toc-content {
+        padding-bottom: 30px;
+        overflow: auto;
+    }
+
+    #toc-content ol {
+        padding-left: 10px;
+    }
+
+    #toc-content ol li {
+        padding-left: 10px;
+    }
+
+    #toc-content .toc-link:hover {
+        color: #42b983;
+        font-weight: 700;
+        text-decoration: underline;
+    }
+
+    #toc-content .toc-link::before {
+        background-color: transparent;
+        max-height: 25px;
+
+        position: absolute;
+        right: 23.5vw;
+        display: block;
+    }
+
+    #toc-content .is-active-link {
+        color: #42b983;
+    }
+
+    #floating-toc-btn {
+        position: fixed;
+        right: 15px;
+        bottom: 76px;
+        padding-top: 15px;
+        margin-bottom: 0;
+        z-index: 998;
+    }
+
+    #floating-toc-btn .btn-floating {
+        width: 48px;
+        height: 48px;
+    }
+
+    #floating-toc-btn .btn-floating i {
+        line-height: 48px;
+        font-size: 1.4rem;
+    }
+</style>
+<div class="row">
+    <div id="main-content" class="col s12 m12 l9">
+        <!-- 文章内容详情 -->
+<div id="artDetail">
+    <div class="card">
+        <div class="card-content article-info">
+            <div class="row tag-cate">
+                <div class="col s7">
+                    
+                    <div class="article-tag">
+                        
+                            <a href="/tags/%E9%9B%B6%E6%92%B8/">
+                                <span class="chip bg-color">零撸</span>
+                            </a>
+                        
+                            <a href="/tags/solana/">
+                                <span class="chip bg-color">$solana</span>
+                            </a>
+                        
+                            <a href="/tags/ore/">
+                                <span class="chip bg-color">$ore</span>
+                            </a>
+                        
+                            <a href="/tags/%E7%A7%9F%E6%98%BE%E5%8D%A1/">
+                                <span class="chip bg-color">租显卡</span>
+                            </a>
+                        
+                            <a href="/tags/%E7%A7%9F%E6%9C%8D%E5%8A%A1%E5%99%A8/">
+                                <span class="chip bg-color">租服务器</span>
+                            </a>
+                        
+                            <a href="/tags/jito/">
+                                <span class="chip bg-color">jito</span>
+                            </a>
+                        
+                    </div>
+                    
+                </div>
+                <div class="col s5 right-align">
+                    
+                    <div class="post-cate">
+                        <i class="fas fa-bookmark fa-fw icon-category"></i>
+                        
+                            <a href="/categories/%E6%8C%96%E7%9F%BF/" class="post-category">
+                                挖矿
+                            </a>
+                        
+                    </div>
+                    
+                </div>
+            </div>
+
+            <div class="post-info">
+                
+                <div class="post-date info-break-policy">
+                    <i class="far fa-calendar-minus fa-fw"></i>发布日期:&nbsp;&nbsp;
+                    2024-04-11
+                </div>
+                
+
+                
+                <div class="post-date info-break-policy">
+                    <i class="far fa-calendar-check fa-fw"></i>更新日期:&nbsp;&nbsp;
+                    2024-04-16
+                </div>
+                
+
+                
+                <div class="info-break-policy">
+                    <i class="far fa-file-word fa-fw"></i>文章字数:&nbsp;&nbsp;
+                    1.3k
+                </div>
+                
+
+                
+                <div class="info-break-policy">
+                    <i class="far fa-clock fa-fw"></i>阅读时长:&nbsp;&nbsp;
+                    5 分
+                </div>
+                
+
+                
+                    <div id="busuanzi_container_page_pv" class="info-break-policy">
+                        <i class="far fa-eye fa-fw"></i>阅读次数:&nbsp;&nbsp;
+                        <span id="busuanzi_value_page_pv"></span>
+                    </div>
+				
+            </div>
+        </div>
+        <hr class="clearfix">
+
+        
+
+        
+
+        <div class="card-content article-card-content">
+            <div id="articleContent">
+                <p>ORE是著名公链Solana下的第一个POW，Solana创始人推转发之后，将ore推向了火爆的市场。本文教程以Ubuntu 20.04为例，详细介绍ORE在显卡GPU CUDA下如何进行快速挖掘。</p>
+<h3 id="环境配置"><a href="#环境配置" class="headerlink" title="环境配置"></a>环境配置</h3><p>得益于tonyke老哥以及BenjaSOL老哥的开源精神，无jito版本的ORE GPU代码已经在<a target="_blank" rel="noopener" href="https://github.com/BenjaSOL/ore-cli-gpu.git">https://github.com/BenjaSOL/ore-cli-gpu.git</a>开源，找一台有独立N系列显卡的机子，RTX 30, 40系列的都可以跑，10系列的有群友说也可以，我没试过。</p>
+<p>然后逐行拷贝下面命令到linux 终端，执行完毕就配置好了相关的vim, cargo, solana, ore-cli环境，预期耗时5分钟，最后有报几个警告不要管。</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br></pre></td><td class="code"><pre><span class="line">apt update -y &amp;&amp; apt upgrade -y </span><br><span class="line">curl https://sh.rustup.rs -sSf | sh -s -- -y</span><br><span class="line">source $HOME/.cargo/env</span><br><span class="line">sh -c &quot;$(curl -sSfL https://release.solana.com/v1.18.4/install)&quot;</span><br><span class="line">export PATH=&quot;/root/.local/share/solana/install/active_release/bin:/root/.cargo/bin:$PATH&quot;</span><br><span class="line">apt install build-essential cargo jq bc vim git pkg-config libssl-dev -y</span><br><span class="line">git clone https://github.com/BenjaSOL/ore-cli-gpu.git ~/ore-cli-gpu</span><br><span class="line">cd ~/ore-cli-gpu </span><br><span class="line">export CUDA_VISIBLE_DEVICES=0</span><br><span class="line">nvcc linux.cu -o linux</span><br><span class="line">sed -i &#x27;s#PATH_TO_EXE#/root/ore-cli-gpu/linux#g&#x27; src/mine.rs</span><br><span class="line">cargo build --release</span><br></pre></td></tr></table></figure>
+<p><img src="https://gcore.jsdelivr.net/gh/btcltceth/blogassets@latest/b/img/ore-0.png"></p>
+<h3 id="Wallet钱包"><a href="#Wallet钱包" class="headerlink" title="Wallet钱包"></a>Wallet钱包</h3><p>用<a target="_blank" rel="noopener" href="https://mct.xyz/create-wallet?chain=sol">MCT工具</a>可以直接生成SOL钱包，如果要也可以生成批量，这里我们先生成1个，把信息保存到重要的地方，千万别泄露丢失。然后复制其中的最后一行数字格式的私钥，粘贴到上面Ubuntu系统中<code>~/.config/solana/id.json</code>文件中，保存。也可以用命令行来保存：</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">echo [17, 244, 140, 68, 96, 23, 11, 26, 38, 72, 166, 245, 226, 66, 242, 232, 104, 88, 131, 29, 140, 117, 180, 161, 187, 221, 15, 89, 181, 74, 33, 254, 129, 200, 186, 38, 159, 125, 219, 247, 92, 106, 164, 27, 255, 117, 115, 36, 216, 104, 136, 246, 122, 73, 254, 110, 16, 170, 140, 61, 177, 51, 219, 206] &gt; ~/.config/solana/id.json</span><br></pre></td></tr></table></figure>
+<p><img src="https://gcore.jsdelivr.net/gh/btcltceth/blogassets@latest/b/img/ore-1.png"><br>开始挖掘ore之前，务必记得先往钱包充值一些SOL币充当gas，SOL币可以从<a target="_blank" rel="noopener" href="https://www.ouxyi.supply/zh-hans/join/76527935">欧易</a>提到你的钱包，大概1~3分钟就可以到账，单个钱包不用放太多SOL币，大概0.01个就够了。</p>
+<h3 id="ORE挖掘"><a href="#ORE挖掘" class="headerlink" title="ORE挖掘"></a>ORE挖掘</h3><h4 id="ORE挖掘命令"><a href="#ORE挖掘命令" class="headerlink" title="ORE挖掘命令"></a>ORE挖掘命令</h4><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">/root/ore-cli-gpu/target/release/ore --rpc http://api.mainnet-beta.solana.com --keypair ~/.config/solana/id.json --priority-fee 600000 mine --threads $(nproc)</span><br></pre></td></tr></table></figure>
+<p>当出现如下的界面，就表示GPU已经在计算哈希，说明没问题，一切都准备就绪了。<br><img src="https://gcore.jsdelivr.net/gh/btcltceth/blogassets@latest/b/img/ore-2.png"></p>
+<p>好了，你现在可以开始愉快地挖倔ORE了，下面是一些简单有用的命令——</p>
+<h4 id="查询ORE收益——rewards"><a href="#查询ORE收益——rewards" class="headerlink" title="查询ORE收益——rewards"></a>查询ORE收益——rewards</h4><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">/root/ore-cli-gpu/target/release/ore --rpc http://api.mainnet-beta.solana.com --keypair ~/.config/solana/id.json rewards</span><br></pre></td></tr></table></figure>
+<p><img src="https://gcore.jsdelivr.net/gh/btcltceth/blogassets@latest/b/img/ore-3.png"></p>
+<h4 id="收取挖掘出的ORE——claim"><a href="#收取挖掘出的ORE——claim" class="headerlink" title="收取挖掘出的ORE——claim"></a>收取挖掘出的ORE——claim</h4><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">/root/ore-cli-gpu/target/release/ore --rpc http://api.mainnet-beta.solana.com --keypair ~/.config/solana/id.json --priority-fee 50000000 claim</span><br></pre></td></tr></table></figure>
+<p>claim需要不断尝试，如果不行，就提高fee再试。<br><img src="https://gcore.jsdelivr.net/gh/btcltceth/blogassets@latest/b/img/ore-4-1.png"><br>claim成功的话，会显示“Transaction landed!<br><img src="https://gcore.jsdelivr.net/gh/btcltceth/blogassets@latest/b/img/ore-4-2.png"></p>
+<h4 id="出售ORE"><a href="#出售ORE" class="headerlink" title="出售ORE"></a>出售ORE</h4><p>您随时可以将ORE及时卖掉换成SOL，地址<a target="_blank" rel="noopener" href="https://jup.ag/">https://jup.ag/</a> 或者<a target="_blank" rel="noopener" href="https://birdeye.so/token/oreoN2tQbHXVaZsr3pf66A48miqcBXCDJozganhEJgz?chain=solana">birdeye.so</a>，连接Phantom钱包插件(导入你挖ore的wallet)，就可以直接实时兑换成SOL币<br><img src="https://gcore.jsdelivr.net/gh/btcltceth/blogassets@latest/b/img/ore-5.png"><br><img src="https://gcore.jsdelivr.net/gh/btcltceth/blogassets@latest/b/img/ore-6.png"></p>
+<h4 id="RPC节点"><a href="#RPC节点" class="headerlink" title="RPC节点"></a>RPC节点</h4><p>目前，公共的免费RPC(比如上面的<a target="_blank" rel="noopener" href="http://api.mainnet-beta.solana.com/">http://api.mainnet-beta.solana.com</a>), 用的人太多，已经基本挖不出来了，这时候我们需要购买付费的RPC，市面上的RPC服务商我基本都用过，还是推荐<a target="_blank" rel="noopener" href="https://www.quicknode.com/?via=chen">https://www.quicknode.com</a>、<a target="_blank" rel="noopener" href="https://alchemy.com/?r=9e43bf40e8668bce">https://alchemy.com</a> ，比如quicknode $49&#x2F;月的就可以挖，有500M的API请求次数，也够你用了。</p>
+<p>购买付费RPC的时候需要美国的信永卡，没有海外信永卡怎嘛办？可以临时注册一个<a target="_blank" rel="noopener" href="https://dupay.one/web-app/register-h5?invitCode=hmXfgp&lang=zh-cn">虚拟卡Dupay</a>，有几$的开卡费，需要实名，平常绑定支夫宝和某信小费。关于如何给Dupay卡充值，这里不展开，有需要的童鞋可以直接参考<a target="_blank" rel="noopener" href="https://chatgpt-plus.github.io/">《ChatGPT Plus官方推荐新手教程》</a>中的第二部分，耐心一步一步操作。用虚拟卡不用担心被多扣钱，我是非常不建议用自己国内常用的信永卡来绑定这些国外的网站，它们都很无下限乱扣费。</p>
+<h4 id="GPU租赁"><a href="#GPU租赁" class="headerlink" title="GPU租赁"></a>GPU租赁</h4><p>如果你自己没有显卡，则可以去租赁，按小时付费，一般RTX 4090单卡显卡是0.4$&#x2F;h，一天大概10刀左右。<br>因为国内云翻有下载海外的依赖包有各种问题，所以推荐直接用国外显卡<a target="_blank" rel="noopener" href="https://cloud.vast.ai/?ref_id=88254">https://cloud.vast.ai</a>，支持虚拟货币或者小狐狸钱包充值，很方便<br>如何充值，租机器看这里：<a href="https://heiyetouzi.xyz/minequainetwork/#toc-heading-15">https://heiyetouzi.xyz/minequainetwork/#toc-heading-15</a>，直接看第三部分——GPU显卡挖旷机器配置，其他不用看。<br>租便宜的RTX 3060， RTX3070就可以了，没必要上RTX4090，一小时大概$0.15左右，服务器模板选”cuda:12.0.1-devel-ubuntu20.04”，点击Edit，勾上“Run a jupyter-python notebook”选项，机器租好后，点击左侧INSTANCES，这里的open(或者connecting)打开命令行窗口，<br><img src="https://gcore.jsdelivr.net/gh/btcltceth/blogassets@latest/b/img/ierc20m6-001.png"><br><img src="https://gcore.jsdelivr.net/gh/btcltceth/blogassets@latest/b/img/ierc20m6-002.png"></p>
+<h4 id="关于priority-fee"><a href="#关于priority-fee" class="headerlink" title="关于priority-fee"></a>关于priority-fee</h4><p>priority-fee给多少合适？</p>
+<blockquote>
+<p>看当前网络拥堵情况决定，跟你一起卷gas的人越多，priority-fee需要越大，不然平常给1就可以，群里有小伙伴给到1000w，看自己能承受的成本决定，gas越大越贵，具体成本花费可以复制tx id到<a target="_blank" rel="noopener" href="https://solscan.io/">solscan网站</a>查看，悠着点，毕竟交互失败了也是要给gas的。</p>
+</blockquote>
+
+                
+            </div>
+            <hr/>
+
+            
+
+    <div class="reprint" id="reprint-statement">
+        
+            <div class="reprint__author">
+                <span class="reprint-meta" style="font-weight: bold;">
+                    <i class="fas fa-user">
+                        文章作者:
+                    </i>
+                </span>
+                <span class="reprint-info">
+                    <a href="/about" rel="external nofollow noreferrer">black_leaf</a>
+                </span>
+            </div>
+            <div class="reprint__type">
+                <span class="reprint-meta" style="font-weight: bold;">
+                    <i class="fas fa-link">
+                        文章链接:
+                    </i>
+                </span>
+                <span class="reprint-info">
+                    <a href="https://heiyetouzi.xyz/solana-ore/">https://heiyetouzi.xyz/solana-ore/</a>
+                </span>
+            </div>
+            <div class="reprint__notice">
+                <span class="reprint-meta" style="font-weight: bold;">
+                    <i class="fas fa-copyright">
+                        版权声明:
+                    </i>
+                </span>
+                <span class="reprint-info">
+                    本博客所有文章除特別声明外，均采用
+                    <a href="https://creativecommons.org/licenses/by/4.0/deed.zh" rel="external nofollow noreferrer" target="_blank">CC BY 4.0</a>
+                    许可协议。转载请注明来源
+                    <a href="/about" target="_blank">black_leaf</a>
+                    !
+                </span>
+            </div>
+        
+    </div>
+
+    <script async defer>
+      document.addEventListener("copy", function (e) {
+        let toastHTML = '<span>复制成功，请遵循本文的转载规则</span><button class="btn-flat toast-action" onclick="navToReprintStatement()" style="font-size: smaller">查看</a>';
+        M.toast({html: toastHTML})
+      });
+
+      function navToReprintStatement() {
+        $("html, body").animate({scrollTop: $("#reprint-statement").offset().top - 80}, 800);
+      }
+    </script>
+
+
+
+            <div class="tag_share" style="display: block;">
+                <div class="post-meta__tag-list" style="display: inline-block;">
+                    
+                        <div class="article-tag">
+                            
+                                <a href="/tags/%E9%9B%B6%E6%92%B8/">
+                                    <span class="chip bg-color">零撸</span>
+                                </a>
+                            
+                                <a href="/tags/solana/">
+                                    <span class="chip bg-color">$solana</span>
+                                </a>
+                            
+                                <a href="/tags/ore/">
+                                    <span class="chip bg-color">$ore</span>
+                                </a>
+                            
+                                <a href="/tags/%E7%A7%9F%E6%98%BE%E5%8D%A1/">
+                                    <span class="chip bg-color">租显卡</span>
+                                </a>
+                            
+                                <a href="/tags/%E7%A7%9F%E6%9C%8D%E5%8A%A1%E5%99%A8/">
+                                    <span class="chip bg-color">租服务器</span>
+                                </a>
+                            
+                                <a href="/tags/jito/">
+                                    <span class="chip bg-color">jito</span>
+                                </a>
+                            
+                        </div>
+                    
+                </div>
+                <div class="post_share" style="zoom: 80%; width: fit-content; display: inline-block; float: right; margin: -0.15rem 0;">
+                    <link rel="stylesheet" type="text/css" href="/libs/share/css/share.min.css">
+<div id="article-share">
+
+    
+    <div class="social-share" data-sites="twitter,facebook,google,qq,qzone,wechat,weibo,douban,linkedin" data-wechat-qrcode-helper="<p>微信扫一扫即可分享！</p>"></div>
+    <script src="https://gcore.jsdelivr.net/gh/btcltceth/blogassets@latest/b/libs/share/js/social-share.min.js"></script>
+    
+
+    
+
+</div>
+
+                </div>
+            </div>
+            
+                <style>
+    #reward {
+        margin: 40px 0;
+        text-align: center;
+    }
+
+    #reward .reward-link {
+        font-size: 1.4rem;
+        line-height: 38px;
+    }
+
+    #reward .btn-floating:hover {
+        box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2), 0 5px 15px rgba(0, 0, 0, 0.2);
+    }
+
+    #rewardModal {
+        width: 320px;
+        height: 350px;
+    }
+
+    #rewardModal .reward-title {
+        margin: 15px auto;
+        padding-bottom: 5px;
+    }
+
+    #rewardModal .modal-content {
+        padding: 10px;
+    }
+
+    #rewardModal .close {
+        position: absolute;
+        right: 15px;
+        top: 15px;
+        color: rgba(0, 0, 0, 0.5);
+        font-size: 1.3rem;
+        line-height: 20px;
+        cursor: pointer;
+    }
+
+    #rewardModal .close:hover {
+        color: #ef5350;
+        transform: scale(1.3);
+        -moz-transform:scale(1.3);
+        -webkit-transform:scale(1.3);
+        -o-transform:scale(1.3);
+    }
+
+    #rewardModal .reward-tabs {
+        margin: 0 auto;
+        width: 210px;
+    }
+
+    .reward-tabs .tabs {
+        height: 38px;
+        margin: 10px auto;
+        padding-left: 0;
+    }
+
+    .reward-content ul {
+        padding-left: 0 !important;
+    }
+
+    .reward-tabs .tabs .tab {
+        height: 38px;
+        line-height: 38px;
+    }
+
+    .reward-tabs .tab a {
+        color: #fff;
+        background-color: #ccc;
+    }
+
+    .reward-tabs .tab a:hover {
+        background-color: #ccc;
+        color: #fff;
+    }
+
+    .reward-tabs .wechat-tab .active {
+        color: #fff !important;
+        background-color: #22AB38 !important;
+    }
+
+    .reward-tabs .alipay-tab .active {
+        color: #fff !important;
+        background-color: #019FE8 !important;
+    }
+
+    .reward-tabs .reward-img {
+        width: 210px;
+        height: 210px;
+    }
+</style>
+
+<div id="reward">
+    <a href="#rewardModal" class="reward-link modal-trigger btn-floating btn-medium waves-effect waves-light red">赏</a>
+
+    <!-- Modal Structure -->
+    <div id="rewardModal" class="modal">
+        <div class="modal-content">
+            <a class="close modal-close"><i class="fas fa-times"></i></a>
+            <h4 class="reward-title">你的赏识是我前进的动力</h4>
+            <div class="reward-content">
+                <div class="reward-tabs">
+                    <ul class="tabs row">
+                        <li class="tab col s6 alipay-tab waves-effect waves-light"><a href="#alipay">支付宝</a></li>
+                        <li class="tab col s6 wechat-tab waves-effect waves-light"><a href="#wechat">微 信</a></li>
+                    </ul>
+                    <div id="alipay">
+                        <img src="https://gcore.jsdelivr.net/gh/btcltceth/blogassets@latest/b/medias/reward/alipay.jpg" class="reward-img" alt="支付宝打赏二维码">
+                    </div>
+                    <div id="wechat">
+                        <img src="https://gcore.jsdelivr.net/gh/btcltceth/blogassets@latest/b/medias/reward/wechat.png" class="reward-img" alt="微信打赏二维码">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script>
+    $(function () {
+        $('.tabs').tabs();
+    });
+</script>
+
+            
+        </div>
+    </div>
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+<article id="prenext-posts" class="prev-next articles">
+    <div class="row article-row">
+        
+        <div class="article col s12 m6" data-aos="fade-up" data-aos="fade-up">
+            <div class="article-badge left-badge text-color">
+                <i class="far fa-dot-circle"></i>&nbsp;本篇
+            </div>
+            <div class="card">
+                <a href="/solana-ore/">
+                    <div class="card-image">
+                        
+                        
+                        <img src="https://gcore.jsdelivr.net/gh/btcltceth/blogassets@latest/b/medias/featureimages/9.jpg" class="responsive-img" alt="一文看懂Solana pow明星项目——ORE显卡GPU保姆级教程">
+                        
+                        <span class="card-title">一文看懂Solana pow明星项目——ORE显卡GPU保姆级教程</span>
+                    </div>
+                </a>
+                <div class="card-content article-content">
+                    <div class="summary block-with-text">
+                        
+                            
+                        
+                    </div>
+                    <div class="publish-info">
+                            <span class="publish-date">
+                                <i class="far fa-clock fa-fw icon-date"></i>2024-04-11
+                            </span>
+                        <span class="publish-author">
+                            
+                            <i class="fas fa-bookmark fa-fw icon-category"></i>
+                            
+                            <a href="/categories/%E6%8C%96%E7%9F%BF/" class="post-category">
+                                    挖矿
+                                </a>
+                            
+                            
+                        </span>
+                    </div>
+                </div>
+
+                
+                <div class="card-action article-tags">
+                    
+                    <a href="/tags/%E9%9B%B6%E6%92%B8/">
+                        <span class="chip bg-color">零撸</span>
+                    </a>
+                    
+                    <a href="/tags/solana/">
+                        <span class="chip bg-color">$solana</span>
+                    </a>
+                    
+                    <a href="/tags/ore/">
+                        <span class="chip bg-color">$ore</span>
+                    </a>
+                    
+                    <a href="/tags/%E7%A7%9F%E6%98%BE%E5%8D%A1/">
+                        <span class="chip bg-color">租显卡</span>
+                    </a>
+                    
+                    <a href="/tags/%E7%A7%9F%E6%9C%8D%E5%8A%A1%E5%99%A8/">
+                        <span class="chip bg-color">租服务器</span>
+                    </a>
+                    
+                    <a href="/tags/jito/">
+                        <span class="chip bg-color">jito</span>
+                    </a>
+                    
+                </div>
+                
+            </div>
+        </div>
+        
+        
+        <div class="article col s12 m6" data-aos="fade-up">
+            <div class="article-badge right-badge text-color">
+                下一篇&nbsp;<i class="fas fa-chevron-right"></i>
+            </div>
+            <div class="card">
+                <a href="/strk-github/">
+                    <div class="card-image">
+                        
+                        
+                        <img src="https://gcore.jsdelivr.net/gh/btcltceth/blogassets@latest/b/medias/featureimages/6.jpg" class="responsive-img" alt="开源程序员有福了——教你如何免费领取价值$200的Starknet空投">
+                        
+                        <span class="card-title">开源程序员有福了——教你如何免费领取价值$200的Starknet空投</span>
+                    </div>
+                </a>
+                <div class="card-content article-content">
+                    <div class="summary block-with-text">
+                        
+                            
+                        
+                    </div>
+                    <div class="publish-info">
+                            <span class="publish-date">
+                                <i class="far fa-clock fa-fw icon-date"></i>2024-02-21
+                            </span>
+                        <span class="publish-author">
+                            
+                            <i class="fas fa-user fa-fw"></i>
+                            black_leaf
+                            
+                        </span>
+                    </div>
+                </div>
+                
+                <div class="card-action article-tags">
+                    
+                    <a href="/tags/STRK/">
+                        <span class="chip bg-color">$STRK</span>
+                    </a>
+                    
+                    <a href="/tags/Starknet/">
+                        <span class="chip bg-color">$Starknet</span>
+                    </a>
+                    
+                    <a href="/tags/%E7%A9%BA%E6%8A%95/">
+                        <span class="chip bg-color">空投</span>
+                    </a>
+                    
+                    <a href="/tags/Github/">
+                        <span class="chip bg-color">Github</span>
+                    </a>
+                    
+                </div>
+                
+            </div>
+        </div>
+        
+    </div>
+</article>
+
+</div>
+
+
+<script>
+    $('#articleContent').on('copy', function (e) {
+        // IE8 or earlier browser is 'undefined'
+        if (typeof window.getSelection === 'undefined') return;
+
+        var selection = window.getSelection();
+        // if the selection is short let's not annoy our users.
+        if (('' + selection).length < Number.parseInt('10')) {
+            return;
+        }
+
+        // create a div outside of the visible area and fill it with the selected text.
+        var bodyElement = document.getElementsByTagName('body')[0];
+        var newdiv = document.createElement('div');
+        newdiv.style.position = 'absolute';
+        newdiv.style.left = '-99999px';
+        bodyElement.appendChild(newdiv);
+        newdiv.appendChild(selection.getRangeAt(0).cloneContents());
+
+        // we need a <pre> tag workaround.
+        // otherwise the text inside "pre" loses all the line breaks!
+        if (selection.getRangeAt(0).commonAncestorContainer.nodeName === 'PRE') {
+            newdiv.innerHTML = "<pre>" + newdiv.innerHTML + "</pre>";
+        }
+
+        var url = document.location.href;
+        newdiv.innerHTML += '<br />'
+            + '来源: 黑叶Web3投资<br />'
+            + '文章作者: black_leaf<br />'
+            + '文章链接: <a href="' + url + '">' + url + '</a><br />'
+            + '本文章著作权归作者所有，禁止任何形式的转载。';
+
+        selection.selectAllChildren(newdiv);
+        window.setTimeout(function () {bodyElement.removeChild(newdiv);}, 200);
+    });
+</script>
+
+
+<!-- 代码块功能依赖 -->
+<script type="text/javascript" src="/libs/codeBlock/codeBlockFuction.js"></script>
+
+<!-- 代码语言 -->
+
+<script type="text/javascript" src="/libs/codeBlock/codeLang.js"></script>
+
+
+<!-- 代码块复制 -->
+
+<script type="text/javascript" src="/libs/codeBlock/codeCopy.js"></script>
+
+
+<!-- 代码块收缩 -->
+
+<script type="text/javascript" src="/libs/codeBlock/codeShrink.js"></script>
+
+
+    </div>
+    <div id="toc-aside" class="expanded col l3 hide-on-med-and-down">
+        <div class="toc-widget card" style="background-color: white;">
+            <div class="toc-title"><i class="far fa-list-alt"></i>&nbsp;&nbsp;目录</div>
+            <div id="toc-content"></div>
+        </div>
+    </div>
+</div>
+
+<!-- TOC 悬浮按钮. -->
+
+<div id="floating-toc-btn" class="hide-on-med-and-down">
+    <a class="btn-floating btn-large bg-color">
+        <i class="fas fa-list-ul"></i>
+    </a>
+</div>
+
+
+<script src="https://gcore.jsdelivr.net/gh/btcltceth/blogassets@latest/b/libs/tocbot/tocbot.min.js"></script>
+<script>
+    $(function () {
+        tocbot.init({
+            tocSelector: '#toc-content',
+            contentSelector: '#articleContent',
+            headingsOffset: -($(window).height() * 0.4 - 45),
+            collapseDepth: Number('0'),
+            headingSelector: 'h2, h3, h4'
+        });
+
+        // modify the toc link href to support Chinese.
+        let i = 0;
+        let tocHeading = 'toc-heading-';
+        $('#toc-content a').each(function () {
+            $(this).attr('href', '#' + tocHeading + (++i));
+        });
+
+        // modify the heading title id to support Chinese.
+        i = 0;
+        $('#articleContent').children('h2, h3, h4').each(function () {
+            $(this).attr('id', tocHeading + (++i));
+        });
+
+        // Set scroll toc fixed.
+        let tocHeight = parseInt($(window).height() * 0.4 - 64);
+        let $tocWidget = $('.toc-widget');
+        $(window).scroll(function () {
+            let scroll = $(window).scrollTop();
+            /* add post toc fixed. */
+            if (scroll > tocHeight) {
+                $tocWidget.addClass('toc-fixed');
+            } else {
+                $tocWidget.removeClass('toc-fixed');
+            }
+        });
+
+        
+        /* 修复文章卡片 div 的宽度. */
+        let fixPostCardWidth = function (srcId, targetId) {
+            let srcDiv = $('#' + srcId);
+            if (srcDiv.length === 0) {
+                return;
+            }
+
+            let w = srcDiv.width();
+            if (w >= 450) {
+                w = w + 21;
+            } else if (w >= 350 && w < 450) {
+                w = w + 18;
+            } else if (w >= 300 && w < 350) {
+                w = w + 16;
+            } else {
+                w = w + 14;
+            }
+            $('#' + targetId).width(w);
+        };
+
+        // 切换TOC目录展开收缩的相关操作.
+        const expandedClass = 'expanded';
+        let $tocAside = $('#toc-aside');
+        let $mainContent = $('#main-content');
+        $('#floating-toc-btn .btn-floating').click(function () {
+            if ($tocAside.hasClass(expandedClass)) {
+                $tocAside.removeClass(expandedClass).hide();
+                $mainContent.removeClass('l9');
+            } else {
+                $tocAside.addClass(expandedClass).show();
+                $mainContent.addClass('l9');
+            }
+            fixPostCardWidth('artDetail', 'prenext-posts');
+        });
+        
+    });
+</script>
+
+    
+
+</main>
+
+
+
+
+    <footer class="page-footer bg-color">
+    
+    <div class="container row center-align" style="margin-bottom: 0px !important;">
+        <div class="col s12 m8 l8 copy-right">
+            Copyright&nbsp;&copy;
+            
+                <span id="year">2020-2024</span>
+            
+            <span id="year">2020</span>
+            <a href="/about" target="_blank">black_leaf</a>
+            |&nbsp;Powered by&nbsp;<a href="https://hexo.io/" target="_blank">Hexo</a>
+            |&nbsp;Theme&nbsp;<a href="https://github.com/blinkfox/hexo-theme-matery" target="_blank">Matery</a>
+            <br>
+            
+            &nbsp;<i class="fas fa-chart-area"></i>&nbsp;站点总字数:&nbsp;<span
+                class="white-color">38.7k</span>&nbsp;字
+            
+            
+            
+            
+            
+            
+            <span id="busuanzi_container_site_pv">
+                |&nbsp;<i class="far fa-eye"></i>&nbsp;总访问量:&nbsp;<span id="busuanzi_value_site_pv"
+                    class="white-color"></span>&nbsp;次
+            </span>
+            
+            
+            <span id="busuanzi_container_site_uv">
+                |&nbsp;<i class="fas fa-users"></i>&nbsp;总访问人数:&nbsp;<span id="busuanzi_value_site_uv"
+                    class="white-color"></span>&nbsp;人
+            </span>
+            
+            <br>
+            
+            <br>
+            
+        </div>
+        <div class="col s12 m4 l4 social-link social-statis">
+
+
+    <a href="mailto:hantwo1988@gmail.com" class="tooltipped" target="_blank" data-tooltip="邮件联系我" data-position="top" data-delay="50">
+        <i class="fas fa-envelope-open"></i>
+    </a>
+
+
+
+
+
+
+
+    <a href="tencent://AddContact/?fromId=50&fromSubId=1&subcmd=all&uin=1158282284" class="tooltipped" target="_blank" data-tooltip="QQ联系我: 1158282284" data-position="top" data-delay="50">
+        <i class="fab fa-qq"></i>
+    </a>
+
+
+
+
+
+
+
+    <a href="/atom.xml" class="tooltipped" target="_blank" data-tooltip="RSS 订阅" data-position="top" data-delay="50">
+        <i class="fas fa-rss"></i>
+    </a>
+
+</div>
+    </div>
+</footer>
+
+<div class="progress-bar"></div>
+
+
+    <!-- 搜索遮罩框 -->
+<div id="searchModal" class="modal">
+    <div class="modal-content">
+        <div class="search-header">
+            <span class="title"><i class="fas fa-search"></i>&nbsp;&nbsp;搜索</span>
+            <input type="search" id="searchInput" name="s" placeholder="请输入搜索的关键字"
+                   class="search-input">
+        </div>
+        <div id="searchResult"></div>
+    </div>
+</div>
+
+<script type="text/javascript">
+$(function () {
+    var searchFunc = function (path, search_id, content_id) {
+        'use strict';
+        $.ajax({
+            url: path,
+            dataType: "xml",
+            success: function (xmlResponse) {
+                // get the contents from search data
+                var datas = $("entry", xmlResponse).map(function () {
+                    return {
+                        title: $("title", this).text(),
+                        content: $("content", this).text(),
+                        url: $("url", this).text()
+                    };
+                }).get();
+                var $input = document.getElementById(search_id);
+                var $resultContent = document.getElementById(content_id);
+                $input.addEventListener('input', function () {
+                    var str = '<ul class=\"search-result-list\">';
+                    var keywords = this.value.trim().toLowerCase().split(/[\s\-]+/);
+                    $resultContent.innerHTML = "";
+                    if (this.value.trim().length <= 0) {
+                        return;
+                    }
+                    // perform local searching
+                    datas.forEach(function (data) {
+                        var isMatch = true;
+                        var data_title = data.title.trim().toLowerCase();
+                        var data_content = data.content.trim().replace(/<[^>]+>/g, "").toLowerCase();
+                        var data_url = data.url;
+                        data_url = data_url.indexOf('/') === 0 ? data.url : '/' + data_url;
+                        var index_title = -1;
+                        var index_content = -1;
+                        var first_occur = -1;
+                        // only match artiles with not empty titles and contents
+                        if (data_title !== '' && data_content !== '') {
+                            keywords.forEach(function (keyword, i) {
+                                index_title = data_title.indexOf(keyword);
+                                index_content = data_content.indexOf(keyword);
+                                if (index_title < 0 && index_content < 0) {
+                                    isMatch = false;
+                                } else {
+                                    if (index_content < 0) {
+                                        index_content = 0;
+                                    }
+                                    if (i === 0) {
+                                        first_occur = index_content;
+                                    }
+                                }
+                            });
+                        }
+                        // show search results
+                        if (isMatch) {
+                            str += "<li><a href='" + data_url + "' class='search-result-title'>" + data_title + "</a>";
+                            var content = data.content.trim().replace(/<[^>]+>/g, "");
+                            if (first_occur >= 0) {
+                                // cut out 100 characters
+                                var start = first_occur - 20;
+                                var end = first_occur + 80;
+                                if (start < 0) {
+                                    start = 0;
+                                }
+                                if (start === 0) {
+                                    end = 100;
+                                }
+                                if (end > content.length) {
+                                    end = content.length;
+                                }
+                                var match_content = content.substr(start, end);
+                                // highlight all keywords
+                                keywords.forEach(function (keyword) {
+                                    var regS = new RegExp(keyword, "gi");
+                                    match_content = match_content.replace(regS, "<em class=\"search-keyword\">" + keyword + "</em>");
+                                });
+
+                                str += "<p class=\"search-result\">" + match_content + "...</p>"
+                            }
+                            str += "</li>";
+                        }
+                    });
+                    str += "</ul>";
+                    $resultContent.innerHTML = str;
+                });
+            }
+        });
+    };
+
+    searchFunc('/search.xml', 'searchInput', 'searchResult');
+});
+</script>
+
+    <!-- 回到顶部按钮 -->
+<div id="backTop" class="top-scroll">
+    <a class="btn-floating btn-large waves-effect waves-light" href="#!">
+        <i class="fas fa-arrow-up"></i>
+    </a>
+</div>
+
+
+    <script src="https://gcore.jsdelivr.net/gh/btcltceth/blogassets@latest/b/libs/materialize/materialize.min.js"></script>
+    <script src="https://gcore.jsdelivr.net/gh/btcltceth/blogassets@latest/b/libs/masonry/masonry.pkgd.min.js"></script>
+    <script src="https://gcore.jsdelivr.net/gh/btcltceth/blogassets@latest/b/libs/aos/aos.js"></script>
+    <script src="https://gcore.jsdelivr.net/gh/btcltceth/blogassets@latest/b/libs/scrollprogress/scrollProgress.min.js"></script>
+    <script src="https://gcore.jsdelivr.net/gh/btcltceth/blogassets@latest/b/libs/lightGallery/js/lightgallery-all.min.js"></script>
+    <script src="https://gcore.jsdelivr.net/gh/btcltceth/blogassets@latest/b/js/matery.js"></script>
+
+    <!-- Baidu Analytics -->
+
+    <!-- Baidu Push -->
+
+<script>
+    (function () {
+        var bp = document.createElement('script');
+        var curProtocol = window.location.protocol.split(':')[0];
+        if (curProtocol === 'https') {
+            bp.src = 'https://zz.bdstatic.com/linksubmit/push.js';
+        } else {
+            bp.src = 'http://push.zhanzhang.baidu.com/push.js';
+        }
+        var s = document.getElementsByTagName("script")[0];
+        s.parentNode.insertBefore(bp, s);
+    })();
+</script>
+
+    
+    <script src="https://gcore.jsdelivr.net/gh/btcltceth/blogassets@latest/b/libs/others/clicklove.js" async="async"></script>
+    
+    
+    <script async src="https://gcore.jsdelivr.net/gh/btcltceth/blogassets@latest/b/libs/others/busuanzi.pure.mini.js"></script>
+    
+
+    
+
+    
+
+	
+    
+
+    
+
+    
+
+    
+    <script src="https://gcore.jsdelivr.net/gh/btcltceth/blogassets@latest/b/libs/instantpage/instantpage.js" type="module"></script>
+    
+
+</body>
+
+</html>

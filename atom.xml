@@ -6,7 +6,7 @@
   <link href="https://heiyetouzi.xyz/atom.xml" rel="self"/>
   
   <link href="https://heiyetouzi.xyz/"/>
-  <updated>2024-02-22T03:15:25.000Z</updated>
+  <updated>2024-04-16T03:15:22.000Z</updated>
   <id>https://heiyetouzi.xyz/</id>
   
   <author>
@@ -15,6 +15,41 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>一文看懂Solana pow明星项目——ORE显卡GPU保姆级教程</title>
+    <link href="https://heiyetouzi.xyz/solana-ore/"/>
+    <id>https://heiyetouzi.xyz/solana-ore/</id>
+    <published>2024-04-11T04:05:47.000Z</published>
+    <updated>2024-04-16T03:15:22.000Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html"></summary>
+        
+      
+    
+    
+    
+    <category term="挖矿" scheme="https://heiyetouzi.xyz/categories/%E6%8C%96%E7%9F%BF/"/>
+    
+    
+    <category term="零撸" scheme="https://heiyetouzi.xyz/tags/%E9%9B%B6%E6%92%B8/"/>
+    
+    <category term="$solana" scheme="https://heiyetouzi.xyz/tags/solana/"/>
+    
+    <category term="$ore" scheme="https://heiyetouzi.xyz/tags/ore/"/>
+    
+    <category term="租显卡" scheme="https://heiyetouzi.xyz/tags/%E7%A7%9F%E6%98%BE%E5%8D%A1/"/>
+    
+    <category term="租服务器" scheme="https://heiyetouzi.xyz/tags/%E7%A7%9F%E6%9C%8D%E5%8A%A1%E5%99%A8/"/>
+    
+    <category term="jito" scheme="https://heiyetouzi.xyz/tags/jito/"/>
+    
+  </entry>
   
   <entry>
     <title>开源程序员有福了——教你如何免费领取价值$200的Starknet空投</title>
@@ -542,9 +577,9 @@
     <category term="币圈暴富故事" scheme="https://heiyetouzi.xyz/categories/%E5%B8%81%E5%9C%88%E6%9A%B4%E5%AF%8C%E6%95%85%E4%BA%8B/"/>
     
     
-    <category term="币圈暴富" scheme="https://heiyetouzi.xyz/tags/%E5%B8%81%E5%9C%88%E6%9A%B4%E5%AF%8C/"/>
-    
     <category term="区块链" scheme="https://heiyetouzi.xyz/tags/%E5%8C%BA%E5%9D%97%E9%93%BE/"/>
+    
+    <category term="币圈暴富" scheme="https://heiyetouzi.xyz/tags/%E5%B8%81%E5%9C%88%E6%9A%B4%E5%AF%8C/"/>
     
     <category term="命运齿轮" scheme="https://heiyetouzi.xyz/tags/%E5%91%BD%E8%BF%90%E9%BD%BF%E8%BD%AE/"/>
     
@@ -556,35 +591,6 @@
     <id>https://heiyetouzi.xyz/nextbullbtc/</id>
     <published>2023-09-19T01:40:00.000Z</published>
     <updated>2023-09-19T02:17:33.000Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html"></summary>
-        
-      
-    
-    
-    
-    <category term="加密分析" scheme="https://heiyetouzi.xyz/categories/%E5%8A%A0%E5%AF%86%E5%88%86%E6%9E%90/"/>
-    
-    
-    <category term="区块链" scheme="https://heiyetouzi.xyz/tags/%E5%8C%BA%E5%9D%97%E9%93%BE/"/>
-    
-    <category term="比特币" scheme="https://heiyetouzi.xyz/tags/%E6%AF%94%E7%89%B9%E5%B8%81/"/>
-    
-    <category term="欧易币安" scheme="https://heiyetouzi.xyz/tags/%E6%AC%A7%E6%98%93%E5%B8%81%E5%AE%89/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>如何克服交易坏毛病——重仓、频繁交易、扛单</title>
-    <link href="https://heiyetouzi.xyz/kefujiaoyimaobing/"/>
-    <id>https://heiyetouzi.xyz/kefujiaoyimaobing/</id>
-    <published>2023-09-18T02:37:21.000Z</published>
-    <updated>2023-09-18T14:17:24.000Z</updated>
     
     
       
