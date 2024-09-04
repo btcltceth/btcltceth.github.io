@@ -49,11 +49,11 @@
       
         <tags>
             
-            <tag> 空投 </tag>
-            
             <tag> $STRK </tag>
             
             <tag> $Starknet </tag>
+            
+            <tag> 空投 </tag>
             
             <tag> Github </tag>
             
@@ -188,37 +188,6 @@
     
     
     <entry>
-      <title>全民打铭文——教你快速挖矿赚gas</title>
-      <link href="//unmineable-mine-avax/"/>
-      <url>//unmineable-mine-avax/</url>
-      
-        <content type="html"><![CDATA[<p>最近，铭文热潮不断掀起，各大公链gas费涨上天，散户都快打不起铭文了。这其中，笑得最开心的当然是狗项目方，其次就是矿工了。<br>不过，钱不能都让你们这些黑心商赚去，本教程我来教您如何快速在卷gas的时候快速挖矿赚取矿工费。跟其他教程不一样的是，这篇教你的挖矿，矿工费都是每隔5分钟结算发放的，非常适合打铭文fomo的时候快速介入挖赚提，下图就是在最近大热的AVAV和Dino铭文卷高gas的时候我快速设置的挖avax结算图，可以看到是每隔5分钟发放，爽歪歪。<br><img src="https://gcore.jsdelivr.net/gh/btcltceth/blogassets@latest/b/img//unmineable-001.png"></p><p>先说一下，CPU也可以挖，不过一般建议显卡挖，高效不少，毕竟卷gas的时间很宝贵，时间就是金钱。</p><h3 id="unmineable介绍"><a href="#unmineable介绍" class="headerlink" title="unmineable介绍"></a>unmineable介绍</h3><ol><li>访问<a href="https://unmineable.com/?ref=s1va-4x9y">unmineable</a>，部分国内地区访问不了，可以挂魔法网络访问。网站免注册免登录，在搜索框中输入你想要挖的币，这里我以时下最火的AVAX为例。<br><img src="https://gcore.jsdelivr.net/gh/btcltceth/blogassets@latest/b/img//unmineable-002.png"></li><li>点击快速向导wizard——Basic基础模式——选择GPU显卡挖矿<br><img src="https://gcore.jsdelivr.net/gh/btcltceth/blogassets@latest/b/img//unmineable-003.png"><br><img src="https://gcore.jsdelivr.net/gh/btcltceth/blogassets@latest/b/img//unmineable-004.png"><br><img src="https://gcore.jsdelivr.net/gh/btcltceth/blogassets@latest/b/img//unmineable-005.png"><br>有适配的币种就选适配的算法，不懂的话就默认选第一个Kawpow就行<br><img src="https://gcore.jsdelivr.net/gh/btcltceth/blogassets@latest/b/img//unmineable-006-1.png"><br>选择币种”AVAX”（如果是挖其他币，就选对应币)，填入你钱包地址，一路点击Next-Next<br><img src="https://gcore.jsdelivr.net/gh/btcltceth/blogassets@latest/b/img//unmineable-006.png"><br><img src="https://gcore.jsdelivr.net/gh/btcltceth/blogassets@latest/b/img//unmineable-007.png"><br><img src="https://gcore.jsdelivr.net/gh/btcltceth/blogassets@latest/b/img//unmineable-008.png"></li></ol><p>这里，网站自动给你生成了windows和linux的挖矿命令，你直接就可以跑。如何安装NBMiner软件，可以直接点击链接去官网下载。<br><img src="https://gcore.jsdelivr.net/gh/btcltceth/blogassets@latest/b/img//unmineable-009.png"></p><h3 id="Linux版本挖矿"><a href="#Linux版本挖矿" class="headerlink" title="Linux版本挖矿"></a>Linux版本挖矿</h3><p>如果你自己电脑就是linux，那么直接挨个执行下面命令吧，已经包含了NBMiner下载解压的步骤</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">cd ~</span><br><span class="line">wget https://dl.nbminer.com/NBMiner_42.3_Linux.tgz</span><br><span class="line">tar xzvf NBMiner_42.3_Linux.tgz</span><br><span class="line">cd NBMiner_Linux</span><br><span class="line">./nbminer -a kawpow -o stratum+ssl://kp-asia.unmineable.com:443 -u AVAX:0x3De009c7aDeCf4D435fE0AA054c4c558032c5b4B.unmineable_worker_stkyqunx#s1va-4x9y -log</span><br></pre></td></tr></table></figure><p>别忘了改成你自己的地址</p><h3 id="vast-ai快速租GPU显卡"><a href="#vast-ai快速租GPU显卡" class="headerlink" title="vast.ai快速租GPU显卡"></a>vast.ai快速租GPU显卡</h3><p>如果你自己没有Linux机器或者你想租用更强劲的显卡服务器来挖，建议去<a href="https://cloud.vast.ai/?ref_id=88254">vast.io</a>租显卡，支持虚拟货币或者小狐狸充值，很方便，租用vast.io的方法我这里不重复了，直接参考<a href="https://heiyetouzi.xyz/minequainetwork/#toc-heading-15">三、GPU显卡挖矿机器配置</a>，就只要看文章目录最后的第三部分就可以，其他的部分不用看。<br>GPU服务器价格是按照分钟算钱的，不用了记得销毁，不然扣你钱。<br>服务器租用后预计5分钟就启动完毕，点击进去也是执行上面的命令</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">cd ~</span><br><span class="line">wget https://dl.nbminer.com/NBMiner_42.3_Linux.tgz</span><br><span class="line">tar xzvf NBMiner_42.3_Linux.tgz</span><br><span class="line">cd NBMiner_Linux</span><br><span class="line">./nbminer -a kawpow -o stratum+ssl://kp-asia.unmineable.com:443 -u AVAX:0x3De009c7aDeCf4D435fE0AA054c4c558032c5b4B.unmineable_worker_stkyqunx#s1va-4x9y -log</span><br></pre></td></tr></table></figure><p><img src="https://gcore.jsdelivr.net/gh/btcltceth/blogassets@latest/b/img//unmineable-010.png"><br><img src="https://gcore.jsdelivr.net/gh/btcltceth/blogassets@latest/b/img//unmineable-011.png"></p><p>然后就可以开始愉快地挖矿，坐等收益了。上面说了，<a href="https://unmineable.com/?ref=s1va-4x9y">unmineable</a>收益是按5分钟结算的，可以到具体的页面查看(免登录)，让其他人去卷gas去吧，他们卷得越厉害，咱们收益越高，爽歪歪。<br>查看收益的网址：<a href="https://unmineable.com/coins/AVAX/address/%E4%BD%A0%E7%9A%84%E5%9C%B0%E5%9D%80">https://unmineable.com/coins/AVAX/address/你的地址</a></p><p><img src="https://gcore.jsdelivr.net/gh/btcltceth/blogassets@latest/b/img//unmineable-012.png"></p><p>当然，本文的例子是AVAX，现在各大公链都在打铭文，一般群里在fomo什么铭文，我们就挖什么链，记住，只有高gas的时候，才赚得多。租GPU也不要选太贵的，毕竟要考虑性价比，一般GPU型号选RTX3070， RTX3080甚至RTX3060都可以。<br><img src="https://gcore.jsdelivr.net/gh/btcltceth/blogassets@latest/b/img//unmineable-013.png"></p>]]></content>
-      
-      
-      <categories>
-          
-          <category> 挖矿 </category>
-          
-      </categories>
-      
-      
-        <tags>
-            
-            <tag> 铭文mint </tag>
-            
-            <tag> $AVAV </tag>
-            
-            <tag> unmineable </tag>
-            
-            <tag> 挖矿gas </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
       <title>Python脚本批量篆刻BSC链meme铭文$BSCI</title>
       <link href="//bsc20-bsci/"/>
       <url>//bsc20-bsci/</url>
@@ -297,9 +266,9 @@
             
             <tag> 铭文mint </tag>
             
-            <tag> $ANTS </tag>
-            
             <tag> $POLS </tag>
+            
+            <tag> $ANTS </tag>
             
             <tag> $Polygon </tag>
             
@@ -408,6 +377,22 @@
         <content type="html"><![CDATA[<p>$pols 年轻人的第一张铭文</p><p>曾经113张 $ordi ，我不懂得珍惜。还误操作丢了私钥让44张ordi永远沉睡在这个地址。<br>踏空所有的人只能背水一战<br>这是我的ordi 我会用生命守护<br><img src="https://gcore.jsdelivr.net/gh/btcltceth/blogassets@latest/b/img/polsyouthfirstinscrption-001.png"></p><p>告诉我，你是来翻倍的，还是TMD来翻身的？<br><img src="https://gcore.jsdelivr.net/gh/btcltceth/blogassets@latest/b/img/polsyouthfirstinscrption-002.png"><br>对标ordi上gate， $pols 的合理价格是27U一张</p><p>目前看，pols的市场中etch团队做的polsmarket<br>做的索引数据是最干净的<br>也最不涉及自身利益的<br>能够看来polsmarket是真心想把平台做起来<br>做实事的</p><p>如果evmink团队还在索引数据上不能够做到干干净净<br>怕是pols的交易市场要被polsmarket 吃掉了<br>基于evmink为原创首发平台<br>我们还是本着尊重的原则<br>希望evmink团队做事干净利索，获得市场认可</p><p>炒币不赚钱还炒啥，买了点 $POLS ，拜托让我赚一次吧😰</p><p><img src="https://gcore.jsdelivr.net/gh/btcltceth/blogassets@latest/b/img/polsyouthfirstinscrption-003.png"></p><p>$POLS 这么火热你还不买吗？要等起飞拍段大腿吗？<br><img src="https://gcore.jsdelivr.net/gh/btcltceth/blogassets@latest/b/img/polsyouthfirstinscrption-004.png"><br><img src="https://gcore.jsdelivr.net/gh/btcltceth/blogassets@latest/b/img/polsyouthfirstinscrption-005.png"></p><p>截止到目前为止, $POLS转账已经支持了<br>方法如下，进入网页<a href="https://fe-pols-market.vercel.app/">https://fe-pols-market.vercel.app</a><br>1⃣  链接你有pols的钱包，里面会显示你有多少有效的pols；<br>2⃣  点击右上角的钱包，继续点击my pols，然后可以进行pols的选取；<br>3⃣  如果嫌一个个选取比较麻烦，可以点击左下方的select all，进行一键全选（适合全部出货的家人们）<br>4⃣  然后点击transfer，输入对方的地址，就可以成功转出了。</p><p>$POLS 这次证明了，低gas+公平+全民参与的可行性！</p><p>持有 $POLS 的小伙伴们，切记不要被洗下车！</p>]]></content>
       
       
+      <categories>
+          
+          <category> 铭文 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 铭文mint </tag>
+            
+            <tag> $Python铭文 </tag>
+            
+            <tag> $POLS </tag>
+            
+        </tags>
       
     </entry>
     
@@ -809,9 +794,9 @@
             
             <tag> 零撸 </tag>
             
-            <tag> TipCoin </tag>
-            
             <tag> 空投 </tag>
+            
+            <tag> TipCoin </tag>
             
         </tags>
       
@@ -986,6 +971,76 @@
             <tag> 以太坊 </tag>
             
             <tag> 比特币购买 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>币圈交易之神Tony语录完整全集之——优秀操盘手讲义</title>
+      <link href="//tony-yulu-youxiucaopanshoujiangyi/"/>
+      <url>//tony-yulu-youxiucaopanshoujiangyi/</url>
+      
+        <content type="html"><![CDATA[<p><img src="https://gcore.jsdelivr.net/gh/btcltceth/blogassets@latest/b/img/%E4%BA%A4%E6%98%93%E4%B9%8B%E7%A5%9ETony%E8%AF%AD%E5%BD%95-%E4%BC%98%E7%A7%80%E6%93%8D%E7%9B%98%E6%89%8B%E8%AE%B2%E4%B9%89.png"></p><p>网上流传极广的期货交易者圣经</p><h3 id="作者简介"><a href="#作者简介" class="headerlink" title="作者简介"></a>作者简介</h3><p>网传此部分为李法师Tony整理的“期货圣经”，经我考证，其内容的原作者为期货人杨斌。由于法师微博多次被封，当年情形已不易考，但此部分内容与法师的交易理念同承一脉十分值得一读，故能受到法师的推素，也不足为怪。杨短，石家庄市人，毕业于河北大学，1993入期货业，先后在期货公司做业务代表、业务主任、业务经理，由于屡创佳绩、口碑渐盛。自1994 年初接受全权委托，代理容户资金以来，总胜率在 80%以上，即为80%以上的客户达到了盈利目标后离场，总盈利大于经手客户资金的两倍。作为一个职业操盘手，客户盈利提成是其唯一收人来源和成功回报。</p><p>杨短信奉孙子兵学：“兵者，国之大事，死生之地，存亡之道，不可不察也。</p><p>“夫未战而庙算胜者，得算多也：未战而庙算不胜者，得算少也。多算胜少算，而况于无算乎“（姶计第一）</p><p>“故不尽知用兵之害者，则不能尽知用兵之利也。”（作战第二）</p><p>“昔之善战者，先为不可胜，以待敌之可胜。不可胜在己可胜在敌。故善战者，能为不可胜，不能使敌之必可胜。”（军形第四）<br>著作有 《窺破天机一期货实战 88问》。</p><h3 id="期货操盘的十大纪律"><a href="#期货操盘的十大纪律" class="headerlink" title="期货操盘的十大纪律"></a>期货操盘的十大纪律</h3><ol><li>入市前定好止损的点位和资金额。</li><li>每笔交易所占资金不超出总额的 30%。</li><li>每笔资金亏损原则上不得高于资金总額的 3%。</li><li>行情大幅度走对两天后，如非顺势的停板，要减仓（顺的秃头大阳或大阴线可不减）。</li><li>犹豫不决时一定要平仓，至少应减仓一半。</li><li>增仓加码时要找到有效的阳力或支撑位且增仓头寸一定要严格设置止损。</li><li>持仓量不要大到使自己焦虑不安，如已这般当马上减仓。</li><li>时刻警惕周围的乐观情绪，它潜藏着巨大危险，勿使之成为坚决持仓的理由。</li><li>同时持仓不超过三个品种。</li><li>入市前有整体考虑：确认大势、可能达到的第一个盈利目标、何时减仓增仓及减仓增仓比例。</li></ol><h4 id="相关阅读"><a href="#相关阅读" class="headerlink" title="相关阅读"></a>相关阅读</h4><p><a href="https://heiyetouzi.xyz/tony-yulu-xuyan">《币圈交易之神Tony语录完整全集之——序言》</a></p><h4 id="完整PDF下载"><a href="#完整PDF下载" class="headerlink" title="完整PDF下载"></a>完整PDF下载</h4><p><a href="https://heiyetouzi.xyz/downloads">《交易员的自我修养-微博大神tony.pdf》🔥</a></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 币圈 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 区块链 </tag>
+            
+            <tag> 币圈暴富 </tag>
+            
+            <tag> 比特币 </tag>
+            
+            <tag> 欧易币安 </tag>
+            
+            <tag> Tony语录 </tag>
+            
+            <tag> 虚拟货币 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>币圈交易之神Tony语录完整全集之——序言</title>
+      <link href="//tony-yulu-xuyan/"/>
+      <url>//tony-yulu-xuyan/</url>
+      
+        <content type="html"><![CDATA[<p><img src="https://gcore.jsdelivr.net/gh/btcltceth/blogassets@latest/b/img/%E4%BA%A4%E6%98%93%E4%B9%8B%E7%A5%9ETony%E8%AF%AD%E5%BD%95-%E5%BA%8F%E8%A8%80.png"></p><p>简单写篇序言，聊几个问题。</p><h3 id="第一，从这本笔记里你能得到什么？"><a href="#第一，从这本笔记里你能得到什么？" class="headerlink" title="第一，从这本笔记里你能得到什么？"></a>第一，从这本笔记里你能得到什么？</h3><p>答案：交易心法。如何看待市场，如何选择交易时机，如何看待大经济环境，如何做好资金管理，如何预测市场走向，怎样判断多空，如何做合约，如何滚仓，什么 时候应该止损，什么时候应该止盈，做对了怎么办，做错了又怎么办。还有那个导致你亏钱最多的问题，怎样做山赛。 </p><p>市场是一个猛兽遍布的丛林，而这里可以告诉你最真实的丛林法则。在丛林中，知道如何生存比拥有强大的爪牙更重要。 这本笔记融合了两位币圈大佬 </p><p>法师Tony和陈晓 的交易理念，以及其他几位著名交 易员 杨斌、丁洪波、利弗莫尔的交易思路，这些人虽然所在的園子不一样，但在交 易心法上却是极为相似的。 </p><p>法师Tony最擅长做主流币，数年滚仓，已是币國不可推翻的传奇；陈晓擅长做山 赛，曾从20万起步，靠山赛一年做到 7000 万。</p><p>这本笔记收集了法师在微博公开发 布过的交易心法等近 10000字(由于其账号多次被封，相关语录网上已难以寻 得)，以及价值 300USDT的陈晓炒市课程（炒市賺钱从未如此简单》 课程笔记。玩主流看Tony，做山寨学陈晓。 </p><h3 id="第二，为什么要学交易心法？"><a href="#第二，为什么要学交易心法？" class="headerlink" title="第二，为什么要学交易心法？"></a>第二，为什么要学交易心法？</h3><p>技术分析可以学，而交易心法不可学，只能修，修炼的那个修。技术分析会失效， 而交易心法永不失效，正确的交易心态都是相似的，而正确的交易技术各有各的正 确。 有人裸K交易，有人用道氏理论、江恩理论、波浪理论、缠论…有人只看某个指 标，而初入门的人，只要潜心研究其中一种，日久必有所成。 交易胜在心理，而不是胜在技术。 </p><h3 id="第三，关于这本集子的排版。"><a href="#第三，关于这本集子的排版。" class="headerlink" title="第三，关于这本集子的排版。"></a>第三，关于这本集子的排版。</h3><p>这一本在排版上有一个特点，行距很大，每页的右边还直接空着四五厘米。这么做，当然不是为了扩大蟠面，扩充厚度，而是为了留出做笔记的空间。行家一句• 往往顶我们数日数月的摸索。读这本行家语录，如果你没有笔记可做，那么只有两种可能，其一是书中的内容你都理解了，并且能身体力行地做到，没必要再做<br>笔记；其二便是你还没有读懂，不解其中深刻用意。没有其三。</p><p>最后，祝你健康，祝你发财，祝你自由！</p><h4 id="相关阅读"><a href="#相关阅读" class="headerlink" title="相关阅读"></a>相关阅读</h4><p><a href="https://heiyetouzi.xyz/tony-yulu-youxiucaopanshoujiangyi">《币圈交易之神Tony语录完整全集之——优秀操盘手讲义》</a></p><h4 id="完整PDF下载"><a href="#完整PDF下载" class="headerlink" title="完整PDF下载"></a>完整PDF下载</h4><p><a href="https://heiyetouzi.xyz/downloads">《交易员的自我修养-微博大神tony.pdf》🔥</a></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 币圈 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 区块链 </tag>
+            
+            <tag> 币圈暴富 </tag>
+            
+            <tag> 比特币 </tag>
+            
+            <tag> 欧易币安 </tag>
+            
+            <tag> Tony语录 </tag>
+            
+            <tag> 虚拟货币 </tag>
             
         </tags>
       
