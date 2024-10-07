@@ -6,7 +6,7 @@
   <link href="https://heiyetouzi.xyz/atom.xml" rel="self"/>
   
   <link href="https://heiyetouzi.xyz/"/>
-  <updated>2024-09-28T08:22:23.000Z</updated>
+  <updated>2024-10-04T08:22:23.000Z</updated>
   <id>https://heiyetouzi.xyz/</id>
   
   <author>
@@ -20,8 +20,8 @@
     <title>手把手教你2024年国内如何使用支付宝微信购买比特币以太坊</title>
     <link href="https://heiyetouzi.xyz/zhifubao-btc/"/>
     <id>https://heiyetouzi.xyz/zhifubao-btc/</id>
-    <published>2024-09-03T13:46:04.000Z</published>
-    <updated>2024-09-28T08:22:23.000Z</updated>
+    <published>2024-10-03T13:46:04.000Z</published>
+    <updated>2024-10-04T08:22:23.000Z</updated>
     
     
       
@@ -106,11 +106,11 @@
     
     <category term="比特币" scheme="https://heiyetouzi.xyz/tags/%E6%AF%94%E7%89%B9%E5%B8%81/"/>
     
-    <category term="Tony滚仓" scheme="https://heiyetouzi.xyz/tags/Tony%E6%BB%9A%E4%BB%93/"/>
-    
     <category term="Tony语录" scheme="https://heiyetouzi.xyz/tags/Tony%E8%AF%AD%E5%BD%95/"/>
     
     <category term="虚拟货币" scheme="https://heiyetouzi.xyz/tags/%E8%99%9A%E6%8B%9F%E8%B4%A7%E5%B8%81/"/>
+    
+    <category term="Tony滚仓" scheme="https://heiyetouzi.xyz/tags/Tony%E6%BB%9A%E4%BB%93/"/>
     
   </entry>
   
@@ -313,6 +313,37 @@
     <category term="$Core酷儿" scheme="https://heiyetouzi.xyz/tags/Core%E9%85%B7%E5%84%BF/"/>
     
     <category term="$Python铭文" scheme="https://heiyetouzi.xyz/tags/Python%E9%93%AD%E6%96%87/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>全民打铭文——教你快速挖矿赚gas</title>
+    <link href="https://heiyetouzi.xyz/unmineable-mine-avax/"/>
+    <id>https://heiyetouzi.xyz/unmineable-mine-avax/</id>
+    <published>2023-12-20T11:47:47.000Z</published>
+    <updated>2023-12-20T12:24:26.000Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html"></summary>
+        
+      
+    
+    
+    
+    <category term="挖矿" scheme="https://heiyetouzi.xyz/categories/%E6%8C%96%E7%9F%BF/"/>
+    
+    
+    <category term="铭文mint" scheme="https://heiyetouzi.xyz/tags/%E9%93%AD%E6%96%87mint/"/>
+    
+    <category term="$AVAV" scheme="https://heiyetouzi.xyz/tags/AVAV/"/>
+    
+    <category term="unmineable" scheme="https://heiyetouzi.xyz/tags/unmineable/"/>
+    
+    <category term="挖矿gas" scheme="https://heiyetouzi.xyz/tags/%E6%8C%96%E7%9F%BFgas/"/>
     
   </entry>
   
@@ -642,35 +673,6 @@
     <category term="SocialFi" scheme="https://heiyetouzi.xyz/tags/SocialFi/"/>
     
     <category term="friend.tech" scheme="https://heiyetouzi.xyz/tags/friend-tech/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>【币圈真实暴富故事】毕业一年，给母校深圳大学捐款5000万——18级本科生张宇峰</title>
-    <link href="https://heiyetouzi.xyz/biquanzhangyufeng/"/>
-    <id>https://heiyetouzi.xyz/biquanzhangyufeng/</id>
-    <published>2023-09-22T05:23:12.000Z</published>
-    <updated>2023-09-22T20:24:26.000Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html"></summary>
-        
-      
-    
-    
-    
-    <category term="币圈暴富故事" scheme="https://heiyetouzi.xyz/categories/%E5%B8%81%E5%9C%88%E6%9A%B4%E5%AF%8C%E6%95%85%E4%BA%8B/"/>
-    
-    
-    <category term="区块链" scheme="https://heiyetouzi.xyz/tags/%E5%8C%BA%E5%9D%97%E9%93%BE/"/>
-    
-    <category term="币圈暴富" scheme="https://heiyetouzi.xyz/tags/%E5%B8%81%E5%9C%88%E6%9A%B4%E5%AF%8C/"/>
-    
-    <category term="命运齿轮" scheme="https://heiyetouzi.xyz/tags/%E5%91%BD%E8%BF%90%E9%BD%BF%E8%BD%AE/"/>
     
   </entry>
   
