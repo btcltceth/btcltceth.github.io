@@ -131,8 +131,6 @@
     <category term="币圈" scheme="https://heiyetouzi.xyz/categories/%E5%B8%81%E5%9C%88/"/>
     
     
-    <category term="区块链" scheme="https://heiyetouzi.xyz/tags/%E5%8C%BA%E5%9D%97%E9%93%BE/"/>
-    
     <category term="支付宝买比特币" scheme="https://heiyetouzi.xyz/tags/%E6%94%AF%E4%BB%98%E5%AE%9D%E4%B9%B0%E6%AF%94%E7%89%B9%E5%B8%81/"/>
     
     <category term="人民币购买比特币" scheme="https://heiyetouzi.xyz/tags/%E4%BA%BA%E6%B0%91%E5%B8%81%E8%B4%AD%E4%B9%B0%E6%AF%94%E7%89%B9%E5%B8%81/"/>
@@ -146,6 +144,8 @@
     <category term="中国购买比特币" scheme="https://heiyetouzi.xyz/tags/%E4%B8%AD%E5%9B%BD%E8%B4%AD%E4%B9%B0%E6%AF%94%E7%89%B9%E5%B8%81/"/>
     
     <category term="比特币购买" scheme="https://heiyetouzi.xyz/tags/%E6%AF%94%E7%89%B9%E5%B8%81%E8%B4%AD%E4%B9%B0/"/>
+    
+    <category term="区块链" scheme="https://heiyetouzi.xyz/tags/%E5%8C%BA%E5%9D%97%E9%93%BE/"/>
     
     <category term="Tony语录" scheme="https://heiyetouzi.xyz/tags/Tony%E8%AF%AD%E5%BD%95/"/>
     
@@ -229,11 +229,11 @@
     
     <category term="比特币购买" scheme="https://heiyetouzi.xyz/tags/%E6%AF%94%E7%89%B9%E5%B8%81%E8%B4%AD%E4%B9%B0/"/>
     
+    <category term="空投" scheme="https://heiyetouzi.xyz/tags/%E7%A9%BA%E6%8A%95/"/>
+    
     <category term="$STRK" scheme="https://heiyetouzi.xyz/tags/STRK/"/>
     
     <category term="$Starknet" scheme="https://heiyetouzi.xyz/tags/Starknet/"/>
-    
-    <category term="空投" scheme="https://heiyetouzi.xyz/tags/%E7%A9%BA%E6%8A%95/"/>
     
   </entry>
   
@@ -475,9 +475,9 @@
     
     <category term="铭文mint" scheme="https://heiyetouzi.xyz/tags/%E9%93%AD%E6%96%87mint/"/>
     
-    <category term="$POLS" scheme="https://heiyetouzi.xyz/tags/POLS/"/>
-    
     <category term="$ANTS" scheme="https://heiyetouzi.xyz/tags/ANTS/"/>
+    
+    <category term="$POLS" scheme="https://heiyetouzi.xyz/tags/POLS/"/>
     
     <category term="$Polygon" scheme="https://heiyetouzi.xyz/tags/Polygon/"/>
     
