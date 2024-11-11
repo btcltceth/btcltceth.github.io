@@ -272,6 +272,8 @@
     <category term="挖矿" scheme="https://heiyetouzi.xyz/categories/%E6%8C%96%E7%9F%BF/"/>
     
     
+    <category term="零撸" scheme="https://heiyetouzi.xyz/tags/%E9%9B%B6%E6%92%B8/"/>
+    
     <category term="$solana" scheme="https://heiyetouzi.xyz/tags/solana/"/>
     
     <category term="$ore" scheme="https://heiyetouzi.xyz/tags/ore/"/>
@@ -279,8 +281,6 @@
     <category term="租显卡" scheme="https://heiyetouzi.xyz/tags/%E7%A7%9F%E6%98%BE%E5%8D%A1/"/>
     
     <category term="租服务器" scheme="https://heiyetouzi.xyz/tags/%E7%A7%9F%E6%9C%8D%E5%8A%A1%E5%99%A8/"/>
-    
-    <category term="零撸" scheme="https://heiyetouzi.xyz/tags/%E9%9B%B6%E6%92%B8/"/>
     
     <category term="jito" scheme="https://heiyetouzi.xyz/tags/jito/"/>
     
@@ -350,8 +350,6 @@
     <category term="挖矿" scheme="https://heiyetouzi.xyz/categories/%E6%8C%96%E7%9F%BF/"/>
     
     
-    <category term="零撸" scheme="https://heiyetouzi.xyz/tags/%E9%9B%B6%E6%92%B8/"/>
-    
     <category term="$rBNB" scheme="https://heiyetouzi.xyz/tags/rBNB/"/>
     
     <category term="$rETH" scheme="https://heiyetouzi.xyz/tags/rETH/"/>
@@ -359,6 +357,8 @@
     <category term="铭文" scheme="https://heiyetouzi.xyz/tags/%E9%93%AD%E6%96%87/"/>
     
     <category term="挖矿" scheme="https://heiyetouzi.xyz/tags/%E6%8C%96%E7%9F%BF/"/>
+    
+    <category term="零撸" scheme="https://heiyetouzi.xyz/tags/%E9%9B%B6%E6%92%B8/"/>
     
   </entry>
   
