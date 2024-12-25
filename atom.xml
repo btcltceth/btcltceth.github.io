@@ -6,7 +6,7 @@
   <link href="https://heiyetouzi.xyz/atom.xml" rel="self"/>
   
   <link href="https://heiyetouzi.xyz/"/>
-  <updated>2024-11-25T14:17:24.000Z</updated>
+  <updated>2024-12-25T02:12:23.000Z</updated>
   <id>https://heiyetouzi.xyz/</id>
   
   <author>
@@ -15,6 +15,39 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>【保姆教程】手把手教你在Linux系统搭建早期alpha项目cysic的验证者&amp;证明者</title>
+    <link href="https://heiyetouzi.xyz/cysic-verifier-prover-setup-guide/"/>
+    <id>https://heiyetouzi.xyz/cysic-verifier-prover-setup-guide/</id>
+    <published>2024-12-11T03:16:04.000Z</published>
+    <updated>2024-12-25T02:12:23.000Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html"></summary>
+        
+      
+    
+    
+    
+    <category term="撸空投" scheme="https://heiyetouzi.xyz/categories/%E6%92%B8%E7%A9%BA%E6%8A%95/"/>
+    
+    
+    <category term="撸空投" scheme="https://heiyetouzi.xyz/tags/%E6%92%B8%E7%A9%BA%E6%8A%95/"/>
+    
+    <category term="cysic空投" scheme="https://heiyetouzi.xyz/tags/cysic%E7%A9%BA%E6%8A%95/"/>
+    
+    <category term="web3节点" scheme="https://heiyetouzi.xyz/tags/web3%E8%8A%82%E7%82%B9/"/>
+    
+    <category term="cysic撸毛" scheme="https://heiyetouzi.xyz/tags/cysic%E6%92%B8%E6%AF%9B/"/>
+    
+    <category term="cysic验证者搭建" scheme="https://heiyetouzi.xyz/tags/cysic%E9%AA%8C%E8%AF%81%E8%80%85%E6%90%AD%E5%BB%BA/"/>
+    
+  </entry>
   
   <entry>
     <title>HSBC付鹏演讲逐字完整稿——2024年终回顾和2025年展望——对冲风险VS软着陆</title>
@@ -274,9 +307,9 @@
     
     <category term="欧易币安" scheme="https://heiyetouzi.xyz/tags/%E6%AC%A7%E6%98%93%E5%B8%81%E5%AE%89/"/>
     
-    <category term="Tony滚仓" scheme="https://heiyetouzi.xyz/tags/Tony%E6%BB%9A%E4%BB%93/"/>
-    
     <category term="虚拟货币" scheme="https://heiyetouzi.xyz/tags/%E8%99%9A%E6%8B%9F%E8%B4%A7%E5%B8%81/"/>
+    
+    <category term="Tony滚仓" scheme="https://heiyetouzi.xyz/tags/Tony%E6%BB%9A%E4%BB%93/"/>
     
   </entry>
   
@@ -474,11 +507,11 @@
     
     <category term="铭文mint" scheme="https://heiyetouzi.xyz/tags/%E9%93%AD%E6%96%87mint/"/>
     
+    <category term="$Python铭文" scheme="https://heiyetouzi.xyz/tags/Python%E9%93%AD%E6%96%87/"/>
+    
     <category term="$COCO" scheme="https://heiyetouzi.xyz/tags/COCO/"/>
     
     <category term="$Core酷儿" scheme="https://heiyetouzi.xyz/tags/Core%E9%85%B7%E5%84%BF/"/>
-    
-    <category term="$Python铭文" scheme="https://heiyetouzi.xyz/tags/Python%E9%93%AD%E6%96%87/"/>
     
   </entry>
   
@@ -692,35 +725,6 @@
     <category term="ierc20-m6" scheme="https://heiyetouzi.xyz/tags/ierc20-m6/"/>
     
     <category term="vast4090显卡" scheme="https://heiyetouzi.xyz/tags/vast4090%E6%98%BE%E5%8D%A1/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>$POlS——年轻人的第一张铭文</title>
-    <link href="https://heiyetouzi.xyz/polsyouthfirstinscrption/"/>
-    <id>https://heiyetouzi.xyz/polsyouthfirstinscrption/</id>
-    <published>2023-11-20T13:32:41.000Z</published>
-    <updated>2024-09-04T13:04:22.802Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html"></summary>
-        
-      
-    
-    
-    
-    <category term="铭文" scheme="https://heiyetouzi.xyz/categories/%E9%93%AD%E6%96%87/"/>
-    
-    
-    <category term="铭文mint" scheme="https://heiyetouzi.xyz/tags/%E9%93%AD%E6%96%87mint/"/>
-    
-    <category term="$Python铭文" scheme="https://heiyetouzi.xyz/tags/Python%E9%93%AD%E6%96%87/"/>
-    
-    <category term="$POLS" scheme="https://heiyetouzi.xyz/tags/POLS/"/>
     
   </entry>
   
