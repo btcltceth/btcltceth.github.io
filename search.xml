@@ -4,11 +4,62 @@
   
     
     <entry>
+      <title>最新Depin零撸项目—Xtella dNFT交互指南，超早期🔥</title>
+      <link href="//xtella-dnft/"/>
+      <url>//xtella-dnft/</url>
+      
+        <content type="html"><![CDATA[<h3 id="Xtella项目背景"><a href="#Xtella项目背景" class="headerlink" title="Xtella项目背景"></a>Xtella项目背景</h3><p>零撸DePin挖矿空投项目又来啦！这次XPIN Network是BNBChain MVB第九期孵化的项目，其导师是币安创始人CZ和以太坊创始人V神，背景可以说是在业内都是顶级的存在！</p><p>作为BNBChain MVB第九期唯AI+DePIN赛道产品， 已经达成全球两百多个国家的网络覆盖，让所有人在所有地方都能跨国使用网络，同时还有自己的实体网络硬件，打开就能链接150个国家的移动网络。<br>这次免费Premint：Xtella dNFT，简单来说就是参与免费预铸dNFT，然后开始挖矿赚$XP和$BNB，后期还能赚XPIN的代币。</p><p>🔸交互简单：完成社交任务、投喂即可<br>🔸项目背景：BNB孵化联盟获奖项目，BNBChain MVB第九期唯一Depin项目<br>🔸矿池数量有限，挖的越早拿的越多。拿到dNFT就能自动开始挖矿</p><h3 id="详细操作步骤"><a href="#详细操作步骤" class="headerlink" title="详细操作步骤"></a>详细操作步骤</h3><ul><li><ol><li>进入项目主页<a href="https://xtella.ai/?ref=0xfe3ad7abb742f2caba84ebd075f09f638a56b0e9">https://xtella.ai</a>, 右上角链接钱包，支持小狐狸，OKX钱包。</li></ol></li></ul><p><a href="https://btc8848.com/top-10-exchanges"><img src="https://307e939.webp.li/20250425110759795.png"></a></p><ul><li><ol start="2"><li>切换到EARN tab页，点击Premint来mint一个NFT（只需付gas， 需要BNB链上有少量BNB即可）</li></ol></li></ul><p><a href="https://btc8848.com/top-10-exchanges"><img src="https://307e939.webp.li/20250425111012292.png"></a></p><ul><li><ol start="3"><li>mint之后稍等两分钟，就可以看到你的NFT已经在自动挖矿了。</li></ol></li></ul><p><a href="https://btc8848.com/top-10-exchanges"><img src="https://307e939.webp.li/20250425111156618.png"></a></p><ul><li><ol start="4"><li>点击Upgrade，去做一下社交任务提升你NFT的权重，使其产生更多的XP。都是假任务，连点3下即可。</li></ol></li></ul><p><a href="https://btc8848.com/top-10-exchanges"><img src="https://307e939.webp.li/20250425111227224.png"></a></p><ul><li><ol start="5"><li>至此，你的NFT已经开始挖矿了。😄</li></ol></li><li><ol start="6"><li>自动claim领取XP<br>如果你需要定时来claim产生的XP，可以使用@0x范特西写的脚本。定时任务需要配置到服务器上，这样只需一次配置，之后就不用管了。</li></ol></li></ul><p><a href="https://btc8848.com/top-10-exchanges"><img src="https://307e939.webp.li/20250425111537064.png"></a></p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">git clone https://github.com/fcmfcm1999/xtella-claim-scheduler.git</span><br><span class="line">cd xtella-claim-scheduler</span><br><span class="line">npm install</span><br><span class="line">vim src/data/addresses.json # 配置账户信息</span><br><span class="line">执行配置定时任务的脚本:</span><br><span class="line">chmod +x cronjob_setup.sh</span><br><span class="line">./cronjob_setup.sh</span><br></pre></td></tr></table></figure><h3 id="友情提醒"><a href="#友情提醒" class="headerlink" title="友情提醒"></a>友情提醒</h3><p>一开始因为权重低，挖的慢。点击“Weight”下面的“upgrade”去做做任务，完成以后点Upgrade，就能用翻倍的速率挖矿。<br>任务非常简单，每天都上来Claim和Upgrade一下，每天权重还能有提升，最高能到50。（做完任务必须Upgrade，不然挖矿速率不更新）；</p><h3 id="欧易本月活动"><a href="#欧易本月活动" class="headerlink" title="欧易本月活动"></a>欧易本月活动</h3><p>新人本月注册欧易有盲盒或者狗狗币礼包，国内可以直接注册:  <a href="https://www.okx.com/zh-hans/join/74873351">点击这里–&gt;跳转官网注册欧易账号，部分地区需要挂梯子</a>  或者 <a href="https://www.chouyi.world/zh-hans/join/18639032">备用网址</a></p><p><a href="https://www.chouyi.world/zh-hans/join/18639032"><img src="https://fe095ec.webp.li/top-10-exchanges-001.jpg"></a></p><h3 id="相关阅读"><a href="#相关阅读" class="headerlink" title="相关阅读"></a>相关阅读</h3><p><a href="https://btc8848.com/top-10-exchanges/">2025中国十大虚拟币交易平台最新排名出来了🔥【值得收藏】</a></p><p><a href="https://heiyetouzi.xyz/biquanstory001/">【币圈真实暴富故事】很多人问我，炒币这么多年，如何从0到1100万再到负债10万？</a></p><h3 id="大家都在搜"><a href="#大家都在搜" class="headerlink" title="大家都在搜"></a>大家都在搜</h3><p>AI机器人监控，depin零撸, xtella dnft挂机教程,国内购买比特币，depin小草挂机, 小草grass空投怎么领, 炒币交易所，okx下载注册，国内okx充值，币安App注册，币安App下载, 币安平台买币教程，币安注册，bianace撸空投注册，币安苹果手机下载，总统币怎么买，狗狗币怎么买，人民币购买比特币，欧易 怎么下载，web3撸毛, web3零撸，bitget大陆下载注册，欧易护照注册，欧易下载,币安下载,炒币副业,欧易合约, 欧易OKX如何充值人民币, 欧易怎么充值, NFT钱包怎么弄, 火币如何充值人民币, 币圈新手入门教程, btc8848.com, 炒合约Tony心法，合约杠杆bit浪浪，Defi挖矿，币圈撸毛，币圈空投还能玩吗，做合约爆仓怎么办，欧易币安货币怎么买总统币，欧易币安以太坊怎么买， Defi质押挖矿怎么玩, NFT还能玩吗, we3空投撸毛, 币圈web3零撸怎么玩, 铭文怎么打, 符文怎么打, 币圈小白入门, 如何炒币, 炒币挣钱吗, 币圈新手教程btc8848.com, 炒币赚钱吗, 什么是合约杠杆, Defi挖矿, 币圈撸毛怎么玩, 欧易okx空投, 节点质押, 爆仓, 财富自由, 黑夜投资heiyetouzi.xyz</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 虚拟货币 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 人民币购买比特币 </tag>
+            
+            <tag> 撸毛脚本 </tag>
+            
+            <tag> 币圈科学家 </tag>
+            
+            <tag> 小草挂机 </tag>
+            
+            <tag> 小草挖积分 </tag>
+            
+            <tag> 小草挖矿 </tag>
+            
+            <tag> 小草挂机脚本 </tag>
+            
+            <tag> grass挂机 </tag>
+            
+            <tag> grass挂机空投 </tag>
+            
+            <tag> grass挂机挖矿 </tag>
+            
+            <tag> Gradient挂机 </tag>
+            
+            <tag> DAWN挂机 </tag>
+            
+            <tag> DodePay挂机 </tag>
+            
+            <tag> xtella dfnt </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>新手必看！币安Megadrop项目无风险参与指南，一步步教你撸收益</title>
       <link href="//bianace-megadrop/"/>
       <url>//bianace-megadrop/</url>
       
-        <content type="html"><![CDATA[<h3 id="背景"><a href="#背景" class="headerlink" title="背景"></a>背景</h3><p>币安 #Binance  第4期 Megadrop (KERNEL) 开始了，预计收益30+u，这个猪脚饭还是相当的稳，有账号的抓紧搞起来。没账号的可以趁着有新人奖励🎁，币安 #Binance  第4期 Megadrop (KERNEL) 开始了，预计收益30+u，这个猪脚饭还是相当的稳，有账号的抓紧搞起来。<br>没账号的可以趁着有新人奖励🎁，先去注册一个账号：</p><p><strong>币安Binance大陆注册官方地址</strong> —— <a href="https://accounts.binance.com/zh-CN/register?ref=36457687">https://accounts.binance.com/zh-CN</a></p><p><a href="https://accounts.binance.com/zh-CN/register?ref=36457687"><img src="https://ac63e02.webp.li/top-10-exchanges-002.jpg"></a></p><p>币安的Megadrop截止目前一共三期，今天是第四期。</p><ul><li>第一期：BounceBit （2024.5.13）</li><li>第二期：Lista（2024.6.20）</li><li>第三期：Solv Protocol（2025.1.18）</li><li>第四期：KernelDAO（正在进行中）</li></ul><h4 id="Megadrop参与方式"><a href="#Megadrop参与方式" class="headerlink" title="Megadrop参与方式"></a>Megadrop参与方式</h4><h5 id="锁仓-BNB：在币安平台申购-BNB-定期产品累积积分。"><a href="#锁仓-BNB：在币安平台申购-BNB-定期产品累积积分。" class="headerlink" title="锁仓 BNB：在币安平台申购 BNB 定期产品累积积分。"></a>锁仓 BNB：在币安平台申购 BNB 定期产品累积积分。</h5><p>   这个根据自己情况来做，长线持有的BNB可以去锁，每小时进行快照。</p><h5 id="Web3-任务：使用币安的MPC钱包完成空投任务，获取成数和积分。"><a href="#Web3-任务：使用币安的MPC钱包完成空投任务，获取成数和积分。" class="headerlink" title="Web3 任务：使用币安的MPC钱包完成空投任务，获取成数和积分。"></a>Web3 任务：使用币安的MPC钱包完成空投任务，获取成数和积分。</h5><ul><li>步骤 1：向币安钱包转账 0.013 BNB 或 0.013 asBNB（包含约0.003 BNB gas费）</li><li>步骤 2：在 KernelDAO 上质押至少 0.01 BNB 或 0.01 asBNB</li></ul><p><a href="https://accounts.binance.com/zh-CN/register?ref=36457687"><img src="https://ac63e02.webp.li/binance-megadrop_001.jpeg"></a></p><h4 id="积分计算规则"><a href="#积分计算规则" class="headerlink" title="积分计算规则"></a>积分计算规则</h4><p>BNB锁仓积分是BNB的锁仓数量和锁仓时间挂钩：（时间越长积分越高）</p><ul><li>30 天：积分乘数 100</li><li>60 天：积分乘数 110</li><li>90 天：积分乘数 120</li><li>120 天：积分乘数 130<br>（积分根据每日申购数量波动变化，取快照的平均值）</li></ul><p>总积分 &#x3D; (锁仓BNB积分 × Web3 任务乘数) + Web3 任务积分</p>]]></content>
+        <content type="html"><![CDATA[<h3 id="背景"><a href="#背景" class="headerlink" title="背景"></a>背景</h3><p>币安 #Binance  第4期 Megadrop (KERNEL) 开始了，预计收益30+u，这个猪脚饭还是相当的稳，有账号的抓紧搞起来。没账号的可以趁着有新人奖励🎁，币安 #Binance  第4期 Megadrop (KERNEL) 开始了，预计收益30+u，这个猪脚饭还是相当的稳，有账号的抓紧搞起来。<br>没账号的可以趁着有新人奖励🎁，先去注册一个账号：</p><p><strong>币安Binance大陆注册官方地址</strong> —— <a href="https://accounts.binance.com/zh-CN/register?ref=36457687">https://accounts.binance.com/zh-CN</a></p><p><a href="https://accounts.binance.com/zh-CN/register?ref=36457687"><img src="https://ac63e02.webp.li/top-10-exchanges-002.jpg"></a></p><p>币安的Megadrop截止目前一共三期，今天是第四期。</p><ul><li>第一期：BounceBit （2024.5.13）</li><li>第二期：Lista（2024.6.20）</li><li>第三期：Solv Protocol（2025.1.18）</li><li>第四期：KernelDAO（正在进行中）</li></ul><h4 id="Megadrop参与方式"><a href="#Megadrop参与方式" class="headerlink" title="Megadrop参与方式"></a>Megadrop参与方式</h4><h5 id="锁仓-BNB：在币安平台申购-BNB-定期产品累积积分。"><a href="#锁仓-BNB：在币安平台申购-BNB-定期产品累积积分。" class="headerlink" title="锁仓 BNB：在币安平台申购 BNB 定期产品累积积分。"></a>锁仓 BNB：在币安平台申购 BNB 定期产品累积积分。</h5><p>   这个根据自己情况来做，长线持有的BNB可以去锁，每小时进行快照。</p><h5 id="Web3-任务：使用币安的MPC钱包完成空投任务，获取成数和积分。"><a href="#Web3-任务：使用币安的MPC钱包完成空投任务，获取成数和积分。" class="headerlink" title="Web3 任务：使用币安的MPC钱包完成空投任务，获取成数和积分。"></a>Web3 任务：使用币安的MPC钱包完成空投任务，获取成数和积分。</h5><ul><li>步骤 1：向币安钱包转账 0.013 BNB 或 0.013 asBNB（包含约0.003 BNB gas费）</li><li>步骤 2：在 KernelDAO 上质押至少 0.01 BNB 或 0.01 asBNB</li></ul><p><a href="https://accounts.binance.com/zh-CN/register?ref=36457687"><img src="https://ac63e02.webp.li/binance-megadrop_001.jpeg"></a></p><h4 id="积分计算规则"><a href="#积分计算规则" class="headerlink" title="积分计算规则"></a>积分计算规则</h4><p>BNB锁仓积分是BNB的锁仓数量和锁仓时间挂钩：（时间越长积分越高）</p><ul><li>30 天：积分乘数 100</li><li>60 天：积分乘数 110</li><li>90 天：积分乘数 120</li><li>120 天：积分乘数 130<br>（积分根据每日申购数量波动变化，取快照的平均值）</li></ul><p>总积分 &#x3D; (锁仓BNB积分 × Web3 任务乘数) + Web3 任务积分</p><h4 id="没有BNB怎么办？"><a href="#没有BNB怎么办？" class="headerlink" title="没有BNB怎么办？"></a>没有BNB怎么办？</h4><p>如果没有BNB，又想临时参与币安的这个活动，可以去<a href="https://www.gate.io/zh/signup?ref_type=103&ref=A1ERAQ">Gate.io（芝麻开门）</a>上借。没有Gate.io账号的，可以先注册一个，注册完了，身份认证，绑定银行卡，充值人民币，兑换成USDT，就可以质押USDT，借出BNB了。<br><a href="https://btc8848.com/top-10-exchanges"><img src="https://fe095ec.webp.li/20250410183843687.png"></a></p>]]></content>
       
       
       <categories>
@@ -700,11 +751,11 @@
             
             <tag> 比特币购买 </tag>
             
-            <tag> 空投 </tag>
-            
             <tag> $STRK </tag>
             
             <tag> $Starknet </tag>
+            
+            <tag> 空投 </tag>
             
         </tags>
       
@@ -1568,9 +1619,9 @@
             
             <tag> 零撸 </tag>
             
-            <tag> TipCoin </tag>
-            
             <tag> 空投 </tag>
+            
+            <tag> TipCoin </tag>
             
         </tags>
       

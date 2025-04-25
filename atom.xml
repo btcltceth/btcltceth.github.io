@@ -6,7 +6,7 @@
   <link href="https://heiyetouzi.xyz/atom.xml" rel="self"/>
   
   <link href="https://heiyetouzi.xyz/"/>
-  <updated>2025-04-09T03:22:23.000Z</updated>
+  <updated>2025-04-24T15:21:21.000Z</updated>
   <id>https://heiyetouzi.xyz/</id>
   
   <author>
@@ -15,6 +15,57 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>最新Depin零撸项目—Xtella dNFT交互指南，超早期🔥</title>
+    <link href="https://heiyetouzi.xyz/xtella-dnft/"/>
+    <id>https://heiyetouzi.xyz/xtella-dnft/</id>
+    <published>2025-04-23T03:43:42.000Z</published>
+    <updated>2025-04-24T15:21:21.000Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html"></summary>
+        
+      
+    
+    
+    
+    <category term="虚拟货币" scheme="https://heiyetouzi.xyz/categories/%E8%99%9A%E6%8B%9F%E8%B4%A7%E5%B8%81/"/>
+    
+    
+    <category term="人民币购买比特币" scheme="https://heiyetouzi.xyz/tags/%E4%BA%BA%E6%B0%91%E5%B8%81%E8%B4%AD%E4%B9%B0%E6%AF%94%E7%89%B9%E5%B8%81/"/>
+    
+    <category term="撸毛脚本" scheme="https://heiyetouzi.xyz/tags/%E6%92%B8%E6%AF%9B%E8%84%9A%E6%9C%AC/"/>
+    
+    <category term="币圈科学家" scheme="https://heiyetouzi.xyz/tags/%E5%B8%81%E5%9C%88%E7%A7%91%E5%AD%A6%E5%AE%B6/"/>
+    
+    <category term="小草挂机" scheme="https://heiyetouzi.xyz/tags/%E5%B0%8F%E8%8D%89%E6%8C%82%E6%9C%BA/"/>
+    
+    <category term="小草挖积分" scheme="https://heiyetouzi.xyz/tags/%E5%B0%8F%E8%8D%89%E6%8C%96%E7%A7%AF%E5%88%86/"/>
+    
+    <category term="小草挖矿" scheme="https://heiyetouzi.xyz/tags/%E5%B0%8F%E8%8D%89%E6%8C%96%E7%9F%BF/"/>
+    
+    <category term="小草挂机脚本" scheme="https://heiyetouzi.xyz/tags/%E5%B0%8F%E8%8D%89%E6%8C%82%E6%9C%BA%E8%84%9A%E6%9C%AC/"/>
+    
+    <category term="grass挂机" scheme="https://heiyetouzi.xyz/tags/grass%E6%8C%82%E6%9C%BA/"/>
+    
+    <category term="grass挂机空投" scheme="https://heiyetouzi.xyz/tags/grass%E6%8C%82%E6%9C%BA%E7%A9%BA%E6%8A%95/"/>
+    
+    <category term="grass挂机挖矿" scheme="https://heiyetouzi.xyz/tags/grass%E6%8C%82%E6%9C%BA%E6%8C%96%E7%9F%BF/"/>
+    
+    <category term="Gradient挂机" scheme="https://heiyetouzi.xyz/tags/Gradient%E6%8C%82%E6%9C%BA/"/>
+    
+    <category term="DAWN挂机" scheme="https://heiyetouzi.xyz/tags/DAWN%E6%8C%82%E6%9C%BA/"/>
+    
+    <category term="DodePay挂机" scheme="https://heiyetouzi.xyz/tags/DodePay%E6%8C%82%E6%9C%BA/"/>
+    
+    <category term="xtella dfnt" scheme="https://heiyetouzi.xyz/tags/xtella-dfnt/"/>
+    
+  </entry>
   
   <entry>
     <title>新手必看！币安Megadrop项目无风险参与指南，一步步教你撸收益</title>
@@ -725,11 +776,11 @@
     
     <category term="比特币购买" scheme="https://heiyetouzi.xyz/tags/%E6%AF%94%E7%89%B9%E5%B8%81%E8%B4%AD%E4%B9%B0/"/>
     
-    <category term="空投" scheme="https://heiyetouzi.xyz/tags/%E7%A9%BA%E6%8A%95/"/>
-    
     <category term="$STRK" scheme="https://heiyetouzi.xyz/tags/STRK/"/>
     
     <category term="$Starknet" scheme="https://heiyetouzi.xyz/tags/Starknet/"/>
+    
+    <category term="空投" scheme="https://heiyetouzi.xyz/tags/%E7%A9%BA%E6%8A%95/"/>
     
   </entry>
   
@@ -792,37 +843,6 @@
     <category term="$OPBN" scheme="https://heiyetouzi.xyz/tags/OPBN/"/>
     
     <category term="$OPBNB" scheme="https://heiyetouzi.xyz/tags/OPBNB/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Python脚本批量篆刻XT交易所XT Smart chain链上的首个铭文$xsci</title>
-    <link href="https://heiyetouzi.xyz/xtmint/"/>
-    <id>https://heiyetouzi.xyz/xtmint/</id>
-    <published>2023-12-23T14:08:00.000Z</published>
-    <updated>2023-12-23T14:19:21.000Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html"></summary>
-        
-      
-    
-    
-    
-    <category term="铭文" scheme="https://heiyetouzi.xyz/categories/%E9%93%AD%E6%96%87/"/>
-    
-    
-    <category term="铭文mint" scheme="https://heiyetouzi.xyz/tags/%E9%93%AD%E6%96%87mint/"/>
-    
-    <category term="$Python铭文" scheme="https://heiyetouzi.xyz/tags/Python%E9%93%AD%E6%96%87/"/>
-    
-    <category term="$XSCI" scheme="https://heiyetouzi.xyz/tags/XSCI/"/>
-    
-    <category term="XT交易所" scheme="https://heiyetouzi.xyz/tags/XT%E4%BA%A4%E6%98%93%E6%89%80/"/>
     
   </entry>
   
