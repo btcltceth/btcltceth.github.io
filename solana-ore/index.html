@@ -500,7 +500,7 @@
 <p><img src="https://ac63e02.webp.li/ore-0.png"></p>
 <h3 id="Wallet钱包"><a href="#Wallet钱包" class="headerlink" title="Wallet钱包"></a>Wallet钱包</h3><p>用<a target="_blank" rel="noopener" href="https://mct.xyz/create-wallet?chain=sol">MCT工具</a>可以直接生成SOL钱包，如果要也可以生成批量，这里我们先生成1个，把信息保存到重要的地方，千万别泄露丢失。然后复制其中的最后一行数字格式的私钥，粘贴到上面Ubuntu系统中<code>~/.config/solana/id.json</code>文件中，保存。也可以用命令行来保存：</p>
 <figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">echo [17, 244, 140, 68, 96, 23, 11, 26, 38, 72, 166, 245, 226, 66, 242, 232, 104, 88, 131, 29, 140, 117, 180, 161, 187, 221, 15, 89, 181, 74, 33, 254, 129, 200, 186, 38, 159, 125, 219, 247, 92, 106, 164, 27, 255, 117, 115, 36, 216, 104, 136, 246, 122, 73, 254, 110, 16, 170, 140, 61, 177, 51, 219, 206] &gt; ~/.config/solana/id.json</span><br></pre></td></tr></table></figure>
-<p><img src="https://ac63e02.webp.li/ore-1.png"><br>开始挖掘ore之前，务必记得先往钱包充值一些SOL币充当gas，SOL币可以从<a target="_blank" rel="noopener" href="https://www.chouyi.blue/zh-hans/join/18639032">欧易</a>提到你的钱包，大概1~3分钟就可以到账，单个钱包不用放太多SOL币，大概0.01个就够了。</p>
+<p><img src="https://ac63e02.webp.li/ore-1.png"><br>开始挖掘ore之前，务必记得先往钱包充值一些SOL币充当gas，SOL币可以从<a target="_blank" rel="noopener" href="https://www.oucnyi.net/zh-hans/join/18639032">欧易</a>提到你的钱包，大概1~3分钟就可以到账，单个钱包不用放太多SOL币，大概0.01个就够了。</p>
 <h3 id="ORE挖掘"><a href="#ORE挖掘" class="headerlink" title="ORE挖掘"></a>ORE挖掘</h3><h4 id="ORE挖掘命令"><a href="#ORE挖掘命令" class="headerlink" title="ORE挖掘命令"></a>ORE挖掘命令</h4><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">/root/ore-cli-gpu/target/release/ore --rpc http://api.mainnet-beta.solana.com --keypair ~/.config/solana/id.json --priority-fee 600000 mine --threads $(nproc)</span><br></pre></td></tr></table></figure>
 <p>当出现如下的界面，就表示GPU已经在计算哈希，说明没问题，一切都准备就绪了。<br><img src="https://ac63e02.webp.li/ore-2.png"></p>
 <p>好了，你现在可以开始愉快地挖倔ORE了，下面是一些简单有用的命令——</p>
@@ -519,7 +519,7 @@
 <h3 id="解决国内无法访问欧易OKX交易所的问题"><a href="#解决国内无法访问欧易OKX交易所的问题" class="headerlink" title="解决国内无法访问欧易OKX交易所的问题"></a>解决国内无法访问欧易OKX交易所的问题</h3><p>许多交易所的原始域名可能会被列入限制名单，或者由于服务器位于海外，访问速度受到影响。对于普通用户来说，这种情况往往让人感到无从下手，甚至怀疑是否是交易所本身出了问题。实际上，这更多是网络环境造成的，而非平台本身的服务中断。为了应对这种情况，欧易，币安等交易所通常会定期更新备用域名，确保用户能够通过替代地址继续访问官网。</p>
 <ul>
 <li><ol>
-<li>欧易OKX备用域名 <a target="_blank" rel="noopener" href="https://www.okx.com/zh-hans/join/76527935">海外欧易OKX-要翻墙</a> 或者 <a target="_blank" rel="noopener" href="https://www.chouyi.blue/zh-hans/join/18639032">备用网址</a></li>
+<li>欧易OKX备用域名 <a target="_blank" rel="noopener" href="https://www.okx.com/zh-hans/join/76527935">海外欧易OKX-要翻墙</a> 或者 <a target="_blank" rel="noopener" href="https://www.oucnyi.net/zh-hans/join/18639032">备用网址</a></li>
 </ol>
 </li>
 <li><ol start="2">
@@ -839,8 +839,16 @@
                 
                 <div class="card-action article-tags">
                     
+                    <a href="/tags/%E6%94%AF%E4%BB%98%E5%AE%9D%E4%B9%B0%E6%AF%94%E7%89%B9%E5%B8%81/">
+                        <span class="chip bg-color">支付宝买比特币</span>
+                    </a>
+                    
                     <a href="/tags/%E4%BA%BA%E6%B0%91%E5%B8%81%E8%B4%AD%E4%B9%B0%E6%AF%94%E7%89%B9%E5%B8%81/">
                         <span class="chip bg-color">人民币购买比特币</span>
+                    </a>
+                    
+                    <a href="/tags/%E4%B8%AD%E5%9B%BD%E8%B4%AD%E4%B9%B0%E6%AF%94%E7%89%B9%E5%B8%81/">
+                        <span class="chip bg-color">中国购买比特币</span>
                     </a>
                     
                     <a href="/tags/%E6%92%B8%E6%AF%9B%E8%84%9A%E6%9C%AC/">
@@ -849,14 +857,6 @@
                     
                     <a href="/tags/%E5%B8%81%E5%9C%88%E7%A7%91%E5%AD%A6%E5%AE%B6/">
                         <span class="chip bg-color">币圈科学家</span>
-                    </a>
-                    
-                    <a href="/tags/%E6%94%AF%E4%BB%98%E5%AE%9D%E4%B9%B0%E6%AF%94%E7%89%B9%E5%B8%81/">
-                        <span class="chip bg-color">支付宝买比特币</span>
-                    </a>
-                    
-                    <a href="/tags/%E4%B8%AD%E5%9B%BD%E8%B4%AD%E4%B9%B0%E6%AF%94%E7%89%B9%E5%B8%81/">
-                        <span class="chip bg-color">中国购买比特币</span>
                     </a>
                     
                     <a href="/tags/%E5%B8%81%E5%AE%89%E4%B9%B0%E5%B8%81%E6%95%99%E7%A8%8B/">
@@ -879,16 +879,16 @@
                         <span class="chip bg-color">欧易币安</span>
                     </a>
                     
+                    <a href="/tags/Tony%E6%BB%9A%E4%BB%93/">
+                        <span class="chip bg-color">Tony滚仓</span>
+                    </a>
+                    
                     <a href="/tags/Tony%E8%AF%AD%E5%BD%95/">
                         <span class="chip bg-color">Tony语录</span>
                     </a>
                     
                     <a href="/tags/%E8%99%9A%E6%8B%9F%E8%B4%A7%E5%B8%81/">
                         <span class="chip bg-color">虚拟货币</span>
-                    </a>
-                    
-                    <a href="/tags/Tony%E6%BB%9A%E4%BB%93/">
-                        <span class="chip bg-color">Tony滚仓</span>
                     </a>
                     
                 </div>
@@ -932,8 +932,16 @@
                 
                 <div class="card-action article-tags">
                     
+                    <a href="/tags/%E6%94%AF%E4%BB%98%E5%AE%9D%E4%B9%B0%E6%AF%94%E7%89%B9%E5%B8%81/">
+                        <span class="chip bg-color">支付宝买比特币</span>
+                    </a>
+                    
                     <a href="/tags/%E4%BA%BA%E6%B0%91%E5%B8%81%E8%B4%AD%E4%B9%B0%E6%AF%94%E7%89%B9%E5%B8%81/">
                         <span class="chip bg-color">人民币购买比特币</span>
+                    </a>
+                    
+                    <a href="/tags/%E4%B8%AD%E5%9B%BD%E8%B4%AD%E4%B9%B0%E6%AF%94%E7%89%B9%E5%B8%81/">
+                        <span class="chip bg-color">中国购买比特币</span>
                     </a>
                     
                     <a href="/tags/%E6%92%B8%E6%AF%9B%E8%84%9A%E6%9C%AC/">
@@ -942,14 +950,6 @@
                     
                     <a href="/tags/%E5%B8%81%E5%9C%88%E7%A7%91%E5%AD%A6%E5%AE%B6/">
                         <span class="chip bg-color">币圈科学家</span>
-                    </a>
-                    
-                    <a href="/tags/%E6%94%AF%E4%BB%98%E5%AE%9D%E4%B9%B0%E6%AF%94%E7%89%B9%E5%B8%81/">
-                        <span class="chip bg-color">支付宝买比特币</span>
-                    </a>
-                    
-                    <a href="/tags/%E4%B8%AD%E5%9B%BD%E8%B4%AD%E4%B9%B0%E6%AF%94%E7%89%B9%E5%B8%81/">
-                        <span class="chip bg-color">中国购买比特币</span>
                     </a>
                     
                     <a href="/tags/%E5%B8%81%E5%AE%89%E4%B9%B0%E5%B8%81%E6%95%99%E7%A8%8B/">
