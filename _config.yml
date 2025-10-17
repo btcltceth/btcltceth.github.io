@@ -3,17 +3,18 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: 黑叶投资增长
-subtitle: '投资生存法则'
-description: ''
-keywords:
-author: 黑叶
+title: 黑叶Web3投资撸毛
+subtitle: 黑叶，探索Web3世界。
+airdrop_subtitle: 撸毛，冲击财富自由。
+description: 比特币,总统币,币安alpha, web3副业, TRUMP币,怎么买美股港股,Pi币,ELON币,狗狗币,怎么买总统币,支付宝买比特币,普通人买比特币,meme币购买,撸毛脚本,币圈科学家,web3科学家,以太坊,web3,撸毛,零撸,铭文,质押,Defi,NFT,币圈新手,炒币赚钱,合约杠杆,Defi挖矿,币圈撸毛,空投,爆仓
+keywords: 支付宝买比特币,怎么买总统币,币安alpha, web3副业, 怎么买美股港股,Pi币KYC,Pi币迁移主网,Pi币怎么卖,TRUMP币怎么买，人民币购买比特币,支付宝买币,TRUMP币购买,meme币购买,欧易买币,欧易入金,币安买币教程,python web3,比特币,支付宝购买比特币,撸毛脚本,币圈科学家,中国如何购买比特币,人民币买比特币,以太坊,Defi,NFT,web3,撸毛,零撸,铭文,币圈入门,如何炒币,炒币挣钱,币圈新手,炒币赚钱，合约杠杆,Defi挖矿,币圈撸毛,空投,节点质押,爆仓,财富自由
+author: 黑叶🍃
 language: zh-CN
-timezone: ''
+timezone: 'Asia/Shanghai'
 
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
-url: http://localhost:4000
+url: https://heiyetouzi.xyz
 permalink: /:title/
 permalink_defaults:
 pretty_urls:
@@ -25,10 +26,15 @@ source_dir: source
 public_dir: public
 tag_dir: tags
 archive_dir: archives
+airdrop_dir: airdrops
 category_dir: categories
 code_dir: downloads/code
 i18n_dir: :lang
 skip_render:
+  - 'downloads.html'
+  - 'airdrops.html'
+  - 'robots.txt'
+  - 'googleceba2c0942cea47f.html'
 
 # Writing
 new_post_name: :title.md # File name of new posts
@@ -69,6 +75,11 @@ index_generator:
 default_category: uncategorized
 category_map:
 tag_map:
+
+# https://github.com/blinkfox/hexo-theme-matery#search
+search:
+  path: search.xml
+  field: post  
 
 # Metadata elements
 ## https://developer.mozilla.org/en-US/docs/Web/HTML/Element/meta
@@ -123,7 +134,20 @@ feed:
   content_limit:
   content_limit_delim: ' '   
 
+# 百度收录自动推送
+# npm install hexo-baidu-url-submit --save
+#设置百度主动推送
+baidu_url_submit:
+  count: 10  #比如200，代表提交最新的200个链接
+  host: https://heiyetouzi.xyz # 在百度站长平台中注册的域名
+  token: Ly92X0kKtHbb8ZvE # 请注意这是您的秘钥， 所以请不要把博客源代码发布在公众仓库里!
+  path: baidu_urls.txt   # 默认
+
+
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
-  type: ''
+ - type: 'git'
+   repo: 
+     github: git@github.com:btcltceth/btcltceth.github.io.git
+   branch: master

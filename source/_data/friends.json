@@ -1,13 +1,36 @@
 [{
     "avatar": "../medias/friend-chatgpt-plus.png",
     "name": "ChatGPT教程",
-    "introduction": "全网最靠谱的chatgpt-plus自助申请教程。",
+    "introduction": "2024年全网最靠谱的chatgpt-plus自助申请教程。教你如何在国内免手机号快速申请一个chatgpt-plus账号，更有midjourney，sora最新教程。",
     "url": "https://chatgpt-plus.github.io/",
     "title": "点击直达"
-}, {
+}, 
+{
+    "avatar": "https://ziliaoba.github.io/logo.gif",
+    "name": "资料吧",
+    "introduction": "可能是全网最全的付费资源免费下载网站(永久限免),全是外面VIP付费卖课的教程，内容涵盖副业、在家兼职、投资策略、公务员备考资料、少儿编程课程、学英语资源等。",
+    "url": "https://ziliaoba.github.io",
+    "title": "点击直达"
+},
+{
     "avatar": "../medias/friend-shuziren@logo2x.png",
     "name": "机场VPS导航",
-    "introduction": "国内可用的机场、vps导航，一键收藏。",
+    "introduction": "收藏国内、国外可用的机场、vps，只保留精品，价格从1元到若干元不等，看自己需求。vps涵盖了包括Interserver、Racknerd等主流老牌主机厂商，适合懒人一键收藏。",
     "url": "https://shuziren.github.io/ssrvps/",
     "title": "点击直达"
-}]
+},
+{
+    "avatar": "https://buybitcoin.baby/logo.png",
+    "name": "buybitcoin",
+    "introduction": "交易员必备收藏的网站，Tony滚仓心法，2万做单做到2000万的秘密，迈向A8，A9大门的钥匙。",
+    "url": "https://buybitcoin.baby/zh",
+    "title": "点击直达"
+},
+{
+    "avatar": "https://fuyebang.vip/favicon.ico",
+    "name": "副业帮",
+    "introduction": "副业,搞钱,创业,开店,投资,搞钱女孩,兼职,虚拟商品,财富自由,创业项目,创业教程,电商,摆摊。",
+    "url": "https://fuyebang.vip",
+    "title": "点击直达"
+}
+]

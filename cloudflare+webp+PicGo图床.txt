@@ -1,0 +1,26 @@
+# 教程
+https://sspai.com/post/90170 《从零开始搭建你的免费图床系统 （Cloudflare R2 + WebP Cloud + PicGo）》 @pseudoyu
+
+# 账号
+cloudflare 对象存储: icetree google （https://dash.cloudflare.com/29b46f847ba943a092c9d4c5148af7f3/r2/default/buckets/heiyetouzi） https://pub-4cf2ef0c86d743f09c4c21765940ab06.r2.dev
+webp 图片压缩缓存代理: Dymistry github  （https://dashboard.webp.se/）  源站地址：https://pub-4cf2ef0c86d743f09c4c21765940ab06.r2.dev/heiyetouzi 生成的代理：https://ac63e02.webp.li
+picGo: 简化图片上传操作 （https://github.com/Molunerfinn/PicGo）
+picGo+s3插件：让picGo支持cloudflare的s3（https://github.com/wayjam/picgo-plugin-s3）
+
+
+# 配置
+CloudFlare
+y98p-94p0oX5RqarwaNLioQo4DSaXafYmJZ0RT0M 令牌值
+022d759d9745fd82f79243fa1d0e4b3c 访问密钥 ID
+42071a704966fbb4b46b8dbb46569d77b69b88f1ecc2c0390b26adc1ded6ed9e 机密访问密钥
+https://29b46f847ba943a092c9d4c5148af7f3.r2.cloudflarestorage.com 端点
+
+
+# 本地PicGo
+S3插件配置——文件路径：{fileName}.{extName} 
+S3插件配置——代理：http://127.0.0.1:7890
+S3插件——自定义节点： https://29b46f847ba943a092c9d4c5148af7f3.r2.cloudflarestorage.com
+S3插件配置——自定义输出URL模板：{protocol}://ac63e02.webp.li/{fileName}
+自定义链接格式： [![]($url)](https://btc8848.com/top-10-exchanges)  或者：![$fileName]($url)
+
+[![](https://ac63e02.webp.li/tap-miner-002.png)](https://btc8848.com/top-10-exchanges)

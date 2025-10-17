@@ -1,6 +1,6 @@
 ---
-title: 404 Not Found
-date: 2023-08-24 10:55:37
+title: 页面不存在
+date: 2023-03-04 10:55:36
 comments: false
 permalink: /404.html
 ---
@@ -17,7 +17,7 @@ permalink: /404.html
 <body>
   <script type="text/plain" src="http://www.qq.com/404/search_children.js"
           charset="utf-8" homePageUrl="/"
-          homePageName="回到我的主页">
+          homePageName="回到首页">
   </script>
   <script src="https://qzone.qq.com/gy/404/data.js" charset="utf-8"></script>
   <script src="https://qzone.qq.com/gy/404/page.js" charset="utf-8"></script>
