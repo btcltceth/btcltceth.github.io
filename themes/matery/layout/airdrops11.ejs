@@ -1,0 +1,318 @@
+<div class="bg-cover pd-header about-cover">
+    <div class="container">
+    <div class="row">
+    <div class="col s10 offset-s1 m8 offset-m2 l8 offset-l2">
+        <div class="brand">
+            <div class="title center-align">
+                <% if (config.airdrop_subtitle && config.subtitle.length > 0) { %>
+                <%= config.airdrop_subtitle %>
+                <% } else { %>
+                    airdrop_subtitle
+                <% } %>
+            </div>
+            <div class="description center-align">
+                <% if (theme.subtitle.enable) { %>
+                <span id="subtitle"></span>
+                <script src="https://gcore.jsdelivr.net/npm/typed.js@2.0.11"></script>
+                <script>
+                    var typed = new Typed("#subtitle", {
+                        strings: ['<%= theme.airdorp_subtitle.sub1 %>','<%= theme.airdorp_subtitle.sub2 %>'],
+                        startDelay: <%= theme.airdorp_subtitle.startDelay %>,
+                        typeSpeed: <%= theme.airdorp_subtitle.typeSpeed %>,
+                        loop: <%= theme.airdorp_subtitle.loop %>,
+                        backSpeed: <%= theme.airdorp_subtitle.backSpeed %>,
+                        showCursor: <%= theme.airdorp_subtitle.showCursor %>
+                    });
+                </script>
+                <% } else { %>
+                    <%= config.description %>
+                <% } %>
+            </div>
+        </div>
+    </div>
+</div>
+
+ <% if (theme.banner.enable) { %>
+        <script>
+            // 每天切换 banner 图.  Switch banner image every day.
+            var bannerUrl = "<%- theme.jsDelivr.url %><%- url_for('https://gcore.jsdelivr.net/gh/btcltceth/blogassets@latest/b/medias/banner/') %>" + new Date().getDay() + '.jpg';
+            $('.bg-cover').css('background-image', 'url(' + bannerUrl + ')');
+        </script>
+        <% } else { %>
+        <script>
+            $('.bg-cover').css('background-image', 'url(<%- theme.jsDelivr.url %><%- url_for('https://gcore.jsdelivr.net/gh/btcltceth/blogassets@latest/b/medias/banner/0.jpg') %>)');
+        </script>
+    <% } %>
+</div>
+
+</div>
+
+<style>
+    .airdrops-container {
+        margin-top: -100px;
+        margin-bottom: 30px;
+    }
+
+    .airdrops-container .tag-title {
+        margin-bottom: 10px;
+        color: #3C4858;
+        font-size: 1.75rem;
+        font-weight: 400;
+    }
+
+    .airdrop-ship img {
+        border-radius: 50%;
+    }
+
+    /* 一下是按钮样式 */
+
+    .airdrop-ship {
+        padding: 10px 20px;
+    }
+
+    .airdrop-ship .title {
+        display: flex;
+        align-items: center;
+    }
+
+    .airdrop-ship .title div {
+        color: #fff;
+        padding-left: 10px;
+    }
+
+    .airdrop-ship .title img {
+        width: 100px;
+        height: 100px;
+        flex-shrink: 0;
+    }
+
+    .airdrop-ship .title h1 {
+        padding-bottom: 5px;
+        border-bottom: 2px solid #fff;
+        position: relative;
+        top:-15px;
+        left: 3px;
+    }
+
+    .airdrop-button {
+        display: flex;
+        justify-content: center;
+        margin-bottom: -27px;
+    }
+
+    .airdrop-button a {
+        border-radius: 40px;
+    }
+
+    .airdrop-all .tag-post {
+        margin-bottom: 30px;
+    }
+
+    .button-caution {
+        background-color: #FF4351;
+        border-color: #FF4351;
+        color: #FFF;
+    }
+
+    .button {
+        font-weight: 300;
+        font-size: 16px;
+        font-family: "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+        text-decoration: none;
+        text-align: center;
+        line-height: 40px;
+        height: 40px;
+        padding: 0 40px;
+        margin: 0;
+        display: inline-block;
+        appearance: none;
+        cursor: pointer;
+        border: none;
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
+        -webkit-transition-property: all;
+        transition-property: all;
+        -webkit-transition-duration: .3s;
+        transition-duration: .3s;
+    }
+
+    .title {
+        margin-bottom: 0rem !important;
+    }
+
+    .card {
+        margin: 3rem 0 1rem 0 !important;
+    }
+
+    .button-glow.button-caution {
+        -webkit-animation-name: glowing-caution;
+        animation-name: glowing-caution;
+    }
+
+    @-webkit-keyframes glowing-caution {
+        from {
+            -webkit-box-shadow: 0 0 0 rgba(255, 67, 81, 0.3);
+            box-shadow: 0 0 0 rgba(255, 67, 81, 0.3);
+        }
+
+        50% {
+            -webkit-box-shadow: 0 0 20px rgba(255, 67, 81, 0.8);
+            box-shadow: 0 0 20px rgba(255, 67, 81, 0.8);
+        }
+
+        to {
+            -webkit-box-shadow: 0 0 0 rgba(255, 67, 81, 0.3);
+            box-shadow: 0 0 0 rgba(255, 67, 81, 0.3);
+        }
+    }
+
+    @keyframes glowing-caution {
+        from {
+            -webkit-box-shadow: 0 0 0 rgba(255, 67, 81, 0.3);
+            box-shadow: 0 0 0 rgba(255, 67, 81, 0.3);
+        }
+
+        50% {
+            -webkit-box-shadow: 0 0 20px rgba(255, 67, 81, 0.8);
+            box-shadow: 0 0 20px rgba(255, 67, 81, 0.8);
+        }
+
+        to {
+            -webkit-box-shadow: 0 0 0 rgba(255, 67, 81, 0.3);
+            box-shadow: 0 0 0 rgba(255, 67, 81, 0.3);
+        }
+    }
+
+    .button-caution:hover {
+        background-color: #ff7680;
+        border-color: #ff7680;
+        color: #FFF;
+        text-decoration: none;
+    }
+
+    .airdrop-card1 {
+        background-image: linear-gradient(to right, #4facfe 0%, #00f2fe 100%);
+    }
+
+    .airdrop-card2 {
+        background-image: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    }
+
+    .airdrop-card3 {
+        background-image: linear-gradient(to right, #b8cbb8 0%, #b8cbb8 0%, #b465da 0%, #cf6cc9 33%, #ee609c 66%, #ee609c 100%);
+    }
+
+    .airdrop-card4 {
+        background-image: linear-gradient(to right, #6a11cb 0%, #2575fc 100%);
+    }
+
+    .airdrop-card5 {
+        background-image: linear-gradient(to top, #c471f5 0%, #fa71cd 100%);
+    }
+
+    .airdrop-card6 {
+        background-image: linear-gradient(to top, #48c6ef 0%, #6f86d6 100%);
+    }
+
+    .airdrop-card7 {
+        background-image: linear-gradient(to top, #0ba360 0%, #3cba92 100%);
+    }
+
+    .airdrop-card8 {
+        background-image: linear-gradient(to top, #0c3483 0%, #a2b6df 100%, #6b8cce 100%, #a2b6df 100%);
+    }
+
+    .airdrop-card9 {
+        background-image: linear-gradient(to right, #ff758c 0%, #ff7eb3 100%);
+    }
+
+    .airdrop-card10 {
+        background-image: linear-gradient(to top, #f77062 0%, #fe5196 100%);
+    }
+
+    article .card {
+        overflow: visible !important;
+    }
+</style>
+
+<main class="content">
+    <div class="container airdrops-container">
+        <div class="card">
+            <div class="card-content">
+                <div class="tag-title center-align">
+                    <i class="fas fa-fire"></i>&nbsp;&nbsp; <%= new Date().toISOString().slice(0, 10) %> <%= __('airdrops') %> 信息汇总(持续更新)
+                </div>
+                <article id="airdrops-link">
+                    <% if (site.data && site.data.airdrops) { %>
+                    <% var airdrops = site.data.airdrops; %>
+                    <div class="row tags-posts airdrop-all">
+                        <% for (var i = 0, len = airdrops.length; i < len; i++) { %>
+                        <% var airdrop = airdrops[i]; %>
+                        <div class="col s12 m6 l4 airdrop-div" data-aos="zoom-in-up">
+                            <div class="card airdrop-card<%- ((i % 10) +1) %>">
+                                <div class="airdrop-ship">
+                                    <div class="title">
+                                        <img src="<%- url_for(airdrop.avatar) %>" alt="img">
+                                        <div>
+                                            <h1 class="airdrop-name"><%= airdrop.name %></h1>
+                                            <p style="position: relative;top: -35px;"><%= airdrop.introduction %></p>
+                                        </div>
+                                    </div>
+                                    <div class="airdrop-button">
+                                        <a href="<%- url_for(airdrop.url) %>" target="_blank"
+                                            class="button button-glow button-rounded button-caution">
+                                            <%= airdrop.title %>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <% } %>
+                    </div>
+                    <% } %>
+                </article>
+            </div>
+        </div>
+
+        <% if (page.content && page.content.length > 0) { %>
+            <div class="card">
+                <div class="card-content">
+                    <%- page.content %>
+                </div>
+            </div>
+        <% } %>
+
+        <div class="card">
+
+            <% if (theme.gitalk && theme.gitalk.enable) { %>
+            <%- partial('_partial/gitalk') %>
+            <% } %>
+
+            <% if (theme.gitment.enable) { %>
+            <%- partial('_partial/gitment') %>
+            <% } %>
+
+            <% if (theme.disqus.enable) { %>
+            <%- partial('_partial/disqus') %>
+            <% } %>
+
+            <% if (theme.livere && theme.livere.enable) { %>
+            <%- partial('_partial/livere') %>
+            <% } %>
+
+            <% if (theme.valine && theme.valine.enable) { %>
+            <%- partial('_partial/valine') %>
+            <% } %>
+
+        </div>
+    </div>
+</main>
+
+<script>
+    $(function () {
+        $('#airdrops-link').masonry({
+            itemSelector: '.airdrop-div'
+        });
+    });
+</script>
