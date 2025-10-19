@@ -108,7 +108,13 @@ ignore:
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: matery
+# theme: matery
+theme: null
+theme_dir: themes/matery
+layouts_dir: themes/matery/_layouts
+includes_dir: themes/matery/_includes
+sass:
+  sass_dir: themes/matery/_sass
 
 # Extensions
 symbols_count_time:
