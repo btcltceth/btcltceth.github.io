@@ -6,8 +6,8 @@
 title: 黑叶Web3投资撸毛
 subtitle: 黑叶，探索Web3世界。
 airdrop_subtitle: 撸毛，冲击财富自由。
-description: 比特币,总统币,币安alpha, web3副业, TRUMP币,怎么买美股港股,Pi币,ELON币,狗狗币,怎么买总统币,支付宝买比特币,普通人买比特币,meme币购买,撸毛脚本,币圈科学家,web3科学家,以太坊,web3,撸毛,零撸,铭文,质押,Defi,NFT,币圈新手,炒币赚钱,合约杠杆,Defi挖矿,币圈撸毛,空投,爆仓
-keywords: 支付宝买比特币,怎么买总统币,币安alpha, web3副业, 怎么买美股港股,Pi币KYC,Pi币迁移主网,Pi币怎么卖,TRUMP币怎么买，人民币购买比特币,支付宝买币,TRUMP币购买,meme币购买,欧易买币,欧易入金,币安买币教程,python web3,比特币,支付宝购买比特币,撸毛脚本,币圈科学家,中国如何购买比特币,人民币买比特币,以太坊,Defi,NFT,web3,撸毛,零撸,铭文,币圈入门,如何炒币,炒币挣钱,币圈新手,炒币赚钱，合约杠杆,Defi挖矿,币圈撸毛,空投,节点质押,爆仓,财富自由
+description: 比特币,总统币,币安alpha, web3副业, TRUMP币,Lighter积分,edgeX空投,perpdex,怎么买美股港股,Pi币,ELON币,狗狗币,怎么买总统币,支付宝买比特币,普通人买比特币,meme币购买,撸毛脚本,币圈科学家,web3科学家,以太坊,web3,撸毛,零撸,铭文,质押,Defi,NFT,币圈新手,炒币赚钱,合约杠杆,Defi挖矿,币圈撸毛,空投,爆仓
+keywords: 支付宝买比特币,怎么买总统币,币安alpha, web3副业, Lighter积分,edgeX空投, 怎么买美股港股,Pi币KYC,Pi币迁移主网,Pi币怎么卖,TRUMP币怎么买，人民币购买比特币,支付宝买币,TRUMP币购买,meme币购买,欧易买币,欧易入金,币安买币教程,python web3,比特币,支付宝购买比特币,撸毛脚本,币圈科学家,中国如何购买比特币,人民币买比特币,以太坊,Defi,NFT,web3,撸毛,零撸,铭文,币圈入门,如何炒币,炒币挣钱,币圈新手,炒币赚钱，合约杠杆,Defi挖矿,币圈撸毛,空投,节点质押,爆仓,财富自由
 author: 黑叶🍃
 language: zh-CN
 timezone: 'Asia/Shanghai'
@@ -77,9 +77,9 @@ category_map:
 tag_map:
 
 # https://github.com/blinkfox/hexo-theme-matery#search
-search:
-  path: search.xml
-  field: post  
+# search:
+#   path: search.xml
+#   field: post  
 
 # Metadata elements
 ## https://developer.mozilla.org/en-US/docs/Web/HTML/Element/meta
@@ -108,13 +108,13 @@ ignore:
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-# theme: matery
-theme: null
-theme_dir: themes/matery
-layouts_dir: themes/matery/_layouts
-includes_dir: themes/matery/_includes
-sass:
-  sass_dir: themes/matery/_sass
+theme: hexo-theme-matery-master
+# theme: null
+# theme_dir: themes/matery
+# layouts_dir: themes/matery/_layouts
+# includes_dir: themes/matery/_includes
+# sass:
+#   sass_dir: themes/matery/_sass
 
 # Extensions
 symbols_count_time:

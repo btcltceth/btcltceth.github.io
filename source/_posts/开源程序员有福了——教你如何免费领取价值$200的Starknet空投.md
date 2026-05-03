@@ -18,6 +18,10 @@ tags:
 - 比特币购买
 ---
 
+> 作者 黑叶(black leaf)，币圈从业13年，早年活跃在微博，雪球，入场比大多数KOL都早。巅峰持仓200枚BTC，见过账户七位数归零，也见过一夜暴富。LUNA崩盘那晚没睡，312那天没跑。亏过，赚过，活下来了。现在研究怎么让你也活下来。加密/量化/合约/Web3撸毛/港美股。
+
+
+
 ### 意外的收入
 昨天，很意外收获了￥1500人民币，就因为曾经给几个awesome项目提过几次PR，难为情啊。不过这钱拿到手真的香，很多身边的程序员朋友都领到了这笔意外之财。这篇文章我来复盘一下，有Github账号的程序员们，该如何领取这个空投。
 ![](https://ac63e02.webp.li/strk-github-001.png)
@@ -49,9 +53,9 @@ tags:
 ![](https://ac63e02.webp.li/strk-github-005.png)
 
 ### STRK如何变现
-你钱包里有了$STRK之后，可以将$STRK从Argent钱包提到[okx](https://www.chouyi.kim/zh-hans/join/76527935)(或者[bitget](https://share.glassgs.com/u/GHRSJ68M))卖掉，并兑换成 USDT出售。
+你钱包里有了$STRK之后，可以将$STRK从Argent钱包提到[okx](https://www.oucnyi.net/zh-hans/join/18639032)(或者[bitget](https://share.glassgs.com/u/GHRSJ68M))卖掉，并兑换成 USDT出售。
 以okx为例，
-1. 点击[okx](https://www.chouyi.kim/zh-hans/join/76527935)，下载安装、身份认证。安卓可以直接下，苹果手机需要先有一个海外苹果id，嫌麻烦的话建议用电脑浏览器打开。
+1. 点击[okx](https://www.oucnyi.net/zh-hans/join/18639032)，下载安装、身份认证。安卓可以直接下，苹果手机需要先有一个海外苹果id，嫌麻烦的话建议用电脑浏览器打开。
 2. 打开okx app，点击资金账户-->搜索strk-->点击‘充币’-->选择充币网络-->复制充币地址
 3. 打开Argent钱包，点击“发送”，选择Strknet，粘贴上一步复制的充币地址，发送。
 等待几分钟，$STRK就从Argent钱包发送到okx了(bitget同理)。
@@ -77,7 +81,7 @@ tags:
 [![](https://307e939.webp.li/20250812124552161.png)](https://vlink.cc/okxcn)
 
 
-- 1. 欧易OKX备用域名 [海外欧易OKX-要翻墙](https://www.okx.com/zh-hans/join/76527935) 或者 [备用网址](https://www.chouyi.kim/zh-hans/join/76527935) 
+- 1. 欧易OKX备用域名 [海外欧易OKX-要翻墙](https://www.okx.com/zh-hans/join/18639032) 或者 [备用网址](https://www.oucnyi.net/zh-hans/join/18639032) 
 - 2. 币安 Binance 备用域名 [币安（Binance)](https://binanceuz.co/zh-CN/register?ref=36457687)
 - 3. Bitget 备用域名[Bitget](https://www.glassgs.com/zh-CN/referral/register?from=referral&clacCode=VRNEYUTR)
 - 4. Bybit 备用域名[Bybit/Bybitglobal](https://www.bybitglobal.com/zh-MY/invite/?ref=VMKORMM)
@@ -85,10 +89,7 @@ tags:
 - 6. 芝麻 Gate 备用域名 [Gate.io（芝麻开门）](https://www.gateex.cc/zh/signup?ref_type=103&ref=A1ERAQ)
 
 ### 相关阅读
-[2025中国十大虚拟币交易平台最新排名出来了🔥【值得收藏】](https://btc8848.com/top-10-exchanges/)
+[2026中国十大虚拟币交易平台最新排名出来了🔥【值得收藏】](https://heiyetouzi.xyz/top-10-exchanges/)
 
-
-###  大家都在搜
-国内购买比特币，depin小草挂机, taker挖矿, taker钻石, 小草grass空投怎么领, 炒币交易所，okx下载注册，国内okx充值，币安App注册，币安App下载, 币安平台买币教程，币安注册，bianace撸空投注册，币安苹果手机下载，总统币怎么买，狗狗币怎么买，人民币购买比特币，欧易 怎么下载，web3撸毛, web3零撸，bitget大陆下载注册，欧易护照注册，欧易下载,币安下载,炒币副业,欧易合约, 欧易OKX如何充值人民币, 欧易怎么充值, NFT钱包怎么弄, 火币如何充值人民币, 币圈新手入门教程, btc8848.com, 炒合约Tony心法，合约杠杆bit浪浪，Defi挖矿，币圈撸毛，币圈空投还能玩吗，做合约爆仓怎么办，欧易币安货币怎么买总统币，欧易币安以太坊怎么买， Defi质押挖矿怎么玩, NFT还能玩吗, we3空投撸毛, 币圈web3零撸怎么玩, 铭文怎么打, 符文怎么打, 币圈小白入门, 如何炒币, 炒币挣钱吗, 币圈新手教程btc8848.com, 炒币赚钱吗, 什么是合约杠杆, Defi挖矿, 币圈撸毛怎么玩, 欧易okx空投, 节点质押, 爆仓, 财富自由, 黑夜投资heiyetouzi.xyz
 
 如果您觉得我的文章写得不错，对您有帮助，不妨点击文末给黑叶哥打赏一杯咖啡☕️，感谢！
