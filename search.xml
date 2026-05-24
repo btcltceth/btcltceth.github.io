@@ -66,6 +66,35 @@
     
     
     <entry>
+      <title>币安交易机器人如何操作:合约网格机器人参数设置方法</title>
+      <link href="//how-to-operate-binance-trading-bot-parameter-setting-method-for-futures-grid-bot/"/>
+      <url>//how-to-operate-binance-trading-bot-parameter-setting-method-for-futures-grid-bot/</url>
+      
+        <content type="html"><![CDATA[<blockquote><p>作者 黑叶(black leaf)，币圈从业13年，早年活跃在微博，雪球，入场比大多数KOL都早。巅峰持仓200枚BTC，见过账户七位数归零，也见过一夜暴富。LUNA崩盘那晚没睡，312那天没跑。亏过，赚过，活下来了。现在研究怎么让你也活下来。加密&#x2F;量化&#x2F;合约&#x2F;Web3撸毛&#x2F;港美股。</p></blockquote><h1 id="币安交易机器人如何操作？合约网格参数如何设置？"><a href="#币安交易机器人如何操作？合约网格参数如何设置？" class="headerlink" title="币安交易机器人如何操作？合约网格参数如何设置？"></a>币安交易机器人如何操作？合约网格参数如何设置？</h1><p>#BNB #币安 #币安注册 #币安教程 #币安中国 #币安下载</p><h3 id="币安官网注册链接：币安（Binance）"><a href="#币安官网注册链接：币安（Binance）" class="headerlink" title="币安官网注册链接：币安（Binance）"></a><strong>币安官网注册链接：</strong><a href="https://www.suitechsui.io/zh-CN/join?ref=36457687">币安（Binance）</a></h3><h3 id="填写推荐码：36457687-可享受20-返佣"><a href="#填写推荐码：36457687-可享受20-返佣" class="headerlink" title="填写推荐码：36457687 可享受20%返佣"></a><strong>填写推荐码：36457687 可享受20%返佣</strong></h3><h2 id="现货网格交易去交易"><a href="#现货网格交易去交易" class="headerlink" title="现货网格交易去交易"></a><strong>现货网格交易</strong><a href="https://www.suitechsui.io/zh-CN/join?ref=36457687">去交易</a></h2><p><img src="https://pub-cf966733b80f4cb19e87f718fa1335dd.r2.dev/images/b281ab6665_1718939760-1718939754616-1024x592.png"></p><p>这里介绍现货网格，它是一种在指定价格区间内自动执行低买高卖的交易策略。设定参数后，系统会将价格区间分割成小网格并自动挂单，随着市场波动，策略通过低买高卖赚取波段收益。</p><p><img src="https://pub-cf966733b80f4cb19e87f718fa1335dd.r2.dev/images/27a36caacc_4755b5ff81754a5b836e5f2865af5bff-3.png"></p><p>相比手动开仓买入卖出现货，网格交易更具便捷性。例如，若判断未来BTC价格持续在60000-70000之间，我们可以手动创建网格，输入最高价、最低价、网格数量及投资金额，即可创建网格。</p><p><img src="https://pub-cf966733b80f4cb19e87f718fa1335dd.r2.dev/images/735cc2dea4_cab26701ca54429cad7a5a43d54ca72a-3.png"> <img src="https://pub-cf966733b80f4cb19e87f718fa1335dd.r2.dev/images/3fc848d390_1718939866-1718939853673-1024x428.png"></p><p>也可以直接进入现货网格主页，复制其他用户的参数。我们可以按收益率排序，选择运行时间，直接复制参数。复制后回到手动创建页面，可选择性地修改部分参数，或直接输入投入金额后创建策略。</p><h2 id="合约网格"><a href="#合约网格" class="headerlink" title="合约网格"></a><strong>合约网格</strong></h2><p><img src="https://pub-cf966733b80f4cb19e87f718fa1335dd.r2.dev/images/142207e352_09f6f93643e6e3f230c660665eb06d48.png"> <img src="https://pub-cf966733b80f4cb19e87f718fa1335dd.r2.dev/images/7fc9d15830_1718939794-1718939788278-1024x601.png"></p><p>「合约网格」是币安提供的网格交易机器人程序，专门在币安的期货合约市场（Binance Futures）执行网格策略交易。它帮助用户在指定币价范围内快速布下递增和递减价格的网格订单，并通过程序自动化买卖期货合约。</p><p>币安的合约网格可选择「中性」、「做多」和「做空」三种策略方向。网格模式可设定为等差网格或等比网格，参数方面则有策略池和自动参数可供使用，当然，你也可以手动进行设定。</p><h2 id="币安合约网格如何运行？"><a href="#币安合约网格如何运行？" class="headerlink" title="币安合约网格如何运行？"></a>币安合约网格如何运行？</h2><p><img src="https://pub-cf966733b80f4cb19e87f718fa1335dd.r2.dev/images/8f90cd5fec_1718939946-1718939937561-1024x431.png"></p><p>合约网格本质上是一种「低买高卖」或「高卖低买」的交易策略。只要币价能在一定范围内维持震荡状态，我们就可以通过这种策略获取「网格利润」。即使仓位产生浮动亏损，只要币价未超出网格范围，最终仍有可能被网格利润填补。</p><p>以U本位合约为例，假设我认为BTC未来价格可能在20000~40000 USDT之间徘徊，而当前市价为30000 USDT。此时，我可以在币安的「合约账户」存入一笔保证金，然后设定「合约网格」的参数，最后网格机器人会帮我布下网格买卖单。</p><p>如果设定「等差网格」，市价以上可能为30100、30200、30300…的合约限价卖单，市价以下可能为29900、29800、29700…的合约限价买单。合约网格开始运行后，只要价格到达网格单的价位就会成交，同时机器人会在上一个网格价位布下合约买单或卖单。例如：当币价跌至29900时会买入合约，同时机器人会在30000的价位布下一张合约卖单。</p><h2 id="合约网格操作教程"><a href="#合约网格操作教程" class="headerlink" title="合约网格操作教程"></a>合约网格操作教程</h2><ol><li>划转资金</li></ol><p>网格开始时，系统会自动将网格所需资金从您的U本位或币本位合约钱包转账至交易机器人账户。</p><p><img src="https://pub-cf966733b80f4cb19e87f718fa1335dd.r2.dev/images/339564157e_80f6cb7cff2e9112b1dfd5be9ed8c2ac.png"></p><ol start="2"><li>创建网格</li></ol><p>打开合约网格的交易界面后，先在左上角搜索您想交易的合约，例如：BTCBUSD永续。选择后，在下方选择创建方式：</p><ul><li>一键创建：直接套用币安推荐的参数，可快速设定价格范围和网格数量。</li></ul><p><img src="https://pub-cf966733b80f4cb19e87f718fa1335dd.r2.dev/images/36dfcdeaf2_27991eb2fd3d8aa1fa0c6bd19a58f7b3.png"></p><ul><li>手动创建：可自行设定网格参数与进阶功能，细节更多，更适合网格交易老手使用。网格终止时，系统会自动计算可转移的资产，并从交易机器人账户转回您的U本位或币本位合约钱包。请注意，系统将在网格结束后约30秒后自动开始转账。</li></ul><ol start="3"><li>参数设定</li></ol><p>如果选择右侧的手动创建，合约网格需要设定以下参数：</p><ul><li>策略方向：有三种方向可决定合约网格的初始仓位。「中性」一开始无初始仓位，适合震荡行情；「做多」建立多头仓位，适合上涨行情；「做空」建立空头仓位，适合下跌行情。</li><li>价格范围：价格上限与下限，即网格单的极限布局范围。若设定10000~20000，机器人将在此价格范围内布下网格单。当价格超出范围时，将不再开仓。</li><li>网格模式：可切换等差网格与等比网格。「等差网格」每个网格的价差相同，「等比网格」每个网格的价格比相同。</li><li>网格数量：可设定2~149格。数量越多，网格买卖单越密集，可提高网格交易的频率和概率，但也会降低每格的利润。</li><li>投资金额：即您要投入该网格策略的保证金。它有规定最低的「起始保证金」，超过此金额才能开单。</li><li>杠杆倍数：能放大收益和亏损，有利有弊。建议不熟悉合约交易的新手先用「超低杠杆」（1x~3x）开网格。您可在[订单] - [交易机器人订单] - [交易纪录] - [U本位]或[币本位]中查看交易、资金费用、强平清算费用及其他交易纪录。</li></ul><p><img src="https://pub-cf966733b80f4cb19e87f718fa1335dd.r2.dev/images/73eda23f9b_cb8daeb81ef0b1d69ada136c0c5223e6.png"> <img src="https://pub-cf966733b80f4cb19e87f718fa1335dd.r2.dev/images/07597a138e_1718940026-17189400217211.png"></p><p>订单停止后，您可在[订单] - [交易机器人订单] - [交易纪录] - [U本位]或[币本位]中查看交易、资金费用、强平清算费用及其他交易纪录。</p><p>最后，别忘了使用推荐码哦，使用推荐码36457687，可获得20%手续费减免！</p><p><a href="https://www.binance.com/zh-CN/join?ref=36457687">https://www.binance.com/zh-CN/join?ref=36457687</a></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 区块链入门 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Bitget手续费怎么算 </tag>
+            
+            <tag> 币安App下载指南 </tag>
+            
+            <tag> Solana SOL怎么买 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>欧易新手小白快速入门交易教程</title>
       <link href="//okx-quick-start-trading-tutorial-for-beginners/"/>
       <url>//okx-quick-start-trading-tutorial-for-beginners/</url>
@@ -82,9 +111,9 @@
       
         <tags>
             
-            <tag> Layer2撸毛项目 </tag>
-            
             <tag> 欧易常见问题 </tag>
+            
+            <tag> Layer2撸毛项目 </tag>
             
             <tag> Bybit密码重置方法 </tag>
             
@@ -1026,9 +1055,9 @@
             
             <tag> 炒币时间选择 </tag>
             
-            <tag> 火币合约怎么玩 </tag>
-            
             <tag> Layer2撸毛项目 </tag>
+            
+            <tag> 火币合约怎么玩 </tag>
             
         </tags>
       
@@ -1991,9 +2020,9 @@
             
             <tag> 欧易注册教程 </tag>
             
-            <tag> 财富自由 </tag>
-            
             <tag> 欧易怎么提现 </tag>
+            
+            <tag> 财富自由 </tag>
             
             <tag> bitget合约怎么玩 </tag>
             
@@ -2327,14 +2356,6 @@
             
             <tag> 国内买比特币 </tag>
             
-            <tag> bybit megadrop </tag>
-            
-            <tag> bybit App注册 </tag>
-            
-            <tag> bybit空投 </tag>
-            
-            <tag> bybit打新 </tag>
-            
             <tag> 币安国内注册 </tag>
             
             <tag> 币安怎么注册 </tag>
@@ -2348,6 +2369,14 @@
             <tag> bianace撸空投注册 </tag>
             
             <tag> 币安苹果手机下载 </tag>
+            
+            <tag> bybit megadrop </tag>
+            
+            <tag> bybit App注册 </tag>
+            
+            <tag> bybit空投 </tag>
+            
+            <tag> bybit打新 </tag>
             
         </tags>
       
@@ -2703,6 +2732,8 @@
             
             <tag> 国内买比特币 </tag>
             
+            <tag> 币安App注册 </tag>
+            
             <tag> 币安国内注册 </tag>
             
             <tag> 币安怎么注册 </tag>
@@ -2716,8 +2747,6 @@
             <tag> bianace撸空投注册 </tag>
             
             <tag> 币安苹果手机下载 </tag>
-            
-            <tag> 币安App注册 </tag>
             
         </tags>
       
@@ -3127,9 +3156,9 @@
       
         <tags>
             
-            <tag> Bitget注册教程 </tag>
-            
             <tag> 比特币手机App推荐 </tag>
+            
+            <tag> Bitget注册教程 </tag>
             
             <tag> 熊市比特币怎么玩 </tag>
             
@@ -3405,9 +3434,9 @@
       
         <tags>
             
-            <tag> 币圈新手教程btc8848.com </tag>
-            
             <tag> Bybit网页版入口 </tag>
+            
+            <tag> 币圈新手教程btc8848.com </tag>
             
             <tag> 币安下载 </tag>
             
@@ -5957,9 +5986,9 @@
             
             <tag> python web3 </tag>
             
-            <tag> SHIB </tag>
-            
             <tag> 财富自由 </tag>
+            
+            <tag> SHIB </tag>
             
             <tag> DOGE </tag>
             
