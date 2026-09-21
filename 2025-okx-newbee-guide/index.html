@@ -4,7 +4,7 @@
 
 <head>
     <meta charset="utf-8">
-    <meta name="keywords" content="2025年OKX欧易交易所新手入门：注册、入金、KYC与出金全攻略, 欧易注册, 炒币交易所, 支付宝买比特币, 微信买比特币, 国内买比特币, 人民币购买比特币, Bybit国内注册, 抹茶MXC怎么注册, 中国购买比特币, gate芝麻开门下载, 欧易平台买币教程, 火币最新注册, edgex空投注册, Bitget平台买币教程, 欧易币安下载, 库币国内注册, 支付宝买比特币,怎么买总统币,币安alpha, web3副业, Lighter积分,edgeX空投, 怎么买美股港股,Pi币KYC,Pi币迁移主网,Pi币怎么卖,TRUMP币怎么买，人民币购买比特币,支付宝买币,TRUMP币购买,meme币购买,欧易买币,欧易入金,币安买币教程,python web3,比特币,支付宝购买比特币,撸毛脚本,币圈科学家,中国如何购买比特币,人民币买比特币,以太坊,Defi,NFT,web3,撸毛,零撸,铭文,币圈入门,如何炒币,炒币挣钱,币圈新手,炒币赚钱，合约杠杆,Defi挖矿,币圈撸毛,空投,节点质押,爆仓,财富自由">
+    <meta name="keywords" content="2025年OKX欧易交易所新手入门：注册、入金、KYC与出金全攻略, 炒币交易所, 欧易注册, 支付宝买比特币, 微信买比特币, 国内买比特币, 人民币购买比特币, Bybit国内注册, 抹茶MXC怎么注册, 中国购买比特币, gate芝麻开门下载, 欧易平台买币教程, 火币最新注册, edgex空投注册, Bitget平台买币教程, 欧易币安下载, 库币国内注册, 支付宝买比特币,怎么买总统币,币安alpha, web3副业, Lighter积分,edgeX空投, 怎么买美股港股,Pi币KYC,Pi币迁移主网,Pi币怎么卖,TRUMP币怎么买，人民币购买比特币,支付宝买币,TRUMP币购买,meme币购买,欧易买币,欧易入金,币安买币教程,python web3,比特币,支付宝购买比特币,撸毛脚本,币圈科学家,中国如何购买比特币,人民币买比特币,以太坊,Defi,NFT,web3,撸毛,零撸,铭文,币圈入门,如何炒币,炒币挣钱,币圈新手,炒币赚钱，合约杠杆,Defi挖矿,币圈撸毛,空投,节点质押,爆仓,财富自由">
     <meta name="description" content="各位，在这个充满机遇与风险并存的币圈世界中，选择一个靠谱、安全的交易平台，是每位投资者入场前必须做好的功课。在众多平台中，OKX欧易凭借其高效的服务、安全的系统和丰富的产品功能，稳居全球交易所前三，成为新手首选之一。 本篇入门教程将为币圈小白量身定制，从注册、入金、KYC认证到出金操作，一步步带你熟悉OKX平台的使用流">
     <meta name="author" content="黑叶🍃">
     <meta name="robots" content="index,follow,max-image-preview:large">
@@ -433,12 +433,12 @@
                     
                     <div class="article-tag">
                         
-                            <a href="/tags/%E6%AC%A7%E6%98%93%E6%B3%A8%E5%86%8C/">
-                                <span class="chip bg-color">欧易注册</span>
-                            </a>
-                        
                             <a href="/tags/%E7%82%92%E5%B8%81%E4%BA%A4%E6%98%93%E6%89%80/">
                                 <span class="chip bg-color">炒币交易所</span>
+                            </a>
+                        
+                            <a href="/tags/%E6%AC%A7%E6%98%93%E6%B3%A8%E5%86%8C/">
+                                <span class="chip bg-color">欧易注册</span>
                             </a>
                         
                             <a href="/tags/%E6%94%AF%E4%BB%98%E5%AE%9D%E4%B9%B0%E6%AF%94%E7%89%B9%E5%B8%81/">
@@ -724,12 +724,12 @@
                     
                         <div class="article-tag">
                             
-                                <a href="/tags/%E6%AC%A7%E6%98%93%E6%B3%A8%E5%86%8C/">
-                                    <span class="chip bg-color">欧易注册</span>
-                                </a>
-                            
                                 <a href="/tags/%E7%82%92%E5%B8%81%E4%BA%A4%E6%98%93%E6%89%80/">
                                     <span class="chip bg-color">炒币交易所</span>
+                                </a>
+                            
+                                <a href="/tags/%E6%AC%A7%E6%98%93%E6%B3%A8%E5%86%8C/">
+                                    <span class="chip bg-color">欧易注册</span>
                                 </a>
                             
                                 <a href="/tags/%E6%94%AF%E4%BB%98%E5%AE%9D%E4%B9%B0%E6%AF%94%E7%89%B9%E5%B8%81/">
@@ -1348,8 +1348,14 @@ $(function () {
                         var isMatch = true;
                         var data_title = data.title.trim().toLowerCase();
                         var data_content = data.content.trim().replace(/<[^>]+>/g, "").toLowerCase();
-                        var data_url = data.url;
-                        data_url = data_url.indexOf('/') === 0 ? data.url : '/' + data_url;
+                        var data_url = (data.url || '').trim();
+                        var siteOrigin = 'https://heiyetouzi.xyz'.replace(/\/$/, '');
+                        if (/^https?:\/\//i.test(data_url)) {
+                            data_url = data_url;
+                        } else {
+                            data_url = data_url.replace(/^\/+/, '');
+                            data_url = siteOrigin + '/' + data_url;
+                        }
                         var index_title = -1;
                         var index_content = -1;
                         var first_occur = -1;

@@ -926,12 +926,12 @@
                         <span class="chip bg-color">Visa虚拟卡</span>
                     </a>
                     
-                    <a href="/tags/U%E5%8D%A1%E6%80%8E%E4%B9%88%E5%85%85%E5%80%BC/">
-                        <span class="chip bg-color">U卡怎么充值</span>
-                    </a>
-                    
                     <a href="/tags/claude-u%E5%8D%A1/">
                         <span class="chip bg-color">claude u卡</span>
+                    </a>
+                    
+                    <a href="/tags/U%E5%8D%A1%E6%80%8E%E4%B9%88%E5%85%85%E5%80%BC/">
+                        <span class="chip bg-color">U卡怎么充值</span>
                     </a>
                     
                     <a href="/tags/%E6%8A%A4%E7%85%A7%E5%BC%80U%E5%8D%A1/">
@@ -991,12 +991,12 @@
                         <span class="chip bg-color">u卡人民币充值</span>
                     </a>
                     
-                    <a href="/tags/U%E5%8D%A1%E5%BC%80%E5%8D%A1%E6%95%99%E7%A8%8B/">
-                        <span class="chip bg-color">U卡开卡教程</span>
-                    </a>
-                    
                     <a href="/tags/C2C%E4%B9%B0U/">
                         <span class="chip bg-color">C2C买U</span>
+                    </a>
+                    
+                    <a href="/tags/U%E5%8D%A1%E5%BC%80%E5%8D%A1%E6%95%99%E7%A8%8B/">
+                        <span class="chip bg-color">U卡开卡教程</span>
                     </a>
                     
                     <a href="/tags/Claude-Pro%E5%85%85%E5%80%BC/">
@@ -1293,8 +1293,14 @@ $(function () {
                         var isMatch = true;
                         var data_title = data.title.trim().toLowerCase();
                         var data_content = data.content.trim().replace(/<[^>]+>/g, "").toLowerCase();
-                        var data_url = data.url;
-                        data_url = data_url.indexOf('/') === 0 ? data.url : '/' + data_url;
+                        var data_url = (data.url || '').trim();
+                        var siteOrigin = 'https://heiyetouzi.xyz'.replace(/\/$/, '');
+                        if (/^https?:\/\//i.test(data_url)) {
+                            data_url = data_url;
+                        } else {
+                            data_url = data_url.replace(/^\/+/, '');
+                            data_url = siteOrigin + '/' + data_url;
+                        }
                         var index_title = -1;
                         var index_content = -1;
                         var first_occur = -1;

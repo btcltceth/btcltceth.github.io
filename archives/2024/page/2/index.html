@@ -836,9 +836,9 @@ edgeX专注于流动性和交易的链上金
                         
                         <div class="card-action article-tags">
                             
-                            <a href="/tags/%E7%81%AB%E5%B8%81%E7%88%86%E4%BB%93%E6%9C%BA%E5%88%B6%E8%A7%A3%E9%87%8A/"><span class="chip bg-color">火币爆仓机制解释</span></a>
-                            
                             <a href="/tags/BRC20%E9%93%AD%E6%96%87%E6%95%99%E7%A8%8B/"><span class="chip bg-color">BRC20铭文教程</span></a>
+                            
+                            <a href="/tags/%E7%81%AB%E5%B8%81%E7%88%86%E4%BB%93%E6%9C%BA%E5%88%B6%E8%A7%A3%E9%87%8A/"><span class="chip bg-color">火币爆仓机制解释</span></a>
                             
                             <a href="/tags/%E6%AF%94%E7%89%B9%E5%B8%81%E6%9C%9F%E8%B4%A7%E6%80%8E%E4%B9%88%E7%8E%A9/"><span class="chip bg-color">比特币期货怎么玩</span></a>
                             
@@ -1261,8 +1261,14 @@ $(function () {
                         var isMatch = true;
                         var data_title = data.title.trim().toLowerCase();
                         var data_content = data.content.trim().replace(/<[^>]+>/g, "").toLowerCase();
-                        var data_url = data.url;
-                        data_url = data_url.indexOf('/') === 0 ? data.url : '/' + data_url;
+                        var data_url = (data.url || '').trim();
+                        var siteOrigin = 'https://heiyetouzi.xyz'.replace(/\/$/, '');
+                        if (/^https?:\/\//i.test(data_url)) {
+                            data_url = data_url;
+                        } else {
+                            data_url = data_url.replace(/^\/+/, '');
+                            data_url = siteOrigin + '/' + data_url;
+                        }
                         var index_title = -1;
                         var index_content = -1;
                         var first_occur = -1;

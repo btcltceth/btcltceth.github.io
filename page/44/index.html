@@ -626,12 +626,12 @@
                     
                     <div class="card-action article-tags">
                         
-                        <a href="/tags/Dex%E4%BA%A4%E6%98%93%E6%89%80/">
-                            <span class="chip bg-color">Dex交易所</span>
-                        </a>
-                        
                         <a href="/tags/%E6%AC%A7%E6%98%93%E6%B3%A8%E5%86%8C/">
                             <span class="chip bg-color">欧易注册</span>
+                        </a>
+                        
+                        <a href="/tags/Dex%E4%BA%A4%E6%98%93%E6%89%80/">
+                            <span class="chip bg-color">Dex交易所</span>
                         </a>
                         
                         <a href="/tags/%E6%AC%A7%E6%98%93%E5%90%88%E7%BA%A6/">
@@ -809,6 +809,10 @@
                     
                     <div class="card-action article-tags">
                         
+                        <a href="/tags/%E5%B8%81%E5%AE%89%E6%B3%A8%E5%86%8C/">
+                            <span class="chip bg-color">币安注册</span>
+                        </a>
+                        
                         <a href="/tags/%E4%BA%BA%E6%B0%91%E5%B8%81%E8%B4%AD%E4%B9%B0%E6%AF%94%E7%89%B9%E5%B8%81/">
                             <span class="chip bg-color">人民币购买比特币</span>
                         </a>
@@ -823,10 +827,6 @@
                         
                         <a href="/tags/%E5%B8%81%E5%9C%88%E7%A7%91%E5%AD%A6%E5%AE%B6/">
                             <span class="chip bg-color">币圈科学家</span>
-                        </a>
-                        
-                        <a href="/tags/%E5%B8%81%E5%AE%89%E6%B3%A8%E5%86%8C/">
-                            <span class="chip bg-color">币安注册</span>
                         </a>
                         
                         <a href="/tags/web3%E6%8C%A3%E9%92%B1/">
@@ -1117,8 +1117,14 @@ $(function () {
                         var isMatch = true;
                         var data_title = data.title.trim().toLowerCase();
                         var data_content = data.content.trim().replace(/<[^>]+>/g, "").toLowerCase();
-                        var data_url = data.url;
-                        data_url = data_url.indexOf('/') === 0 ? data.url : '/' + data_url;
+                        var data_url = (data.url || '').trim();
+                        var siteOrigin = 'https://heiyetouzi.xyz'.replace(/\/$/, '');
+                        if (/^https?:\/\//i.test(data_url)) {
+                            data_url = data_url;
+                        } else {
+                            data_url = data_url.replace(/^\/+/, '');
+                            data_url = siteOrigin + '/' + data_url;
+                        }
                         var index_title = -1;
                         var index_content = -1;
                         var first_occur = -1;

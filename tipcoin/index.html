@@ -4,7 +4,7 @@
 
 <head>
     <meta charset="utf-8">
-    <meta name="keywords" content="一文教你如何玩转推特最🔥区块链项目——Tipcoin, 零撸, TipCoin, 空投, 支付宝买比特币,怎么买总统币,币安alpha, web3副业, Lighter积分,edgeX空投, 怎么买美股港股,Pi币KYC,Pi币迁移主网,Pi币怎么卖,TRUMP币怎么买，人民币购买比特币,支付宝买币,TRUMP币购买,meme币购买,欧易买币,欧易入金,币安买币教程,python web3,比特币,支付宝购买比特币,撸毛脚本,币圈科学家,中国如何购买比特币,人民币买比特币,以太坊,Defi,NFT,web3,撸毛,零撸,铭文,币圈入门,如何炒币,炒币挣钱,币圈新手,炒币赚钱，合约杠杆,Defi挖矿,币圈撸毛,空投,节点质押,爆仓,财富自由">
+    <meta name="keywords" content="一文教你如何玩转推特最🔥区块链项目——Tipcoin, TipCoin, 空投, 零撸, 支付宝买比特币,怎么买总统币,币安alpha, web3副业, Lighter积分,edgeX空投, 怎么买美股港股,Pi币KYC,Pi币迁移主网,Pi币怎么卖,TRUMP币怎么买，人民币购买比特币,支付宝买币,TRUMP币购买,meme币购买,欧易买币,欧易入金,币安买币教程,python web3,比特币,支付宝购买比特币,撸毛脚本,币圈科学家,中国如何购买比特币,人民币买比特币,以太坊,Defi,NFT,web3,撸毛,零撸,铭文,币圈入门,如何炒币,炒币挣钱,币圈新手,炒币赚钱，合约杠杆,Defi挖矿,币圈撸毛,空投,节点质押,爆仓,财富自由">
     <meta name="description" content="这两天，要问推特上最🔥的区块链项目，那一定是炙手可热的TipCoin了，TipCoin正在网络上掀起一股热潮，项目方设计了一种独具传染性的玩法，在Twitter上举办了一项活动，用户秩序在推文中添加 “@tipcoineth $tip” 就可以获取积分，积分的数量与流量多寡成正比。这些积分可以兑换成代币空投。 项目方">
     <meta name="author" content="黑叶🍃">
     <meta name="robots" content="index,follow,max-image-preview:large">
@@ -433,16 +433,16 @@
                     
                     <div class="article-tag">
                         
-                            <a href="/tags/%E9%9B%B6%E6%92%B8/">
-                                <span class="chip bg-color">零撸</span>
-                            </a>
-                        
                             <a href="/tags/TipCoin/">
                                 <span class="chip bg-color">TipCoin</span>
                             </a>
                         
                             <a href="/tags/%E7%A9%BA%E6%8A%95/">
                                 <span class="chip bg-color">空投</span>
+                            </a>
+                        
+                            <a href="/tags/%E9%9B%B6%E6%92%B8/">
+                                <span class="chip bg-color">零撸</span>
                             </a>
                         
                     </div>
@@ -629,16 +629,16 @@
                     
                         <div class="article-tag">
                             
-                                <a href="/tags/%E9%9B%B6%E6%92%B8/">
-                                    <span class="chip bg-color">零撸</span>
-                                </a>
-                            
                                 <a href="/tags/TipCoin/">
                                     <span class="chip bg-color">TipCoin</span>
                                 </a>
                             
                                 <a href="/tags/%E7%A9%BA%E6%8A%95/">
                                     <span class="chip bg-color">空投</span>
+                                </a>
+                            
+                                <a href="/tags/%E9%9B%B6%E6%92%B8/">
+                                    <span class="chip bg-color">零撸</span>
                                 </a>
                             
                         </div>
@@ -1189,8 +1189,14 @@ $(function () {
                         var isMatch = true;
                         var data_title = data.title.trim().toLowerCase();
                         var data_content = data.content.trim().replace(/<[^>]+>/g, "").toLowerCase();
-                        var data_url = data.url;
-                        data_url = data_url.indexOf('/') === 0 ? data.url : '/' + data_url;
+                        var data_url = (data.url || '').trim();
+                        var siteOrigin = 'https://heiyetouzi.xyz'.replace(/\/$/, '');
+                        if (/^https?:\/\//i.test(data_url)) {
+                            data_url = data_url;
+                        } else {
+                            data_url = data_url.replace(/^\/+/, '');
+                            data_url = siteOrigin + '/' + data_url;
+                        }
                         var index_title = -1;
                         var index_content = -1;
                         var first_occur = -1;

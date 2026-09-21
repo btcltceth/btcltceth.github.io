@@ -644,9 +644,9 @@
                             
                             <a href="/tags/%E5%B8%81%E5%AE%89%E9%9B%B6%E6%92%B8%E7%A9%BA%E6%8A%95%E6%8A%80%E5%B7%A7/"><span class="chip bg-color">币安零撸空投技巧</span></a>
                             
-                            <a href="/tags/%E9%93%AD%E6%96%87%E6%80%8E%E4%B9%88%E6%89%93%E6%95%99%E7%A8%8B/"><span class="chip bg-color">铭文怎么打教程</span></a>
-                            
                             <a href="/tags/Bitget%E5%90%88%E7%BA%A6%E6%96%B0%E6%89%8B%E5%85%A5%E9%97%A8/"><span class="chip bg-color">Bitget合约新手入门</span></a>
+                            
+                            <a href="/tags/%E9%93%AD%E6%96%87%E6%80%8E%E4%B9%88%E6%89%93%E6%95%99%E7%A8%8B/"><span class="chip bg-color">铭文怎么打教程</span></a>
                             
                             <a href="/tags/%E6%AF%94%E7%89%B9%E5%B8%81%E5%8E%86%E5%8F%B2%E6%9C%80%E9%AB%98%E4%BB%B7%E6%A0%BC/"><span class="chip bg-color">比特币历史最高价格</span></a>
                             
@@ -1285,8 +1285,14 @@ $(function () {
                         var isMatch = true;
                         var data_title = data.title.trim().toLowerCase();
                         var data_content = data.content.trim().replace(/<[^>]+>/g, "").toLowerCase();
-                        var data_url = data.url;
-                        data_url = data_url.indexOf('/') === 0 ? data.url : '/' + data_url;
+                        var data_url = (data.url || '').trim();
+                        var siteOrigin = 'https://heiyetouzi.xyz'.replace(/\/$/, '');
+                        if (/^https?:\/\//i.test(data_url)) {
+                            data_url = data_url;
+                        } else {
+                            data_url = data_url.replace(/^\/+/, '');
+                            data_url = siteOrigin + '/' + data_url;
+                        }
                         var index_title = -1;
                         var index_content = -1;
                         var first_occur = -1;

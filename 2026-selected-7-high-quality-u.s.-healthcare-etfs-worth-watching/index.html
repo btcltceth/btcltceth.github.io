@@ -827,16 +827,16 @@
                         <span class="chip bg-color">u卡申请</span>
                     </a>
                     
+                    <a href="/tags/%E6%B5%B7%E5%A4%96%E8%AE%A2%E9%98%85%E4%BB%98%E6%AC%BE/">
+                        <span class="chip bg-color">海外订阅付款</span>
+                    </a>
+                    
                     <a href="/tags/Visa%E8%99%9A%E6%8B%9F%E5%8D%A1/">
                         <span class="chip bg-color">Visa虚拟卡</span>
                     </a>
                     
                     <a href="/tags/USDT%E5%85%85%E5%80%BCU%E5%8D%A1/">
                         <span class="chip bg-color">USDT充值U卡</span>
-                    </a>
-                    
-                    <a href="/tags/%E6%B5%B7%E5%A4%96%E8%AE%A2%E9%98%85%E4%BB%98%E6%AC%BE/">
-                        <span class="chip bg-color">海外订阅付款</span>
                     </a>
                     
                     <a href="/tags/%E8%B7%A8%E5%A2%83%E4%BB%98%E6%AC%BE/">
@@ -1190,8 +1190,14 @@ $(function () {
                         var isMatch = true;
                         var data_title = data.title.trim().toLowerCase();
                         var data_content = data.content.trim().replace(/<[^>]+>/g, "").toLowerCase();
-                        var data_url = data.url;
-                        data_url = data_url.indexOf('/') === 0 ? data.url : '/' + data_url;
+                        var data_url = (data.url || '').trim();
+                        var siteOrigin = 'https://heiyetouzi.xyz'.replace(/\/$/, '');
+                        if (/^https?:\/\//i.test(data_url)) {
+                            data_url = data_url;
+                        } else {
+                            data_url = data_url.replace(/^\/+/, '');
+                            data_url = siteOrigin + '/' + data_url;
+                        }
                         var index_title = -1;
                         var index_content = -1;
                         var first_occur = -1;

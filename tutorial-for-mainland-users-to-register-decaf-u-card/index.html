@@ -918,12 +918,12 @@
                 
                 <div class="card-action article-tags">
                     
-                    <a href="/tags/Visa%E8%99%9A%E6%8B%9F%E5%8D%A1/">
-                        <span class="chip bg-color">Visa虚拟卡</span>
-                    </a>
-                    
                     <a href="/tags/%E5%A4%A7%E9%99%86U%E5%8D%A1%E6%B3%A8%E5%86%8C/">
                         <span class="chip bg-color">大陆U卡注册</span>
+                    </a>
+                    
+                    <a href="/tags/Visa%E8%99%9A%E6%8B%9F%E5%8D%A1/">
+                        <span class="chip bg-color">Visa虚拟卡</span>
                     </a>
                     
                     <a href="/tags/claude%E5%85%85%E5%80%BC/">
@@ -1293,8 +1293,14 @@ $(function () {
                         var isMatch = true;
                         var data_title = data.title.trim().toLowerCase();
                         var data_content = data.content.trim().replace(/<[^>]+>/g, "").toLowerCase();
-                        var data_url = data.url;
-                        data_url = data_url.indexOf('/') === 0 ? data.url : '/' + data_url;
+                        var data_url = (data.url || '').trim();
+                        var siteOrigin = 'https://heiyetouzi.xyz'.replace(/\/$/, '');
+                        if (/^https?:\/\//i.test(data_url)) {
+                            data_url = data_url;
+                        } else {
+                            data_url = data_url.replace(/^\/+/, '');
+                            data_url = siteOrigin + '/' + data_url;
+                        }
                         var index_title = -1;
                         var index_content = -1;
                         var first_occur = -1;

@@ -4,7 +4,7 @@
 
 <head>
     <meta charset="utf-8">
-    <meta name="keywords" content="一文看懂最近很火的Solana pow明星项目——ORE显卡GPU保姆级教程, $solana, $ore, 租显卡, 租服务器, 零撸, jito, 支付宝买比特币,怎么买总统币,币安alpha, web3副业, Lighter积分,edgeX空投, 怎么买美股港股,Pi币KYC,Pi币迁移主网,Pi币怎么卖,TRUMP币怎么买，人民币购买比特币,支付宝买币,TRUMP币购买,meme币购买,欧易买币,欧易入金,币安买币教程,python web3,比特币,支付宝购买比特币,撸毛脚本,币圈科学家,中国如何购买比特币,人民币买比特币,以太坊,Defi,NFT,web3,撸毛,零撸,铭文,币圈入门,如何炒币,炒币挣钱,币圈新手,炒币赚钱，合约杠杆,Defi挖矿,币圈撸毛,空投,节点质押,爆仓,财富自由">
+    <meta name="keywords" content="一文看懂最近很火的Solana pow明星项目——ORE显卡GPU保姆级教程, 零撸, $solana, $ore, 租显卡, 租服务器, jito, 支付宝买比特币,怎么买总统币,币安alpha, web3副业, Lighter积分,edgeX空投, 怎么买美股港股,Pi币KYC,Pi币迁移主网,Pi币怎么卖,TRUMP币怎么买，人民币购买比特币,支付宝买币,TRUMP币购买,meme币购买,欧易买币,欧易入金,币安买币教程,python web3,比特币,支付宝购买比特币,撸毛脚本,币圈科学家,中国如何购买比特币,人民币买比特币,以太坊,Defi,NFT,web3,撸毛,零撸,铭文,币圈入门,如何炒币,炒币挣钱,币圈新手,炒币赚钱，合约杠杆,Defi挖矿,币圈撸毛,空投,节点质押,爆仓,财富自由">
     <meta name="description" content="ORE是著名公链Solana下的第一个POW，Solana创始人推转发之后，将ore推向了火爆的市场。本文教程以Ubuntu 20.04为例，详细介绍ORE在显卡GPU CUDA下如何进行快速挖掘。 环境配置得益于tonyke老哥以及BenjaSOL老哥的开源精神，无jito版本的ORE GPU代码已经在https:/">
     <meta name="author" content="黑叶🍃">
     <meta name="robots" content="index,follow,max-image-preview:large">
@@ -433,6 +433,10 @@
                     
                     <div class="article-tag">
                         
+                            <a href="/tags/%E9%9B%B6%E6%92%B8/">
+                                <span class="chip bg-color">零撸</span>
+                            </a>
+                        
                             <a href="/tags/solana/">
                                 <span class="chip bg-color">$solana</span>
                             </a>
@@ -447,10 +451,6 @@
                         
                             <a href="/tags/%E7%A7%9F%E6%9C%8D%E5%8A%A1%E5%99%A8/">
                                 <span class="chip bg-color">租服务器</span>
-                            </a>
-                        
-                            <a href="/tags/%E9%9B%B6%E6%92%B8/">
-                                <span class="chip bg-color">零撸</span>
                             </a>
                         
                             <a href="/tags/jito/">
@@ -638,6 +638,10 @@
                     
                         <div class="article-tag">
                             
+                                <a href="/tags/%E9%9B%B6%E6%92%B8/">
+                                    <span class="chip bg-color">零撸</span>
+                                </a>
+                            
                                 <a href="/tags/solana/">
                                     <span class="chip bg-color">$solana</span>
                                 </a>
@@ -652,10 +656,6 @@
                             
                                 <a href="/tags/%E7%A7%9F%E6%9C%8D%E5%8A%A1%E5%99%A8/">
                                     <span class="chip bg-color">租服务器</span>
-                                </a>
-                            
-                                <a href="/tags/%E9%9B%B6%E6%92%B8/">
-                                    <span class="chip bg-color">零撸</span>
                                 </a>
                             
                                 <a href="/tags/jito/">
@@ -907,16 +907,16 @@
                         <span class="chip bg-color">欧易币安</span>
                     </a>
                     
+                    <a href="/tags/Tony%E6%BB%9A%E4%BB%93/">
+                        <span class="chip bg-color">Tony滚仓</span>
+                    </a>
+                    
                     <a href="/tags/Tony%E8%AF%AD%E5%BD%95/">
                         <span class="chip bg-color">Tony语录</span>
                     </a>
                     
                     <a href="/tags/%E8%99%9A%E6%8B%9F%E8%B4%A7%E5%B8%81/">
                         <span class="chip bg-color">虚拟货币</span>
-                    </a>
-                    
-                    <a href="/tags/Tony%E6%BB%9A%E4%BB%93/">
-                        <span class="chip bg-color">Tony滚仓</span>
                     </a>
                     
                 </div>
@@ -1266,8 +1266,14 @@ $(function () {
                         var isMatch = true;
                         var data_title = data.title.trim().toLowerCase();
                         var data_content = data.content.trim().replace(/<[^>]+>/g, "").toLowerCase();
-                        var data_url = data.url;
-                        data_url = data_url.indexOf('/') === 0 ? data.url : '/' + data_url;
+                        var data_url = (data.url || '').trim();
+                        var siteOrigin = 'https://heiyetouzi.xyz'.replace(/\/$/, '');
+                        if (/^https?:\/\//i.test(data_url)) {
+                            data_url = data_url;
+                        } else {
+                            data_url = data_url.replace(/^\/+/, '');
+                            data_url = siteOrigin + '/' + data_url;
+                        }
                         var index_title = -1;
                         var index_content = -1;
                         var first_occur = -1;

@@ -576,14 +576,14 @@
                             <div class="card frind-card2">
                                 <div class="frind-ship">
                                     <div class="title">
-                                        <img src="https://ziliaoba.github.io/logo.gif" alt="img">
+                                        <img src="https://fuyebang.vip/favicon.ico" alt="img">
                                         <div>
-                                            <h1 class="friend-name">资料吧</h1>
-                                            <p style="position: relative;top: -35px;">可能是全网最全的付费资源免费下载网站(永久限免),全是外面VIP付费卖课的教程，内容涵盖副业、在家兼职、投资策略、公务员备考资料、少儿编程课程、学英语资源等。</p>
+                                            <h1 class="friend-name">副业帮</h1>
+                                            <p style="position: relative;top: -35px;">副业,搞钱,创业,开店,投资,搞钱女孩,兼职,虚拟商品,财富自由,创业项目,创业教程,电商,摆摊。</p>
                                         </div>
                                     </div>
                                     <div class="friend-button">
-                                        <a href="https://ziliaoba.github.io" target="_blank"
+                                        <a href="https://fuyebang.vip" target="_blank"
                                             class="button button-glow button-rounded button-caution">
                                             点击直达
                                         </a>
@@ -597,14 +597,14 @@
                             <div class="card frind-card3">
                                 <div class="frind-ship">
                                     <div class="title">
-                                        <img src="/../medias/friend-shuziren@logo2x.png" alt="img">
+                                        <img src="https://ucards.vip/favicon.svg" alt="img">
                                         <div>
-                                            <h1 class="friend-name">机场VPS导航</h1>
-                                            <p style="position: relative;top: -35px;">收藏国内、国外可用的机场、vps，只保留精品，价格从1元到若干元不等，看自己需求。vps涵盖了包括Interserver、Racknerd等主流老牌主机厂商，适合懒人一键收藏。</p>
+                                            <h1 class="friend-name">U卡之家</h1>
+                                            <p style="position: relative;top: -35px;">U卡之家帮新人小白选虚拟卡：人民币入金、ChatGPT/Claude 充值开会员、跨境支付和电商投放。找国内可用、大陆可申请的 U 卡。</p>
                                         </div>
                                     </div>
                                     <div class="friend-button">
-                                        <a href="https://shuziren.github.io/ssrvps/" target="_blank"
+                                        <a href="https://ucard.vip" target="_blank"
                                             class="button button-glow button-rounded button-caution">
                                             点击直达
                                         </a>
@@ -618,35 +618,14 @@
                             <div class="card frind-card4">
                                 <div class="frind-ship">
                                     <div class="title">
-                                        <img src="https://buybitcoin.baby/logo.png" alt="img">
+                                        <img src="https://jiketouzi.com/favicon.svg" alt="img">
                                         <div>
-                                            <h1 class="friend-name">buybitcoin</h1>
-                                            <p style="position: relative;top: -35px;">交易员必备收藏的网站，Tony滚仓心法，2万做单做到2000万的秘密，迈向A8，A9大门的钥匙。</p>
+                                            <h1 class="friend-name">极客投资</h1>
+                                            <p style="position: relative;top: -35px;">极客投资系统教程：国内虚拟货币、大陆虚拟货币、大陆虚拟卡与U卡、ChatGPT Plus/Pro充值升级、国内港美股入金投资、A股做空图文指南。</p>
                                         </div>
                                     </div>
                                     <div class="friend-button">
-                                        <a href="https://buybitcoin.baby/zh" target="_blank"
-                                            class="button button-glow button-rounded button-caution">
-                                            点击直达
-                                        </a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        
-                        
-                        <div class="col s12 m6 l4 friend-div" data-aos="zoom-in-up">
-                            <div class="card frind-card5">
-                                <div class="frind-ship">
-                                    <div class="title">
-                                        <img src="https://fuyebang.vip/favicon.ico" alt="img">
-                                        <div>
-                                            <h1 class="friend-name">副业帮</h1>
-                                            <p style="position: relative;top: -35px;">副业,搞钱,创业,开店,投资,搞钱女孩,兼职,虚拟商品,财富自由,创业项目,创业教程,电商,摆摊。</p>
-                                        </div>
-                                    </div>
-                                    <div class="friend-button">
-                                        <a href="https://fuyebang.vip" target="_blank"
+                                        <a href="https://jiketouzi.com" target="_blank"
                                             class="button button-glow button-rounded button-caution">
                                             点击直达
                                         </a>
@@ -802,8 +781,14 @@ $(function () {
                         var isMatch = true;
                         var data_title = data.title.trim().toLowerCase();
                         var data_content = data.content.trim().replace(/<[^>]+>/g, "").toLowerCase();
-                        var data_url = data.url;
-                        data_url = data_url.indexOf('/') === 0 ? data.url : '/' + data_url;
+                        var data_url = (data.url || '').trim();
+                        var siteOrigin = 'https://heiyetouzi.xyz'.replace(/\/$/, '');
+                        if (/^https?:\/\//i.test(data_url)) {
+                            data_url = data_url;
+                        } else {
+                            data_url = data_url.replace(/^\/+/, '');
+                            data_url = siteOrigin + '/' + data_url;
+                        }
                         var index_title = -1;
                         var index_content = -1;
                         var first_occur = -1;

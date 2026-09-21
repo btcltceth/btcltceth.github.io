@@ -838,6 +838,10 @@
                 
                 <div class="card-action article-tags">
                     
+                    <a href="/tags/%E9%9B%B6%E6%92%B8/">
+                        <span class="chip bg-color">零撸</span>
+                    </a>
+                    
                     <a href="/tags/solana/">
                         <span class="chip bg-color">$solana</span>
                     </a>
@@ -852,10 +856,6 @@
                     
                     <a href="/tags/%E7%A7%9F%E6%9C%8D%E5%8A%A1%E5%99%A8/">
                         <span class="chip bg-color">租服务器</span>
-                    </a>
-                    
-                    <a href="/tags/%E9%9B%B6%E6%92%B8/">
-                        <span class="chip bg-color">零撸</span>
                     </a>
                     
                     <a href="/tags/jito/">
@@ -1205,8 +1205,14 @@ $(function () {
                         var isMatch = true;
                         var data_title = data.title.trim().toLowerCase();
                         var data_content = data.content.trim().replace(/<[^>]+>/g, "").toLowerCase();
-                        var data_url = data.url;
-                        data_url = data_url.indexOf('/') === 0 ? data.url : '/' + data_url;
+                        var data_url = (data.url || '').trim();
+                        var siteOrigin = 'https://heiyetouzi.xyz'.replace(/\/$/, '');
+                        if (/^https?:\/\//i.test(data_url)) {
+                            data_url = data_url;
+                        } else {
+                            data_url = data_url.replace(/^\/+/, '');
+                            data_url = siteOrigin + '/' + data_url;
+                        }
                         var index_title = -1;
                         var index_content = -1;
                         var first_occur = -1;

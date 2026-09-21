@@ -899,12 +899,12 @@
                         <span class="chip bg-color">做多做空怎么操作</span>
                     </a>
                     
-                    <a href="/tags/Bitget%E6%B3%A8%E5%86%8C%E9%80%81%E5%B8%81%E6%B4%BB%E5%8A%A8/">
-                        <span class="chip bg-color">Bitget注册送币活动</span>
-                    </a>
-                    
                     <a href="/tags/DeFi%E8%A2%AB%E5%8A%A8%E6%94%B6%E5%85%A5%E6%80%8E%E4%B9%88%E8%B5%9A/">
                         <span class="chip bg-color">DeFi被动收入怎么赚</span>
+                    </a>
+                    
+                    <a href="/tags/Bitget%E6%B3%A8%E5%86%8C%E9%80%81%E5%B8%81%E6%B4%BB%E5%8A%A8/">
+                        <span class="chip bg-color">Bitget注册送币活动</span>
                     </a>
                     
                 </div>
@@ -1189,8 +1189,14 @@ $(function () {
                         var isMatch = true;
                         var data_title = data.title.trim().toLowerCase();
                         var data_content = data.content.trim().replace(/<[^>]+>/g, "").toLowerCase();
-                        var data_url = data.url;
-                        data_url = data_url.indexOf('/') === 0 ? data.url : '/' + data_url;
+                        var data_url = (data.url || '').trim();
+                        var siteOrigin = 'https://heiyetouzi.xyz'.replace(/\/$/, '');
+                        if (/^https?:\/\//i.test(data_url)) {
+                            data_url = data_url;
+                        } else {
+                            data_url = data_url.replace(/^\/+/, '');
+                            data_url = siteOrigin + '/' + data_url;
+                        }
                         var index_title = -1;
                         var index_content = -1;
                         var first_occur = -1;

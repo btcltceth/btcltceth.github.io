@@ -393,7 +393,7 @@
 
             <div class="cover-btns">
                 <a href="#articles" class="waves-effect waves-light btn">
-                    <i class="fa fa-angle-double-down"></i>开始阅读
+                    <i class="fa fa-angle-double-down"></i>开始探索
                 </a>
 
                 
@@ -1130,12 +1130,16 @@
                     
                     <div class="card-action article-tags">
                         
+                        <a href="/tags/%E7%82%92%E5%B8%81%E4%BA%A4%E6%98%93%E6%89%80/">
+                            <span class="chip bg-color">炒币交易所</span>
+                        </a>
+                        
                         <a href="/tags/%E6%AC%A7%E6%98%93%E6%B3%A8%E5%86%8C/">
                             <span class="chip bg-color">欧易注册</span>
                         </a>
                         
-                        <a href="/tags/%E7%82%92%E5%B8%81%E4%BA%A4%E6%98%93%E6%89%80/">
-                            <span class="chip bg-color">炒币交易所</span>
+                        <a href="/tags/%E5%B8%81%E5%AE%89%E6%B3%A8%E5%86%8C/">
+                            <span class="chip bg-color">币安注册</span>
                         </a>
                         
                         <a href="/tags/%E6%94%AF%E4%BB%98%E5%AE%9D%E4%B9%B0%E6%AF%94%E7%89%B9%E5%B8%81/">
@@ -1194,10 +1198,6 @@
                             <span class="chip bg-color">库币国内注册</span>
                         </a>
                         
-                        <a href="/tags/%E5%B8%81%E5%AE%89%E6%B3%A8%E5%86%8C/">
-                            <span class="chip bg-color">币安注册</span>
-                        </a>
-                        
                     </div>
                     
                 </div>
@@ -1242,12 +1242,12 @@
                     
                     <div class="card-action article-tags">
                         
-                        <a href="/tags/%E6%AC%A7%E6%98%93%E6%B3%A8%E5%86%8C/">
-                            <span class="chip bg-color">欧易注册</span>
-                        </a>
-                        
                         <a href="/tags/%E7%82%92%E5%B8%81%E4%BA%A4%E6%98%93%E6%89%80/">
                             <span class="chip bg-color">炒币交易所</span>
+                        </a>
+                        
+                        <a href="/tags/%E6%AC%A7%E6%98%93%E6%B3%A8%E5%86%8C/">
+                            <span class="chip bg-color">欧易注册</span>
                         </a>
                         
                         <a href="/tags/%E6%94%AF%E4%BB%98%E5%AE%9D%E4%B9%B0%E6%AF%94%E7%89%B9%E5%B8%81/">
@@ -1458,12 +1458,12 @@ OKX冻结包
                     
                     <div class="card-action article-tags">
                         
-                        <a href="/tags/%E6%AC%A7%E6%98%93%E6%B3%A8%E5%86%8C/">
-                            <span class="chip bg-color">欧易注册</span>
-                        </a>
-                        
                         <a href="/tags/%E7%82%92%E5%B8%81%E4%BA%A4%E6%98%93%E6%89%80/">
                             <span class="chip bg-color">炒币交易所</span>
+                        </a>
+                        
+                        <a href="/tags/%E6%AC%A7%E6%98%93%E6%B3%A8%E5%86%8C/">
+                            <span class="chip bg-color">欧易注册</span>
                         </a>
                         
                         <a href="/tags/%E6%94%AF%E4%BB%98%E5%AE%9D%E4%B9%B0%E6%AF%94%E7%89%B9%E5%B8%81/">
@@ -1565,12 +1565,16 @@ OKX冻结包
                     
                     <div class="card-action article-tags">
                         
+                        <a href="/tags/%E7%82%92%E5%B8%81%E4%BA%A4%E6%98%93%E6%89%80/">
+                            <span class="chip bg-color">炒币交易所</span>
+                        </a>
+                        
                         <a href="/tags/%E6%AC%A7%E6%98%93%E6%B3%A8%E5%86%8C/">
                             <span class="chip bg-color">欧易注册</span>
                         </a>
                         
-                        <a href="/tags/%E7%82%92%E5%B8%81%E4%BA%A4%E6%98%93%E6%89%80/">
-                            <span class="chip bg-color">炒币交易所</span>
+                        <a href="/tags/%E5%B8%81%E5%AE%89%E6%B3%A8%E5%86%8C/">
+                            <span class="chip bg-color">币安注册</span>
                         </a>
                         
                         <a href="/tags/%E6%94%AF%E4%BB%98%E5%AE%9D%E4%B9%B0%E6%AF%94%E7%89%B9%E5%B8%81/">
@@ -1627,10 +1631,6 @@ OKX冻结包
                         
                         <a href="/tags/%E5%BA%93%E5%B8%81%E5%9B%BD%E5%86%85%E6%B3%A8%E5%86%8C/">
                             <span class="chip bg-color">库币国内注册</span>
-                        </a>
-                        
-                        <a href="/tags/%E5%B8%81%E5%AE%89%E6%B3%A8%E5%86%8C/">
-                            <span class="chip bg-color">币安注册</span>
                         </a>
                         
                     </div>
@@ -1852,8 +1852,14 @@ $(function () {
                         var isMatch = true;
                         var data_title = data.title.trim().toLowerCase();
                         var data_content = data.content.trim().replace(/<[^>]+>/g, "").toLowerCase();
-                        var data_url = data.url;
-                        data_url = data_url.indexOf('/') === 0 ? data.url : '/' + data_url;
+                        var data_url = (data.url || '').trim();
+                        var siteOrigin = 'https://heiyetouzi.xyz'.replace(/\/$/, '');
+                        if (/^https?:\/\//i.test(data_url)) {
+                            data_url = data_url;
+                        } else {
+                            data_url = data_url.replace(/^\/+/, '');
+                            data_url = siteOrigin + '/' + data_url;
+                        }
                         var index_title = -1;
                         var index_content = -1;
                         var first_occur = -1;

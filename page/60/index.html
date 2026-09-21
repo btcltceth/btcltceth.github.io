@@ -662,12 +662,12 @@
                             <span class="chip bg-color">怎么买比特币入门</span>
                         </a>
                         
-                        <a href="/tags/%E7%82%92%E5%B8%81%E5%89%AF%E4%B8%9A%E6%80%8E%E4%B9%88%E5%81%9A/">
-                            <span class="chip bg-color">炒币副业怎么做</span>
-                        </a>
-                        
                         <a href="/tags/%E5%B8%81%E5%AE%89%E6%8F%90%E7%8E%B0%E6%95%99%E7%A8%8B/">
                             <span class="chip bg-color">币安提现教程</span>
+                        </a>
+                        
+                        <a href="/tags/%E7%82%92%E5%B8%81%E5%89%AF%E4%B8%9A%E6%80%8E%E4%B9%88%E5%81%9A/">
+                            <span class="chip bg-color">炒币副业怎么做</span>
                         </a>
                         
                         <a href="/tags/zkSync%E6%92%B8%E6%AF%9B%E6%AD%A5%E9%AA%A4/">
@@ -1130,8 +1130,14 @@ $(function () {
                         var isMatch = true;
                         var data_title = data.title.trim().toLowerCase();
                         var data_content = data.content.trim().replace(/<[^>]+>/g, "").toLowerCase();
-                        var data_url = data.url;
-                        data_url = data_url.indexOf('/') === 0 ? data.url : '/' + data_url;
+                        var data_url = (data.url || '').trim();
+                        var siteOrigin = 'https://heiyetouzi.xyz'.replace(/\/$/, '');
+                        if (/^https?:\/\//i.test(data_url)) {
+                            data_url = data_url;
+                        } else {
+                            data_url = data_url.replace(/^\/+/, '');
+                            data_url = siteOrigin + '/' + data_url;
+                        }
                         var index_title = -1;
                         var index_content = -1;
                         var first_occur = -1;
